@@ -51,7 +51,7 @@ CLASS ZCL_OPERATION_PROCESS IMPLEMENTATION.
     ELSE.
       TRY .
           lr_operation = get_successor( ).
-        CATCH /gib/cx_dcp.
+        CATCH zcx_core.
           RETURN.
       ENDTRY.
 
@@ -73,7 +73,7 @@ CLASS ZCL_OPERATION_PROCESS IMPLEMENTATION.
     ELSE.
       TRY .
           lr_operation = get_successor( ).
-        CATCH /gib/cx_dcp.
+        CATCH zcx_core.
           RETURN.
       ENDTRY.
       lr_operation->change_standard_values_dialog( ).
@@ -130,12 +130,12 @@ CLASS ZCL_OPERATION_PROCESS IMPLEMENTATION.
   ENDMETHOD.
 
   METHOD zif_operation~get_earliest_end.
-    rf_pit = /gib/cl_pit=>convert_date_time( if_date = ms_afvgd-fsedd
+    rf_pit = zcl_pit=>convert_date_time( if_date = ms_afvgd-fsedd
                                              if_time = ms_afvgd-fsedz ).
   ENDMETHOD.
 
   METHOD zif_operation~get_latest_end.
-    rf_pit = /gib/cl_pit=>convert_date_time( if_date = ms_afvgd-ssedd
+    rf_pit = zcl_pit=>convert_date_time( if_date = ms_afvgd-ssedd
                                              if_time = ms_afvgd-ssedz ).
   ENDMETHOD.
 
@@ -185,10 +185,10 @@ CLASS ZCL_OPERATION_PROCESS IMPLEMENTATION.
             IF sy-subrc = 0.
               DATA(ls_afvgd_phase) = lr_operation->ms_afvgd.
               " Converting the start dates
-              /gib/cl_pit=>convert_pit( EXPORTING if_pit       =  ls_phase-sssb
+              zcl_pit=>convert_pit( EXPORTING if_pit       =  ls_phase-sssb
                                         IMPORTING ef_date      =  ls_afvgd_phase-ssavd
                                                   ef_time      =  ls_afvgd_phase-ssavz ).
-              /gib/cl_pit=>convert_pit( EXPORTING if_pit       =  ls_phase-fsav
+              zcl_pit=>convert_pit( EXPORTING if_pit       =  ls_phase-fsav
                                         IMPORTING ef_date      =  ls_afvgd_phase-fsavd
                                                   ef_time      =  ls_afvgd_phase-fsavz ).
               ls_afvgd_phase-fssbd = ls_afvgd_phase-fsavd.
@@ -196,10 +196,10 @@ CLASS ZCL_OPERATION_PROCESS IMPLEMENTATION.
               ls_afvgd_phase-sssbd = ls_afvgd_phase-ssavd.
               ls_afvgd_phase-sssbz = ls_afvgd_phase-ssavz.
               " Converting the end dates
-              /gib/cl_pit=>convert_pit( EXPORTING if_pit       =  ls_phase-ssed
+              zcl_pit=>convert_pit( EXPORTING if_pit       =  ls_phase-ssed
                                         IMPORTING ef_date      =  ls_afvgd_phase-ssedd
                                                   ef_time      =  ls_afvgd_phase-ssedz ).
-              /gib/cl_pit=>convert_pit( EXPORTING if_pit       =  ls_phase-fsed
+              zcl_pit=>convert_pit( EXPORTING if_pit       =  ls_phase-fsed
                                         IMPORTING ef_date      =  ls_afvgd_phase-fsedd
                                                   ef_time      =  ls_afvgd_phase-fsedz ).
               ls_afvgd_phase-fssad = ls_afvgd_phase-fsedd.
@@ -221,7 +221,7 @@ CLASS ZCL_OPERATION_PROCESS IMPLEMENTATION.
                                                     cf_tabix_new = ls_afvgd_phase-indbt ).
               TRY.
                   lr_operation->set_status( if_status = zif_jstatus=>co_dspt )."'EIGP'.
-                CATCH /gib/cx_dcp.
+                CATCH zcx_core.
                   CONTINUE.
               ENDTRY.
             ENDIF.
@@ -271,8 +271,8 @@ CLASS ZCL_OPERATION_PROCESS IMPLEMENTATION.
           lf_time_start TYPE sy-uzeit,
           lf_date_end   TYPE sy-datum,
           lf_time_end   TYPE sy-uzeit,
-          lf_pit_start  TYPE /gib/pit,
-          lf_pit_end    TYPE /gib/pit,
+          lf_pit_start  TYPE z_pit,
+          lf_pit_end    TYPE z_pit,
           ls_cxzeit     TYPE cxzeit,
           ls_cxafvg     TYPE cxafvg_v1.
 
@@ -282,7 +282,7 @@ CLASS ZCL_OPERATION_PROCESS IMPLEMENTATION.
 *#decide on Forward or Backward scheduling
     lf_pit_start = if_pit.
 
-    /gib/cl_pit=>convert_pit( EXPORTING if_pit  = lf_pit_start
+    zcl_pit=>convert_pit( EXPORTING if_pit  = lf_pit_start
                               IMPORTING ef_date = lf_date_start
                                         ef_time = lf_time_start ).
     IF if_forward IS INITIAL.
@@ -465,7 +465,7 @@ CLASS ZCL_OPERATION_PROCESS IMPLEMENTATION.
 *#a phase of the operation will bring changes to all the succesor
 *#phases and the main operation
     IF has_status( zif_jstatus=>co_dspt ) IS NOT INITIAL.
-      DATA(lf_pit) = /gib/cl_pit=>convert_date_time( if_date = ms_afvgd-ssavd
+      DATA(lf_pit) = zcl_pit=>convert_date_time( if_date = ms_afvgd-ssavd
                                                      if_time = ms_afvgd-ssavz ).
       read_afvgd( )."get the new values set before
       dispatch_midpoint( lf_pit ).
@@ -477,11 +477,11 @@ CLASS ZCL_OPERATION_PROCESS IMPLEMENTATION.
               CATCH zcx_no_predecessor.
             ENDTRY.
           ENDWHILE.
-          lf_pit = /gib/cl_pit=>convert_date_time( if_date = lr_operation->ms_afvgd-ssavd
+          lf_pit = zcl_pit=>convert_date_time( if_date = lr_operation->ms_afvgd-ssavd
                                                    if_time = lr_operation->ms_afvgd-ssavz ).
 
           lr_operation->dispatch_midpoint( lf_pit ).
-        CATCH /gib/cx_dcp.
+        CATCH zcx_core.
       ENDTRY.
     ENDIF.
 

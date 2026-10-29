@@ -36,7 +36,7 @@ public section.
     importing
       !IS_PLAF type PLAF
     raising
-      /GIB/CX_DCP .
+      ZCX_CORE .
   class-methods GET_KBED_TYPKZ_FROM_PLAF
     importing
       !IS_PLAF type PLAF
@@ -53,12 +53,12 @@ public section.
     returning
       value(RR_ORDER) type ref to ZIF_ORDER
     raising
-      /GIB/CX_DCP .
+      ZCX_CORE .
   methods SET_FIRMING_INDICATOR
     importing
       !IS_PLAF type PLAF
     raising
-      /GIB/CX_DCP .
+      ZCX_CORE .
 
   methods ZIF_LONG_TEXT~DISPLAY
     redefinition .
@@ -370,7 +370,7 @@ ENDMETHOD.
 *#set the scheduling parameters back to the initial state before the method call
         update_scheduling_type_buffer( ms_tcx00-termkz ).
 
-      CATCH /gib/cx_dcp INTO DATA(lr_exc).
+      CATCH zcx_core INTO DATA(lr_exc).
         MESSAGE lr_exc TYPE zcl_msg=>co_status DISPLAY LIKE zcl_msg=>co_error.
 *#if locked just display
         ls_cm61o-darkx = space."Save in Background
@@ -540,7 +540,7 @@ ENDMETHOD.
 
     ms_plaf   = is_plaf.
     mf_plnid  = is_plaf-plnum.
-    mf_sart   = /gib/cl_dcp_sart=>co_plano.
+    mf_sart   = zif_core_constants=>co_sart-plano.
     build_kbed_typkz( ).
 
     TRY.

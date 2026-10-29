@@ -41,12 +41,12 @@ interface ZIF_JSTATUS
     importing
       !IF_STATUS type J_STATUS
     raising
-      /GIB/CX_DCP .
+      ZCX_CORE .
   methods REMOVE_STATUS
     importing
       !IF_STATUS type J_STATUS
     raising
-      /GIB/CX_DCP .
+      ZCX_CORE .
   methods GET_STATUS_TEXT
     exporting
       !EF_STTXT type /GIB/DCP_ORDER_STTXT

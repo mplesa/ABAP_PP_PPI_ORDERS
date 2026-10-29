@@ -454,7 +454,7 @@ ENDMETHOD.
   METHOD zif_order_buffer~get_by_id.
     DATA: lf_plnum TYPE plnum.
     CASE if_sart.
-      WHEN /gib/cl_dcp_sart=>co_plano.
+      WHEN zif_core_constants=>co_sart-plano.
         lf_plnum = if_plnid.
         rr_order = get_plannedorder( lf_plnum ).
       WHEN OTHERS.
@@ -542,7 +542,7 @@ METHOD zif_order_buffer~post.
     WHEN 2.
       er_msg->add_symsg( ).
       IF if_no_commit_work = abap_false.
-        MESSAGE s630(/gib/dcp) INTO lf_dummy.
+        MESSAGE s630(z_core) INTO lf_dummy.
         er_msg->add_symsg( ).
         ROLLBACK WORK.
       ENDIF.

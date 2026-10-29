@@ -7,7 +7,7 @@ public section.
 
   constants:
     begin of ZCX_NO_SUCCESSOR,
-      msgid type symsgid value '/GIB/DCP',
+      msgid type symsgid value 'Z_CORE',
       msgno type symsgno value '538',
       attr1 type scx_attrname value 'PLNID',
       attr2 type scx_attrname value 'VORNR',

@@ -25,7 +25,7 @@
       <RSCHA>
        <PARAMETER>CF_PIT</PARAMETER>
        <REFERENCE>X</REFERENCE>
-       <TYP>/GIB/PIT</TYP>
+       <TYP>Z_PIT</TYP>
       </RSCHA>
       <RSCHA>
        <PARAMETER>CF_SCHEDULING_TYPE</PARAMETER>

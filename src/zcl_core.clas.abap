@@ -252,7 +252,7 @@ CLASS ZCL_CORE IMPLEMENTATION.
       IF ls_plaf IS NOT INITIAL.
         <ls_relation>-plnid = ls_plaf-plnum.
         <ls_relation>-vornr = ls_kbed-vornr.
-        <ls_relation>-sart  = /gib/cl_dcp_tyco=>co_linetype_plano.
+        <ls_relation>-sart  = zif_core_constants=>co_linetype_plano.
       ELSEIF ls_afko IS NOT INITIAL.
         <ls_relation>-plnid = ls_afko-aufnr.
         <ls_relation>-vornr = ls_afvg-vornr.
@@ -479,7 +479,7 @@ CLASS ZCL_CORE IMPLEMENTATION.
           EXPORTING
             if_msgty  = 'E'
             if_msgno  = '126' "Keine Terminierung! Auftrag &1 --> Datum in der Vergangenheit.
-            if_msgid  = '/GIB/DCP'
+            if_msgid  = 'Z_CORE'
             if_par1   = is_order-plnid
           IMPORTING
             ew_return = <ls_bapiret2>.
@@ -493,7 +493,7 @@ CLASS ZCL_CORE IMPLEMENTATION.
         EXPORTING
           if_msgty  = 'E'
           if_msgno  = '129' "Keine Terminierung! Auftrag &1 --> Interner Fehler
-          if_msgid  = '/GIB/DCP'
+          if_msgid  = 'Z_CORE'
           if_par1   = is_order-plnid
         IMPORTING
           ew_return = <ls_bapiret2>.

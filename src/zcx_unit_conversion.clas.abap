@@ -1,13 +1,13 @@
 class ZCX_UNIT_CONVERSION definition
   public
-  inheriting from /GIB/CX_DCP
+  inheriting from ZCX_CORE
   create public .
 
 public section.
 
   constants:
     begin of ZCX_UNIT_CONVERSION,
-      msgid type symsgid value '/GIB/DCP',
+      msgid type symsgid value 'Z_CORE',
       msgno type symsgno value '500',
       attr1 type scx_attrname value '',
       attr2 type scx_attrname value '',
@@ -16,7 +16,7 @@ public section.
     end of ZCX_UNIT_CONVERSION .
   constants:
     begin of NO_TIME_UNIT,
-      msgid type symsgid value '/GIB/DCP',
+      msgid type symsgid value 'Z_CORE',
       msgno type symsgno value '501',
       attr1 type scx_attrname value 'UNIT',
       attr2 type scx_attrname value '',

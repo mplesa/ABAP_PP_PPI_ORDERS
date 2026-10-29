@@ -1,13 +1,13 @@
 class ZCX_ORDERS definition
   public
-  inheriting from /GIB/CX_DCP
+  inheriting from ZCX_CORE
   create public .
 
 public section.
 
   constants:
     begin of ZCX_ORDERS,
-      msgid type symsgid value '/GIB/DCP',
+      msgid type symsgid value 'Z_CORE',
       msgno type symsgno value '997',
       attr1 type scx_attrname value '',
       attr2 type scx_attrname value '',

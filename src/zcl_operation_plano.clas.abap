@@ -361,7 +361,7 @@ CLASS ZCL_OPERATION_PLANO IMPLEMENTATION.
           CATCH cx_sy_move_cast_error.
         ENDTRY.
       CATCH cx_sy_move_cast_error
-        /gib/cx_dcp.
+        zcx_core.
     ENDTRY.
 
   ENDMETHOD.

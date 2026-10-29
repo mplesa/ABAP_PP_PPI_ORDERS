@@ -107,7 +107,7 @@ public section.
     returning
       value(ER_PROTOCOL) type ref to ZCL_MSG
     raising
-      /GIB/CX_DCP .
+      ZCX_CORE .
   PROTECTED SECTION.
 
     DATA mt_prt TYPE /gib/dcp_prt_item_t .
@@ -129,7 +129,7 @@ public section.
       RETURNING
         VALUE(er_protocol) TYPE REF TO zcl_msg
       RAISING
-        /gib/cx_dcp .
+        zcx_core .
 private section.
 ENDCLASS.
 
@@ -473,7 +473,7 @@ CLASS ZCL_OPERATION IMPLEMENTATION.
 
     TRY.
         er_protocol = set_afvgd( ls_afvgd ).
-      CATCH /gib/cx_dcp INTO DATA(lr_error).
+      CATCH zcx_core INTO DATA(lr_error).
         IF er_protocol IS  INITIAL.
           CREATE OBJECT er_protocol.
         ENDIF.
@@ -734,12 +734,12 @@ CLASS ZCL_OPERATION IMPLEMENTATION.
   ENDMETHOD.
 
   METHOD zif_operation~get_earliest_end.
-    rf_pit = /gib/cl_pit=>convert_date_time( if_date = ms_afvgd-fseld
+    rf_pit = zcl_pit=>convert_date_time( if_date = ms_afvgd-fseld
                                              if_time = ms_afvgd-fselz ).
   ENDMETHOD.
 
   METHOD zif_operation~get_earliest_start.
-    rf_pit = /gib/cl_pit=>convert_date_time( if_date = ms_afvgd-fsavd
+    rf_pit = zcl_pit=>convert_date_time( if_date = ms_afvgd-fsavd
                                              if_time = ms_afvgd-fsavz ).
   ENDMETHOD.
 
@@ -753,13 +753,13 @@ CLASS ZCL_OPERATION IMPLEMENTATION.
   ENDMETHOD.
 
   METHOD zif_operation~get_latest_end.
-    rf_pit = /gib/cl_pit=>convert_date_time( if_date = ms_afvgd-ssedd
+    rf_pit = zcl_pit=>convert_date_time( if_date = ms_afvgd-ssedd
                                              if_time = ms_afvgd-ssedz ).
 
   ENDMETHOD.
 
   METHOD zif_operation~get_latest_start.
-    rf_pit = /gib/cl_pit=>convert_date_time( if_date = ms_afvgd-ssavd
+    rf_pit = zcl_pit=>convert_date_time( if_date = ms_afvgd-ssavd
                                              if_time = ms_afvgd-ssavz ).
   ENDMETHOD.
 
@@ -953,7 +953,7 @@ CLASS ZCL_OPERATION IMPLEMENTATION.
 
 *# Check if the operation is already released
     IF has_status( zif_jstatus=>co_free ) = abap_true.
-      MESSAGE ID /gib/cl_dcp_tyco=>co_message_id
+      MESSAGE ID 'Z_CORE'
               TYPE zcl_msg=>co_info
               NUMBER 639
               WITH |{ mr_order->mf_plnid ALPHA = OUT }| |{ ms_afvgd-aplfl ALPHA = OUT }| mf_vornr
@@ -977,7 +977,7 @@ CLASS ZCL_OPERATION IMPLEMENTATION.
         free_failed = 1
         OTHERS      = 2.
     IF sy-subrc = 0.
-      MESSAGE ID /gib/cl_dcp_tyco=>co_message_id
+      MESSAGE ID 'Z_CORE'
               TYPE zcl_msg=>co_success
               NUMBER 640
               WITH |{ mr_order->mf_plnid ALPHA = OUT }| |{ ms_afvgd-aplfl ALPHA = OUT }| mf_vornr
@@ -986,7 +986,7 @@ CLASS ZCL_OPERATION IMPLEMENTATION.
       RETURN.
     ELSE.
       lr_msg->sy_set( ).
-      MESSAGE ID /gib/cl_dcp_tyco=>co_message_id
+      MESSAGE ID 'Z_CORE'
               TYPE zcl_msg=>co_error
               NUMBER 641
               WITH |{ mr_order->mf_plnid ALPHA = OUT }| |{ ms_afvgd-aplfl ALPHA = OUT }| mf_vornr
@@ -1030,7 +1030,7 @@ CLASS ZCL_OPERATION IMPLEMENTATION.
     CALL FUNCTION 'CX_DATA_RESET'.
 
     IF if_pit IS INITIAL.
-      DATA(lf_pit) = /gib/cl_pit=>get_sy_pit( ).
+      DATA(lf_pit) = zcl_pit=>get_sy_pit( ).
     ELSE.
       lf_pit = if_pit.
     ENDIF.
@@ -1229,22 +1229,22 @@ CLASS ZCL_OPERATION IMPLEMENTATION.
 
   METHOD factory.
     CASE ir_order->mf_sart.
-      WHEN /gib/cl_dcp_sart=>co_plano.
+      WHEN zif_core_constants=>co_sart-plano.
         CREATE OBJECT rr_operation TYPE zcl_operation_plano
           EXPORTING
             ir_order = ir_order
             is_afvgd = is_afvgd.
-      WHEN /gib/cl_dcp_sart=>co_process.
+      WHEN zif_core_constants=>co_sart-process.
         CREATE OBJECT rr_operation TYPE zcl_operation_process
           EXPORTING
             ir_order = ir_order
             is_afvgd = is_afvgd.
-      WHEN /gib/cl_dcp_sart=>co_iho.
+      WHEN zif_core_constants=>co_sart-iho.
         CREATE OBJECT rr_operation TYPE zcl_operation_ih
           EXPORTING
             ir_order = ir_order
             is_afvgd = is_afvgd.
-      WHEN /gib/cl_dcp_sart=>co_network.
+      WHEN zif_core_constants=>co_sart-network.
         CREATE OBJECT rr_operation TYPE zcl_operation_netwk
           EXPORTING
             ir_order = ir_order
@@ -1416,7 +1416,7 @@ CLASS ZCL_OPERATION IMPLEMENTATION.
           ls_affh TYPE affh.
     DATA: ls_tca11 TYPE tca11.
 
-    IF mr_order->mf_sart <> /gib/cl_dcp_sart=>co_plano.
+    IF mr_order->mf_sart <> zif_core_constants=>co_sart-plano.
 
       CALL FUNCTION 'CF_BT_CO_AFFHD_TAB_GET'
         EXPORTING
@@ -1516,7 +1516,7 @@ CLASS ZCL_OPERATION IMPLEMENTATION.
 
 *#operations that have the Status EIGP must be redispatched
     IF has_status( zif_jstatus=>co_dspt ) IS NOT INITIAL.
-      DATA(lf_pit) = /gib/cl_pit=>convert_date_time( if_date = ms_afvgd-ssavd
+      DATA(lf_pit) = zcl_pit=>convert_date_time( if_date = ms_afvgd-ssavd
                                                      if_time = ms_afvgd-ssavz ).
       read_afvgd( ).
 

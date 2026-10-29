@@ -42,7 +42,7 @@ CLASS ZCL_ORDER_IH IMPLEMENTATION.
 
     TRY.
         update_order( ).
-      CATCH /gib/cx_dcp.
+      CATCH zcx_core.
     ENDTRY.
 * . . . Caufvd im SAPLCOVG aktualisieren
 *       wichtig, weil Funktionen aus dem SAPLCOVG als externer Perform
@@ -79,7 +79,7 @@ CLASS ZCL_ORDER_IH IMPLEMENTATION.
 
       CATCH cx_sy_itab_line_not_found.
         MESSAGE e888(co) WITH TEXT-kop INTO DATA(lf_msg).
-        RAISE EXCEPTION TYPE /gib/cx_dcp USING MESSAGE.
+        RAISE EXCEPTION TYPE zcx_core USING MESSAGE.
     ENDTRY.
 
   ENDMETHOD.

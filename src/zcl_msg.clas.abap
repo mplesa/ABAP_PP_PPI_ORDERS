@@ -24,7 +24,7 @@ public section.
       value(COUNT) type SY-TABIX .
   methods CONSTRUCTOR
     importing
-      !MID type SY-MSGID default /GIB/CL_DCP_TYCO=>CO_MESSAGE_ID
+      !MID type SY-MSGID default 'Z_CORE'
       !TITLE type C optional .
   methods SET
     importing
@@ -207,7 +207,7 @@ CLASS ZCL_MSG IMPLEMENTATION.
 
     LOOP AT it_text ASSIGNING <ls_text>.
       lf_text = <ls_text>.
-      /gib/if_msg_queue~add_msg( if_mid = '/GIB/DCV'
+      /gib/if_msg_queue~add_msg( if_mid = 'Z_CORE'
                                  if_num          = '998'
                                  if_pa1          = lf_text(50)
                                  if_pa2          = lf_text+50(50)
@@ -339,7 +339,7 @@ CLASS ZCL_MSG IMPLEMENTATION.
     IF /gib/if_msg_queue~has_error( ) = abap_true
       AND sy-batch = abap_true
       AND if_end_job_on_error = abap_true.
-      MESSAGE e316(/gib/dcv)..
+      MESSAGE e316(z_core)..
     ENDIF.
 
   ENDMETHOD.

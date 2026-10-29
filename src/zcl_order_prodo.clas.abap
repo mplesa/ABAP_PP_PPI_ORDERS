@@ -111,11 +111,11 @@ CLASS ZCL_ORDER_PRODO IMPLEMENTATION.
 
 METHOD get_sart_from_autyp.
   CASE if_autyp.
-    WHEN co_autyp-prodo.   rf_sart = /gib/cl_dcp_sart=>co_prodo.
-    WHEN co_autyp-network. rf_sart = /gib/cl_dcp_sart=>co_network.
-    WHEN co_autyp-iho.     rf_sart = /gib/cl_dcp_sart=>co_iho.
-    WHEN co_autyp-process. rf_sart = /gib/cl_dcp_sart=>co_process.
-    WHEN OTHERS.           rf_sart = /gib/cl_dcp_sart=>co_prodo.
+    WHEN co_autyp-prodo.   rf_sart = zif_core_constants=>co_sart-prodo.
+    WHEN co_autyp-network. rf_sart = zif_core_constants=>co_sart-network.
+    WHEN co_autyp-iho.     rf_sart = zif_core_constants=>co_sart-iho.
+    WHEN co_autyp-process. rf_sart = zif_core_constants=>co_sart-process.
+    WHEN OTHERS.           rf_sart = zif_core_constants=>co_sart-prodo.
   ENDCASE.
 ENDMETHOD.
 

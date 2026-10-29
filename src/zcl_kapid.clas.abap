@@ -63,7 +63,7 @@ private section.
 
   methods READ_SINGLE_CAPACITIES
     raising
-      /GIB/CX_DCP .
+      ZCX_CORE .
 ENDCLASS.
 
 CLASS ZCL_KAPID IMPLEMENTATION.
@@ -124,7 +124,7 @@ CLASS ZCL_KAPID IMPLEMENTATION.
     IF mt_kapm IS INITIAL.
       TRY.
           read_single_capacities( ).
-        CATCH /gib/cx_dcp.
+        CATCH zcx_core.
       ENDTRY.
     ENDIF.
 

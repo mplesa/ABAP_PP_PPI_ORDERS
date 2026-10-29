@@ -32,7 +32,7 @@ DATA: lf_lines TYPE sy-tabix.
 INITIALIZATION.
 
   TRY.
-      /gib/cl_dc_tools=>check_report_authority( if_repid = /gib/cl_dcp_tyco=>co_repid_dcp ).
+      /gib/cl_dc_tools=>check_report_authority( if_repid = zif_core_constants=>co_repid_dcp ).
     CATCH /gib/cx_dcv_no_authority INTO DATA(lr_auth_msg).
       MESSAGE lr_auth_msg TYPE zcl_msg=>co_status DISPLAY LIKE zcl_msg=>co_error.
       LEAVE PROGRAM.
@@ -53,12 +53,12 @@ START-OF-SELECTION.
   CHECK lt_main IS NOT INITIAL.
   LOOP AT lt_main INTO ls_main.
     CASE ls_main-sart.
-      WHEN /gib/cl_dcp_sart=>co_plano.
+      WHEN zif_core_constants=>co_sart-plano.
         APPEND ls_main-plnid TO lt_plnum.
-      WHEN /gib/cl_dcp_sart=>co_prodo
-        OR /gib/cl_dcp_sart=>co_network
-        OR /gib/cl_dcp_sart=>co_iho
-        OR /gib/cl_dcp_sart=>co_process.
+      WHEN zif_core_constants=>co_sart-prodo
+        OR zif_core_constants=>co_sart-network
+        OR zif_core_constants=>co_sart-iho
+        OR zif_core_constants=>co_sart-process.
         APPEND ls_main-plnid TO lt_aufnr.
       WHEN OTHERS.
 

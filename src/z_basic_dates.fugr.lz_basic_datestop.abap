@@ -12,12 +12,12 @@ CLASS lcl_basic_schedule DEFINITION.
     CONSTANTS: BEGIN OF co_scheduling_type,
                  forward TYPE termkz VALUE '1',
                END OF co_scheduling_type.
-    METHODS: constructor IMPORTING if_pit             TYPE /gib/pit
+    METHODS: constructor IMPORTING if_pit             TYPE z_pit
                                    if_scheduling_type TYPE termkz
                                    if_title           TYPE cua_tit_tx,
       get_scheduling_type_entry RETURNING VALUE(value) TYPE t482,
       is_time_of_day_required RETURNING VALUE(value) TYPE char1,
-      get_pit RETURNING VALUE(value) TYPE /gib/pit,
+      get_pit RETURNING VALUE(value) TYPE z_pit,
       get_scheduling_type RETURNING VALUE(value) TYPE termkz.
 ENDCLASS.
 CLASS lcl_basic_schedule IMPLEMENTATION.
@@ -30,9 +30,9 @@ CLASS lcl_basic_schedule IMPLEMENTATION.
 
     DATA(lf_pit) = if_pit.
     IF lf_pit IS INITIAL.
-      lf_pit = /gib/cl_pit=>get_sy_pit( ).
+      lf_pit = zcl_pit=>get_sy_pit( ).
     ENDIF.
-    /gib/cl_pit=>convert_pit( EXPORTING if_pit = lf_pit
+    zcl_pit=>convert_pit( EXPORTING if_pit = lf_pit
                               IMPORTING ef_date = mf_date
                                         ef_time = mf_time ).
 
@@ -47,7 +47,7 @@ CLASS lcl_basic_schedule IMPLEMENTATION.
     READ TABLE zcl_order=>gt_scheduling_type INTO value WITH TABLE KEY termkz = mr_caufvd->terkz.
   ENDMETHOD.
   METHOD get_pit.
-    value = /gib/cl_pit=>convert_date_time( if_date = mf_date if_time = mf_time ).
+    value = zcl_pit=>convert_date_time( if_date = mf_date if_time = mf_time ).
   ENDMETHOD.
   METHOD get_scheduling_type.
     value = mr_caufvd->terkz.

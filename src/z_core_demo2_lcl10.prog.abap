@@ -43,7 +43,7 @@ CLASS lcl_m_operation IMPLEMENTATION.
             mr_operation->display_long_text( ).
         ENDCASE.
 
-      CATCH /gib/cx_dcp INTO DATA(lr_exc).
+      CATCH zcx_core INTO DATA(lr_exc).
         MESSAGE lr_exc TYPE zcl_msg=>co_status DISPLAY LIKE zcl_msg=>co_error.
     ENDTRY.
   ENDMETHOD.
@@ -56,7 +56,7 @@ CLASS lcl_m_operation IMPLEMENTATION.
   METHOD lif_m~double_click.
     TRY.
         mr_operation->dialog( ).
-      CATCH /gib/cx_dcp INTO DATA(lr_exc).
+      CATCH zcx_core INTO DATA(lr_exc).
         MESSAGE lr_exc TYPE zcl_msg=>co_status.
     ENDTRY.
   ENDMETHOD.
@@ -78,13 +78,13 @@ CLASS lcl_m_operation IMPLEMENTATION.
   METHOD change_standard_values.
     TRY.
         mr_operation->change_standard_values_dialog( ).
-      CATCH /gib/cx_dcp INTO DATA(lr_exc).
+      CATCH zcx_core INTO DATA(lr_exc).
         MESSAGE lr_exc TYPE zcl_msg=>co_status DISPLAY LIKE zcl_msg=>co_error.
     ENDTRY.
   ENDMETHOD.
 
   METHOD reschedule.
-    DATA lf_pit      TYPE /gib/pit.
+    DATA lf_pit      TYPE z_pit.
     DATA lf_date     TYPE sy-datum.
     DATA lf_time     TYPE sy-uzeit.
     DATA lr_protocol TYPE REF TO zcl_msg.
@@ -147,7 +147,7 @@ CLASS lcl_m_operation IMPLEMENTATION.
     TRY.
         mr_operation->dispatch_midpoint( if_pit     = lf_pit
                                          if_forward = lf_forward )->show( ).
-      CATCH /gib/cx_dcp INTO DATA(lr_exc).
+      CATCH zcx_core INTO DATA(lr_exc).
         MESSAGE lr_exc TYPE zcl_msg=>co_status DISPLAY LIKE zcl_msg=>co_error.
     ENDTRY.
   ENDMETHOD.
@@ -155,7 +155,7 @@ CLASS lcl_m_operation IMPLEMENTATION.
   METHOD deallocate.
     TRY.
         mr_operation->deallocate( ).
-      CATCH /gib/cx_dcp INTO DATA(lr_exc).
+      CATCH zcx_core INTO DATA(lr_exc).
         MESSAGE lr_exc TYPE zcl_msg=>co_status DISPLAY LIKE zcl_msg=>co_error.
     ENDTRY.
   ENDMETHOD.
@@ -206,7 +206,7 @@ CLASS lcl_m_operation IMPLEMENTATION.
 
     TRY.
         mr_operation->change_workcenter( lr_workcenter ).
-      CATCH /gib/cx_dcp INTO DATA(lr_exc).
+      CATCH zcx_core INTO DATA(lr_exc).
         MESSAGE lr_exc TYPE zcl_msg=>co_status.
     ENDTRY.
   ENDMETHOD.

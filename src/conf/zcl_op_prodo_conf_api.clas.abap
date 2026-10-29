@@ -221,10 +221,10 @@ CLASS ZCL_OP_PRODO_CONF_API IMPLEMENTATION.
         locked              = lf_locked.
 
     IF lf_locked = abap_true.
-      MESSAGE i999(/gib/dcp)  WITH 'Auftrag gesperrt! Stornierung nicht erfolgreich'(021) DISPLAY LIKE 'E'.
+      MESSAGE i999(z_core)  WITH 'Auftrag gesperrt! Stornierung nicht erfolgreich'(021) DISPLAY LIKE 'E'.
     ENDIF.
     IF ls_return-type NE 'S' AND ls_return-type IS NOT INITIAL.
-      MESSAGE i999(/gib/dcp) WITH 'Fehler in der Stornierung.'(022) DISPLAY LIKE 'E'.
+      MESSAGE i999(z_core) WITH 'Fehler in der Stornierung.'(022) DISPLAY LIKE 'E'.
     ENDIF.
 
 *if the last confirmation is Final variable activity then also cancel the penultimeate confirmation
@@ -242,7 +242,7 @@ CLASS ZCL_OP_PRODO_CONF_API IMPLEMENTATION.
           return              = ls_return
           locked              = lf_locked.
     ENDIF.
-    MESSAGE i999(/gib/dcp) WITH 'Letzte Buchung wurde erfolgreich storniert.'(023).
+    MESSAGE i999(z_core) WITH 'Letzte Buchung wurde erfolgreich storniert.'(023).
   ENDMETHOD.
 
   METHOD post_time_events.

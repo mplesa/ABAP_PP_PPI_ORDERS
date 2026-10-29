@@ -177,7 +177,7 @@ protected section.
     importing
       !IF_VBKZ type ABAP_BOOLEAN default ABAP_TRUE
     raising
-      /GIB/CX_DCP .
+      ZCX_CORE .
   methods DO_AFTER_RELEASE .
   methods BUILD_OPERATION_SEQUANCES .
   methods READ_AFFL .
@@ -322,7 +322,7 @@ CLASS ZCL_ORDER IMPLEMENTATION.
           IMPORTING
             action     = lf_action
             caufvd_exp = ms_caufvd.
-      CATCH /gib/cx_dcp.
+      CATCH zcx_core.
     ENDTRY.
 
   ENDMETHOD.
@@ -461,7 +461,7 @@ CLASS ZCL_ORDER IMPLEMENTATION.
                                               nterm  = abap_false
                                               tagdt  = abap_false
                                               eck_uhrzt = abap_false.
-      schedule_basic_dates( if_pit = /gib/cl_pit=>convert_date_time( if_date = if_target_date )
+      schedule_basic_dates( if_pit = zcl_pit=>convert_date_time( if_date = if_target_date )
                             is_scheduling_type = ls_scheduling_type ).
     ENDIF.
     ls_bom-stlty                = ms_caufvd-stlty.
@@ -715,12 +715,12 @@ CLASS ZCL_ORDER IMPLEMENTATION.
   ENDMETHOD.
 
   METHOD zif_order~get_basic_end.
-    rf_pit = /gib/cl_pit=>convert_date_time( if_date = ms_caufvd-gltrp
+    rf_pit = zcl_pit=>convert_date_time( if_date = ms_caufvd-gltrp
                                              if_time = ms_caufvd-gluzp ).
   ENDMETHOD.
 
   METHOD zif_order~get_basic_start.
-    rf_pit = /gib/cl_pit=>convert_date_time( if_date = ms_caufvd-gstrp
+    rf_pit = zcl_pit=>convert_date_time( if_date = ms_caufvd-gstrp
                                              if_time = ms_caufvd-gsuzp ).
   ENDMETHOD.
 
@@ -834,19 +834,19 @@ CLASS ZCL_ORDER IMPLEMENTATION.
           lf_tcode_a TYPE sytcode.
 
     CASE mf_sart.
-      WHEN /gib/cl_dcp_sart=>co_plano.
+      WHEN zif_core_constants=>co_sart-plano.
         lf_tcode   = 'MD12'.
         lf_tcode_a = 'MD13'.
-      WHEN /gib/cl_dcp_sart=>co_prodo.
+      WHEN zif_core_constants=>co_sart-prodo.
         lf_tcode   = 'CO02'.
         lf_tcode_a = 'CO03'.
-      WHEN /gib/cl_dcp_sart=>co_process.
+      WHEN zif_core_constants=>co_sart-process.
         lf_tcode   = 'COR2'.
         lf_tcode_a = 'COR3'.
-      WHEN /gib/cl_dcp_sart=>co_iho.
+      WHEN zif_core_constants=>co_sart-iho.
         lf_tcode   = 'IW32'.
         lf_tcode_a = 'IW33'.
-      WHEN /gib/cl_dcp_sart=>co_network.
+      WHEN zif_core_constants=>co_sart-network.
         lf_tcode   = 'CN22'.
         lf_tcode_a = 'CN23'.
     ENDCASE.
@@ -1195,9 +1195,9 @@ CLASS ZCL_ORDER IMPLEMENTATION.
     ENDLOOP.
     DATA(lf_pit) = if_pit.
     IF lf_pit IS INITIAL.
-      lf_pit = /gib/cl_pit=>get_sy_pit( ).
+      lf_pit = zcl_pit=>get_sy_pit( ).
     ENDIF.
-    /gib/cl_pit=>convert_pit( EXPORTING if_pit  = if_pit
+    zcl_pit=>convert_pit( EXPORTING if_pit  = if_pit
                               IMPORTING ef_date = DATA(lf_date)
                                         ef_time = DATA(lf_time) ).
     DATA(ls_caufvd)  = ms_caufvd.

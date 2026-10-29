@@ -7,7 +7,7 @@ public section.
 
   constants:
     begin of ZCX_ORDER_CONV_FAIL,
-      msgid type symsgid value '/GIB/DCP',
+      msgid type symsgid value 'Z_CORE',
       msgno type symsgno value '539',
       attr1 type scx_attrname value 'PLNUM',
       attr2 type scx_attrname value '',

@@ -82,7 +82,7 @@ CLASS lcl_m_order IMPLEMENTATION.
   ENDMETHOD.
 
   METHOD lif_m~handle_function.
-    DATA lr_exc TYPE REF TO /gib/cx_dcp.
+    DATA lr_exc TYPE REF TO zcx_core.
     DATA lr_msg TYPE REF TO zcl_msg.
 
     TRY.
@@ -116,13 +116,13 @@ CLASS lcl_m_order IMPLEMENTATION.
           WHEN co_capacity_availability.
             capacity_availability( ).
         ENDCASE.
-      CATCH /gib/cx_dcp INTO lr_exc.
+      CATCH zcx_core INTO lr_exc.
         MESSAGE lr_exc TYPE zcl_msg=>co_status DISPLAY LIKE zcl_msg=>co_error.
     ENDTRY.
   ENDMETHOD.
 
   METHOD select_version.
-    DATA lr_exc TYPE REF TO /gib/cx_dcp.
+    DATA lr_exc TYPE REF TO zcx_core.
 
     TRY.
         CALL FUNCTION 'Z_VERID_SELECT'
@@ -130,7 +130,7 @@ CLASS lcl_m_order IMPLEMENTATION.
             it_mkal  = mr_order->mr_material->mt_mkal
             ir_order = mr_order.
 
-      CATCH /gib/cx_dcp INTO lr_exc.
+      CATCH zcx_core INTO lr_exc.
         MESSAGE lr_exc TYPE zcl_msg=>co_status.
     ENDTRY.
   ENDMETHOD.
@@ -198,7 +198,7 @@ CLASS lcl_m_order IMPLEMENTATION.
 
     TRY.
         mr_order->dialog( ).
-      CATCH /gib/cx_dcp INTO DATA(lr_exc).
+      CATCH zcx_core INTO DATA(lr_exc).
         MESSAGE lr_exc TYPE zcl_msg=>co_status.
     ENDTRY.
   ENDMETHOD.
@@ -209,7 +209,7 @@ CLASS lcl_m_order IMPLEMENTATION.
     TRY.
         DATA(lr_msg) = mr_order->schedule( ).
         lr_msg->show( ).
-      CATCH /gib/cx_dcp INTO DATA(lr_exc).
+      CATCH zcx_core INTO DATA(lr_exc).
         MESSAGE lr_exc TYPE zcl_msg=>co_status.
     ENDTRY.
   ENDMETHOD.
@@ -219,7 +219,7 @@ CLASS lcl_m_order IMPLEMENTATION.
 
     TRY.
         mr_order->schedule_basic_dates_dialog( ).
-      CATCH /gib/cx_dcp INTO DATA(lr_exc).
+      CATCH zcx_core INTO DATA(lr_exc).
         MESSAGE lr_exc TYPE zcl_msg=>co_status.
     ENDTRY.
   ENDMETHOD.
@@ -227,7 +227,7 @@ CLASS lcl_m_order IMPLEMENTATION.
   METHOD material_availability.
     TRY.
         mr_order->check_material_availability( )->set_use_grid( abap_true )->show( ).
-      CATCH /gib/cx_dcp INTO DATA(lr_exc).
+      CATCH zcx_core INTO DATA(lr_exc).
         MESSAGE lr_exc TYPE zcl_msg=>co_status.
     ENDTRY.
   ENDMETHOD.
@@ -236,7 +236,7 @@ CLASS lcl_m_order IMPLEMENTATION.
         DATA(lr_msg) = NEW zcl_msg( ).
         mr_order->check_capacity_availability( if_no_dialog = space ir_msg = lr_msg ).
         lr_msg->set_use_grid( abap_true )->show( ).
-      CATCH /gib/cx_dcp INTO DATA(lr_exc).
+      CATCH zcx_core INTO DATA(lr_exc).
         MESSAGE lr_exc TYPE zcl_msg=>co_status.
     ENDTRY.
   ENDMETHOD.

@@ -83,15 +83,15 @@ interface ZIF_OPERATION
     returning
       value(RR_PROTOCOL) type ref to ZCL_MSG
     raising
-      /GIB/CX_DCP .
+      ZCX_CORE .
   methods MIDPOINT_SCHEDULE
     importing
-      !IF_PIT type /GIB/PIT
+      !IF_PIT type Z_PIT
       !IF_FORWARD type FLAG default 'X'
     returning
       value(RR_PROTOCOL) type ref to ZCL_MSG
     raising
-      /GIB/CX_DCP .
+      ZCX_CORE .
   methods GET_SUCCESSOR
     returning
       value(RR_SUCCESSOR) type ref to ZIF_OPERATION
@@ -105,7 +105,7 @@ interface ZIF_OPERATION
   methods REFRESH .
   methods DIALOG
     raising
-      /GIB/CX_DCP .
+      ZCX_CORE .
   methods CHANGE_STANDARD_VALUES
     importing
       !IF_VGW01 type VGWRT optional
@@ -123,7 +123,7 @@ interface ZIF_OPERATION
     returning
       value(ER_PROTOCOL) type ref to ZCL_MSG
     raising
-      /GIB/CX_DCP .
+      ZCX_CORE .
   methods CHANGE_STANDARD_VALUE
     importing
       !IF_NO type Z_VGWNR
@@ -132,35 +132,35 @@ interface ZIF_OPERATION
     returning
       value(RR_PROTOCOL) type ref to ZCL_MSG
     raising
-      /GIB/CX_DCP .
+      ZCX_CORE .
   methods CHANGE_STANDARD_VALUES_DIALOG
     raising
-      /GIB/CX_DCP .
+      ZCX_CORE .
   methods DISPATCH_MIDPOINT
     importing
-      !IF_PIT type /GIB/PIT
+      !IF_PIT type Z_PIT
       !IF_FORWARD type FLAG default 'X'
     returning
       value(RR_PROTOCOL) type ref to ZCL_MSG
     raising
-      /GIB/CX_DCP .
+      ZCX_CORE .
   methods DEALLOCATE
     returning
       value(RR_PROTOCOL) type ref to ZCL_MSG
     raising
-      /GIB/CX_DCP .
+      ZCX_CORE .
   methods GET_EARLIEST_START
     returning
-      value(RF_PIT) type /GIB/PIT .
+      value(RF_PIT) type Z_PIT .
   methods GET_EARLIEST_END
     returning
-      value(RF_PIT) type /GIB/PIT .
+      value(RF_PIT) type Z_PIT .
   methods GET_LATEST_START
     returning
-      value(RF_PIT) type /GIB/PIT .
+      value(RF_PIT) type Z_PIT .
   methods GET_LATEST_END
     returning
-      value(RF_PIT) type /GIB/PIT .
+      value(RF_PIT) type Z_PIT .
   methods IS_MAIN_OPERATION
     returning
       value(RF_ANSWER) type FLAG .
@@ -172,11 +172,11 @@ interface ZIF_OPERATION
       !ET_MKAL type CURTO_MKAL_T .
   methods UPDATE_SUBOBJECTS
     raising
-      /GIB/CX_DCP .
+      ZCX_CORE .
   methods SCHEDULE
     importing
       !IF_FORWARD type FLAG default 'X'
-      !IF_PIT type /GIB/PIT
+      !IF_PIT type Z_PIT
     exporting
       !ET_OPERATION_PHASES type TT_OPERATION_PHASES
     changing

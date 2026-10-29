@@ -45,7 +45,7 @@ private section.
       !IF_PLNAL type PLNAL .
   methods READ_ROUTING
     raising
-      /GIB/CX_DCP .
+      ZCX_CORE .
 ENDCLASS.
 
 CLASS ZCL_ROUTING_MASTER IMPLEMENTATION.
@@ -71,7 +71,7 @@ CLASS ZCL_ROUTING_MASTER IMPLEMENTATION.
     TRY.
       read_routing( ).
       rf_data_found = abap_true.
-    CATCH /gib/cx_dcp.
+    CATCH zcx_core.
       rf_data_found = abap_false.
     ENDTRY.
 
@@ -101,7 +101,7 @@ CLASS ZCL_ROUTING_MASTER IMPLEMENTATION.
 *# e.g. when changing routing master per change management
     TRY.
         read_routing( ).
-      CATCH /gib/cx_dcp.
+      CATCH zcx_core.
         RETURN.
     ENDTRY.
 
@@ -243,7 +243,7 @@ CLASS ZCL_ROUTING_MASTER IMPLEMENTATION.
         OTHERS        = 3.
 
     IF sy-subrc <> 0.
-      RAISE EXCEPTION TYPE /gib/cx_dcp EXPORTING textid = /gib/cx_dcp=>not_found.
+      RAISE EXCEPTION TYPE zcx_core EXPORTING textid = zcx_core=>not_found.
     ENDIF.
 
     LOOP AT lt_plko_exp ASSIGNING FIELD-SYMBOL(<ls_plko_exp>).

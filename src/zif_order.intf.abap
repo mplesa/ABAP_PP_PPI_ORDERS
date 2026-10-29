@@ -105,17 +105,17 @@ interface ZIF_ORDER
     returning
       value(RR_PROTOCOL) type ref to ZCL_MSG
     raising
-      /GIB/CX_DCP .
+      ZCX_CORE .
   methods CHANGE_SEQUENCE_NUMBER
     importing
       !IF_SEQUENCE_NUMBER type CY_SEQNR
     raising
-      /GIB/CX_DCP .
+      ZCX_CORE .
   methods CHANGE_BATCH
     importing
       !IF_CHARG type MCHA-CHARG
     raising
-      /GIB/CX_DCP .
+      ZCX_CORE .
   methods GET_SUCCESSOR_OPERATION
     importing
       !IR_OPERATION type ref to ZIF_OPERATION
@@ -164,11 +164,11 @@ interface ZIF_ORDER
     returning
       value(RR_PROTOCOL) type ref to ZCL_MSG
     raising
-      /GIB/CX_DCP .
+      ZCX_CORE .
   methods REFRESH .
   methods DIALOG
     raising
-      /GIB/CX_DCP .
+      ZCX_CORE .
   methods START_UPDATE
     raising
       ZCX_ORDER_LOCKED .
@@ -176,26 +176,26 @@ interface ZIF_ORDER
     returning
       value(RR_PROTOCOL) type ref to ZCL_MSG
     raising
-      /GIB/CX_DCP .
+      ZCX_CORE .
   methods CHANGE_TOTAL_QUANTITY
     importing
       !IF_VALUE type CAUFVD-GAMNG    "GAMNG
       !IF_GASMG type CAUFVD-GASMG default -1
       !IR_PROTOCOL type ref to ZCL_MSG optional
     raising
-      /GIB/CX_DCP .
+      ZCX_CORE .
   methods CHANGE_TOTAL_QUAN_DIALOG
     importing
       !IR_PROTOCOL type ref to ZCL_MSG optional
       !IF_MODE type TF_CHANGE_QUANTITY_MODE optional
     preferred parameter IR_PROTOCOL
     raising
-      /GIB/CX_DCP .
+      ZCX_CORE .
   methods RELEASE
     returning
       value(RR_PROTOCOL) type ref to ZCL_MSG
     raising
-      /GIB/CX_DCP .
+      ZCX_CORE .
   methods GET_LEAD_PLNID
     returning
       value(RF_PLNID) type /GIB/DCP_LEAD_PLNID .
@@ -207,26 +207,26 @@ interface ZIF_ORDER
       value(RR_COMPRESSION) type ref to Z_OP_COMPRESSION_T .
   methods GET_BASIC_START
     returning
-      value(RF_PIT) type /GIB/PIT .
+      value(RF_PIT) type Z_PIT .
   methods GET_BASIC_END
     returning
-      value(RF_PIT) type /GIB/PIT .
+      value(RF_PIT) type Z_PIT .
   methods SCHEDULE_BASIC_DATES
     importing
-      !IF_PIT type /GIB/PIT
+      !IF_PIT type Z_PIT
       !IS_SCHEDULING_TYPE type T482
     returning
       value(RR_PROTOCOL) type ref to ZCL_MSG
     raising
-      /GIB/CX_DCP .
+      ZCX_CORE .
   methods SCHEDULE_BASIC_DATES_DIALOG
     importing
-      !IF_PIT type /GIB/PIT optional
+      !IF_PIT type Z_PIT optional
       !IS_SCHEDULING_TYPE type T482 optional
     returning
       value(RR_PROTOCOL) type ref to ZCL_MSG
     raising
-      /GIB/CX_DCP .
+      ZCX_CORE .
   methods GET_GRANTED_AUTHORITY
     returning
       value(RF_AUTHORITY) type AKTYP .
@@ -244,7 +244,7 @@ interface ZIF_ORDER
     returning
       value(RR_PROTOCOL) type ref to ZCL_MSG
     raising
-      /GIB/CX_DCP .
+      ZCX_CORE .
   methods CHANGE_TEMP_AUFNR
     importing
       !IF_NEW_AUFNR type AUFNR .
@@ -255,7 +255,7 @@ interface ZIF_ORDER
     importing
       !IF_DATE type DATUM default SY-DATUM
     exporting
-      !ET_MKAL type /GIB/DCO_MKAL_T .
+      !ET_MKAL type CURTO_MKAL_T .
   methods GET_ROUTING_MASTER
     returning
       value(RR_ROUTING_MASTER) type ref to ZIF_ROUTING_MASTER .
@@ -270,5 +270,5 @@ interface ZIF_ORDER
     returning
       value(RT_FEHL_KAP) type TT_FEHL_KAP
     raising
-      /GIB/CX_DCP .
+      ZCX_CORE .
 endinterface.

@@ -24,7 +24,7 @@
      </IMPORT>
      <EXCEPTION>
       <RSEXC>
-       <EXCEPTION>/GIB/CX_DCP</EXCEPTION>
+       <EXCEPTION>ZCX_CORE</EXCEPTION>
       </RSEXC>
      </EXCEPTION>
      <DOCUMENTATION>
@@ -34,7 +34,7 @@
        <STEXT>Auftragsvorgang</STEXT>
       </RSFDO>
       <RSFDO>
-       <PARAMETER>/GIB/CX_DCP</PARAMETER>
+       <PARAMETER>ZCX_CORE</PARAMETER>
        <KIND>X</KIND>
        <STEXT>DCP Auftrag</STEXT>
       </RSFDO>

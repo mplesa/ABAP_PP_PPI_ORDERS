@@ -6,6 +6,6 @@ interface ZIF_LONG_TEXT
       value(RF_ANSWER) type FLAG .
   methods EDIT
     raising
-      /GIB/CX_DCP .
+      ZCX_CORE .
   methods DISPLAY .
 endinterface.

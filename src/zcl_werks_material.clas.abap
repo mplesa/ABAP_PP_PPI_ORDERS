@@ -26,14 +26,6 @@ public section.
     for ZIF_WERKS_MATERIAL~GET_MRP_EXCEPTIONS .
 
   types:
-    BEGIN OF ts_dco_alert,
-             auskt TYPE /gib/dco_auskt,
-             austx TYPE /gib/dco_austx,
-           END OF ts_dco_alert .
-  types:
-
-    tt_dco_marc_sort TYPE SORTED TABLE OF /gib/dco_marc WITH UNIQUE KEY werks matnr berid plscn .
-  types:
     tt_ftind_sort    TYPE SORTED TABLE OF ftind WITH UNIQUE KEY werks matnr rsnum rspos rsart .
   types:
     BEGIN OF ts_werks_material,
@@ -44,12 +36,8 @@ public section.
   types:
     tt_werks_material TYPE SORTED TABLE OF ts_werks_material WITH UNIQUE KEY werks matnr .
 
-  data MT_DCO_MARC type TT_DCO_MARC_SORT read-only .
   data MT_FTIND type TT_FTIND_SORT read-only .
 
-  methods GET_DCO_ALERTS
-    returning
-      value(ER_ALERTS) type ref to /GIB/CL_DCP_DCO_MATERIAL_ALERT .
   methods HAS_PLANNING_FILE_ENTRY
     importing
       !IF_BERID type BERID optional
@@ -84,14 +72,9 @@ protected section.
       !CS_MRP type ZIF_WERKS_MATERIAL~TS_MRP_DATA .
 private section.
 
-  data MR_ALERTS type ref to /GIB/CL_DCP_DCO_MATERIAL_ALERT .
   class-data GT_WERKS_MATERIALS type TT_WERKS_MATERIAL .
   class-data GF_ONLY_USE_STOCK_REQ_LIST type XFELD value ABAP_FALSE ##NO_TEXT.
 
-  methods READ_DCO_ALERTS
-    raising
-      /GIB/CX_ROOT .
-  methods READ_DCO_MARC .
   methods READ_FTIND .
   methods READ_MARC .
   methods READ_MKAL .
@@ -155,16 +138,11 @@ CLASS ZCL_WERKS_MATERIAL IMPLEMENTATION.
     mr_matnr = ir_matnr.
     read_marc( ).
     read_mkal( ).
-    read_dco_marc( ).
     read_ftind( ).
     IF mr_matnr->ms_mara-matnr IS NOT INITIAL.
       read_msfcv( ).
       read_tco43( ).
     ENDIF.
-    TRY.
-        read_dco_alerts( ).
-      CATCH /gib/cx_root.
-    ENDTRY.
   ENDMETHOD.
 
   METHOD get_instance.
@@ -456,13 +434,6 @@ CLASS ZCL_WERKS_MATERIAL IMPLEMENTATION.
 
   ENDMETHOD.
 
-  METHOD read_dco_marc.
-    SELECT matnr werks berid plscn btextn btextl FROM /gib/dco_marc INTO CORRESPONDING FIELDS OF TABLE mt_dco_marc
-      WHERE matnr = mr_matnr->ms_mara-matnr
-      AND   werks = mr_werks->mf_werks
-      AND   plscn = '000'.
-  ENDMETHOD.
-
   METHOD read_ftind.
     SELECT werks matnr rsnum rspos rsart bdter aufnr FROM ftind INTO CORRESPONDING FIELDS OF TABLE mt_ftind
       WHERE werks = mr_werks->mf_werks
@@ -479,18 +450,5 @@ CLASS ZCL_WERKS_MATERIAL IMPLEMENTATION.
         CATCH cx_sy_move_cast_error.
       ENDTRY.
     ENDLOOP.
-  ENDMETHOD.
-
-  METHOD read_dco_alerts.
-    mr_alerts = NEW /gib/cl_dcp_dco_material_alert( if_werks = mr_werks->mf_werks
-                                                    if_matnr = mr_matnr->ms_mara-matnr ).
-
-    mr_alerts->read_data( ).
-
-  ENDMETHOD.
-
-  METHOD get_dco_alerts.
-    er_alerts = mr_alerts.
-
   ENDMETHOD.
 ENDCLASS.

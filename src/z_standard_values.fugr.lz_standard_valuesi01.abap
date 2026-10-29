@@ -26,7 +26,7 @@ MODULE user_command_0100 INPUT.
             lr_msg->show( ).
           ENDIF.
           LEAVE TO SCREEN 0.
-        CATCH /gib/cx_dcp INTO DATA(lr_error).
+        CATCH zcx_core INTO DATA(lr_error).
           MESSAGE lr_error TYPE 'S'.
       ENDTRY.
 

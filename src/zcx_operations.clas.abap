@@ -1,6 +1,6 @@
 class ZCX_OPERATIONS definition
   public
-  inheriting from /GIB/CX_DCP
+  inheriting from ZCX_CORE
   create public .
 
 public section.
