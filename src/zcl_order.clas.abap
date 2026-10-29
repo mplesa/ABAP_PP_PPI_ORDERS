@@ -603,27 +603,6 @@ CLASS ZCL_ORDER IMPLEMENTATION.
   ENDMETHOD.
 
   METHOD zif_order~change_total_quan_dialog.
-
-    DATA: lf_gamng_new TYPE caufvd-gamng.
-    DATA: lf_gasmg_new TYPE caufvd-gasmg.
-
-*# Essential to lock here the order
-    start_update( ).
-
-*# Open the dialog to change inputs
-    CALL FUNCTION '/GIB/DCP_POPUP_CHANGE_QUANT'
-      EXPORTING
-        if_mode      = if_mode
-        ir_order     = me
-      IMPORTING
-        ef_new_gamng = lf_gamng_new
-        ef_new_gasmg = lf_gasmg_new.
-
-*# If dialog wasnt cancelled, change the quantities
-    change_total_quantity( if_value = lf_gamng_new
-                           ir_protocol = ir_protocol
-                           if_gasmg = lf_gasmg_new ).
-
   ENDMETHOD.
 
   METHOD zif_order~check_material_availability.
@@ -1431,9 +1410,6 @@ CLASS ZCL_ORDER IMPLEMENTATION.
           lt_afvgd     TYPE TABLE OF afvgd,
           ls_afvgd     TYPE afvgd,
           ls_afvgb     TYPE afvgb.
-*# Parallele Folgen
-    DATA: lr_badi TYPE REF TO /gib/dcp_badi_main_pf_decide.
-*## Parallele Folgen
     FIELD-SYMBOLS: <ls_afvgd>     TYPE afvgd,
                    <ls_afvgb>     TYPE afvgb,
                    <lt_table>     TYPE ANY TABLE,
@@ -1588,11 +1564,6 @@ CLASS ZCL_ORDER IMPLEMENTATION.
         ENDCASE.
       ENDIF.
     ENDLOOP.
-
-    GET BADI lr_badi.
-    CALL BADI lr_badi->decide_on_use
-      CHANGING
-        ct_afvgd = lt_afvgd.
 
     IF mf_parallel_sequences = space."standard DCP customizing to allow parallel sequances
       DELETE lt_afvgd WHERE aplfl <> zif_operation_sequance=>co_standard_sequance.

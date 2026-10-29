@@ -122,139 +122,12 @@ ENDCLASS.
 CLASS ZCL_ORDER_PLANO IMPLEMENTATION.
 
   METHOD zif_long_text~display.
-    DATA: ls_head     TYPE thead,
-          ls_result   TYPE itcer,
-          lt_lines    TYPE STANDARD TABLE OF tline,
-          lf_function TYPE sy-ucomm.
-
-    CHECK sy-batch IS INITIAL.
-
-    CONCATENATE sy-mandt ms_plaf-plnum INTO ls_head-tdname.
-    ls_head-tdobject   = '/GIB/DCP'.
-    ls_head-tdid       = 'PLAF'.
-    ls_head-tdspras    = sy-langu.
-    ls_head-tdlinesize = 72.
-
-*# get existing text if any
-    CALL FUNCTION 'READ_TEXT' "#EC CI_SUBRC
-      EXPORTING
-        id                      = ls_head-tdid
-        language                = ls_head-tdspras
-        name                    = ls_head-tdname
-        object                  = ls_head-tdobject
-      IMPORTING
-        header                  = ls_head
-      TABLES
-        lines                   = lt_lines
-      EXCEPTIONS
-        id                      = 1
-        language                = 2
-        name                    = 3
-        not_found               = 4
-        object                  = 5
-        reference_check         = 6
-        wrong_access_to_archive = 7
-        OTHERS                  = 8.
-    IF sy-subrc <> 0.
-      MESSAGE ID sy-msgid TYPE zcl_msg=>co_success NUMBER sy-msgno
-      WITH sy-msgv1 sy-msgv2 sy-msgv3 sy-msgv4 DISPLAY LIKE zcl_msg=>co_error.
-      RETURN.
-    ENDIF.
-
-    CALL FUNCTION 'EDIT_TEXT' "#EC CI_SUBRC
-      EXPORTING
-        display       = 'X'
-        header        = ls_head
-        save          = ' '
-      IMPORTING
-        function      = lf_function
-        result        = ls_result
-      TABLES
-        lines         = lt_lines
-      EXCEPTIONS
-        OTHERS        = 0.
-
   ENDMETHOD.
 
   METHOD zif_long_text~edit.
-    DATA: ls_head     TYPE thead,
-          ls_result   TYPE itcer,
-          lt_lines    TYPE STANDARD TABLE OF tline,
-          lf_function TYPE sy-ucomm.
-
-    CHECK sy-batch IS INITIAL.
-
-    start_update( ).
-
-    CONCATENATE sy-mandt ms_plaf-plnum INTO ls_head-tdname.
-    ls_head-tdobject   = '/GIB/DCP'.
-    ls_head-tdid       = 'PLAF'.
-    ls_head-tdspras    = sy-langu.
-    ls_head-tdlinesize = 72.
-
-*# get existing text if any
-    CALL FUNCTION 'READ_TEXT'"#EC CI_SUBRC
-      EXPORTING
-        id                      = ls_head-tdid
-        language                = ls_head-tdspras
-        name                    = ls_head-tdname
-        object                  = ls_head-tdobject
-      IMPORTING
-        header                  = ls_head
-      TABLES
-        lines                   = lt_lines
-      EXCEPTIONS
-        OTHERS                  = 0.
-
-    CALL FUNCTION 'EDIT_TEXT'"#EC CI_SUBRC
-      EXPORTING
-        header        = ls_head
-        save          = 'X'
-      IMPORTING
-        function      = lf_function
-        result        = ls_result
-      TABLES
-        lines         = lt_lines
-      EXCEPTIONS
-        id            = 1
-        language      = 2
-        linesize      = 3
-        name          = 4
-        object        = 5
-        textformat    = 6
-        communication = 7
-        OTHERS        = 8.
-
-    IF sy-subrc = 0.
-      CALL FUNCTION 'COMMIT_TEXT'"#EC CI_SUBRC
-        EXPORTING
-          object          = ls_head-tdobject
-          name            = ls_head-tdname
-          id              = ls_head-tdid
-          language        = '*'
-          savemode_direct = 'X'.
-    ENDIF.
-
   ENDMETHOD.
 
   METHOD zif_long_text~has_long_text.
-    DATA: ls_head TYPE thead,
-          lt_lines TYPE TABLE OF tline.
-
-    CONCATENATE sy-mandt ms_plaf-plnum INTO ls_head-tdname.
-    ls_head-tdobject   = '/GIB/DCP'.
-    ls_head-tdid       = 'PLAF'.
-    ls_head-tdspras    = sy-langu.
-    ls_head-tdlinesize = 72.
-    SELECT COUNT(*) FROM stxh "#EC DBACCESS_OK
-     WHERE tdobject = ls_head-tdobject
-       AND tdname   = ls_head-tdname
-       AND tdid     = ls_head-tdid
-       AND tdspras  = ls_head-tdspras.
-
-    IF sy-subrc = 0.
-      rf_answer = 'X'.
-    ENDIF.
   ENDMETHOD.
 
   METHOD zif_order~change_production_version.
@@ -329,16 +202,8 @@ CLASS ZCL_ORDER_PLANO IMPLEMENTATION.
     refresh( ).
   ENDMETHOD.
 
-METHOD zif_order~check_material_availability.
-
-  CALL FUNCTION '/GIB/DCP_CHECK_MATNR_AVAIL'
-    EXPORTING
-      it_aufnr_r  = VALUE /gib/dcp_aufnr_tr( ( ) )
-      it_plnum_r  = VALUE range_t_plnum( ( sign = 'I'
-                                           option = 'EQ'
-                                           low = ms_plaf-plnum ) )
-      ir_protocol = rr_protocol.
-ENDMETHOD.
+  METHOD zif_order~check_material_availability.
+  ENDMETHOD.
 
   METHOD zif_order~dialog.
 
