@@ -339,7 +339,7 @@ CLASS ZCL_WERKS_MATERIAL IMPLEMENTATION.
 *# Check if there is no information about secondary requirements according to SAP Note 2423930
     IF gf_only_use_stock_req_list = abap_false.
       LOOP AT ls_mrp-mdps_t ASSIGNING FIELD-SYMBOL(<ls_mdps>)
-       WHERE delkz = /gib/cl_dcp_mrp_element=>co_delkz_secondary_requirement AND aufvr = 'DUMMY'.
+       WHERE delkz = zif_core_constants=>co_delkz_secondary_requirement AND aufvr = 'DUMMY'.
         gf_only_use_stock_req_list = abap_true.
         read_mrp_data( if_berid = if_berid ).
         RETURN.

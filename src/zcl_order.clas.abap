@@ -565,9 +565,9 @@ CLASS ZCL_ORDER IMPLEMENTATION.
                           typ = 'E' ).
         RETURN.
       ELSE.
-        RAISE EXCEPTION TYPE /gib/cx_dcp_ui
+        RAISE EXCEPTION TYPE zcx_ui
           EXPORTING
-            textid = /gib/cx_dcp_ui=>operation_canceled.
+            textid = zcx_ui=>operation_canceled.
       ENDIF.
       RETURN.
     ENDIF.

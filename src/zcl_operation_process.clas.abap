@@ -430,24 +430,24 @@ CLASS ZCL_OPERATION_PROCESS IMPLEMENTATION.
     " Convert setup time from seconds to real time unit
     IF ls_cxzeit-ruest IS NOT INITIAL.
       lf_unit_out = ls_afvgd-rstze.
-      /gib/cl_services=>conversion_time( EXPORTING if_value_in  = ls_cxzeit-ruest
-                                                   if_unit_in   = /gib/cl_services=>get_unit_for_seconds( )
+      zcl_services=>conversion_time( EXPORTING if_value_in  = ls_cxzeit-ruest
+                                                   if_unit_in   = zcl_services=>get_unit_for_seconds( )
                                          CHANGING  ef_unit_out  = lf_unit_out
                                                    ef_value_out = ls_afvgd-ruest ).
     ENDIF.
     " Convert processing time from seconds to real time unit
     IF ls_cxzeit-bearb IS NOT INITIAL.
       lf_unit_out = ls_afvgd-beaze.
-      /gib/cl_services=>conversion_time( EXPORTING if_value_in  = ls_cxzeit-bearb
-                                                   if_unit_in   = /gib/cl_services=>get_unit_for_seconds( )
+      zcl_services=>conversion_time( EXPORTING if_value_in  = ls_cxzeit-bearb
+                                                   if_unit_in   = zcl_services=>get_unit_for_seconds( )
                                          CHANGING  ef_unit_out  = lf_unit_out
                                                    ef_value_out = ls_afvgd-bearz ).
     ENDIF.
     " Convert teardown time from seconds to real time unit
     IF ls_cxzeit-abruest IS NOT INITIAL.
       lf_unit_out = ls_afvgd-aruze.
-      /gib/cl_services=>conversion_time( EXPORTING if_value_in  = ls_cxzeit-abruest
-                                                   if_unit_in   = /gib/cl_services=>get_unit_for_seconds( )
+      zcl_services=>conversion_time( EXPORTING if_value_in  = ls_cxzeit-abruest
+                                                   if_unit_in   = zcl_services=>get_unit_for_seconds( )
                                          CHANGING  ef_unit_out  = lf_unit_out
                                                    ef_value_out = ls_afvgd-abrue ).
     ENDIF.

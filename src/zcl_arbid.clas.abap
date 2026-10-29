@@ -53,7 +53,7 @@ public section.
     returning
       value(RR_KAPID) type ref to ZCL_KAPID
     raising
-      /GIB/CX_DCP_CAPACITY .
+      ZCX_CAPACITY .
   methods GET_CAPA_ASSIGNMENT
     returning
       value(ES_CRCA) type CRCA .
@@ -150,7 +150,7 @@ CLASS ZCL_ARBID IMPLEMENTATION.
     LOOP AT lt_rcrkk ASSIGNING <ls_rcrkk>.
       TRY.
           lr_kapid = zcl_kapid=>get_instance( <ls_rcrkk>-kapid ).
-        CATCH /gib/cx_dcp_capacity.
+        CATCH zcx_capacity.
           CONTINUE.
       ENDTRY.
       APPEND lr_kapid TO mt_kapids.
@@ -161,7 +161,7 @@ CLASS ZCL_ARBID IMPLEMENTATION.
     mt_children = it_children.
     TRY.
         lr_kapid = zcl_kapid=>get_instance( ms_crhd-kapid ).
-      CATCH /gib/cx_dcp_capacity.
+      CATCH zcx_capacity.
         EXIT.
     ENDTRY.
     mf_active_version = lr_kapid->ms_kako-versa.

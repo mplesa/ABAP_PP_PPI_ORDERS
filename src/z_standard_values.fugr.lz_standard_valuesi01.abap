@@ -31,9 +31,9 @@ MODULE user_command_0100 INPUT.
       ENDTRY.
 
     WHEN 'EXIT'.
-      RAISE EXCEPTION TYPE /gib/cx_dcp_ui
+      RAISE EXCEPTION TYPE zcx_ui
         EXPORTING
-          textid = /gib/cx_dcp_ui=>operation_canceled.
+          textid = zcx_ui=>operation_canceled.
   ENDCASE.
 ENDMODULE.                 " USER_COMMAND_0100  INPUT
 MODULE check_unit_0100.

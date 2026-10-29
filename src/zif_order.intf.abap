@@ -54,7 +54,7 @@ interface ZIF_ORDER
   data MT_OPERATION_SEQUANCES type TT_OPERATION_SEQUANCES read-only .
   data MR_MATERIAL type ref to ZIF_WERKS_MATERIAL read-only .
   data MF_PLNID type Z_PLNID read-only .
-  data MF_SART type /GIB/DCP_SART read-only .
+  data MF_SART type Z_SART read-only .
   data MS_CAUFVD type CAUFVD read-only .
   data MS_AFPOD type AFPOD read-only .
   data MS_KBKO type KBKO .                    "#EC CI_USAGE_OK[2380568]

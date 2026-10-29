@@ -788,7 +788,7 @@ CLASS ZCL_OPERATION IMPLEMENTATION.
         LOOP AT lt_equi ASSIGNING FIELD-SYMBOL(<lf_equnr>).
           TRY.
               APPEND /gib/cl_dcp_prt_factory=>get_instance( )->get_prt_item( <lf_equnr> ) TO mt_prt.
-            CATCH /gib/cx_root.
+            CATCH zcx_core.
               CONTINUE.
           ENDTRY.
         ENDLOOP.
@@ -1178,7 +1178,7 @@ CLASS ZCL_OPERATION IMPLEMENTATION.
         er_protocol->sy_set( ).
         CONCATENATE 'VGTL' lf_suffix INTO lf_name_field.
         ASSIGN COMPONENT lf_name_field OF STRUCTURE ls_rcr01 TO <lf_name>.
-        RAISE EXCEPTION TYPE /gib/cx_dcp_op_invalid_default
+        RAISE EXCEPTION TYPE zcx_op_invalid_default
           EXPORTING
             value_description = <lf_name>.
       ENDIF.
@@ -1199,7 +1199,7 @@ CLASS ZCL_OPERATION IMPLEMENTATION.
           AND <lf_meins_new> = <lf_meins_org>.
           MESSAGE s115(z_core) INTO lf_dummy WITH <lf_name>.
           er_protocol->sy_set( ).
-          RAISE EXCEPTION TYPE /gib/cx_dcp_op_invalid_default
+          RAISE EXCEPTION TYPE zcx_op_invalid_default
             EXPORTING
               value_description = <lf_name>.
         ELSE.

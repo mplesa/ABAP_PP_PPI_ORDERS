@@ -1,6 +1,6 @@
 class ZCX_TCX_NOTFOUND definition
   public
-  inheriting from /GIB/CX_DCP_ORDER
+  inheriting from ZCX_ORDER
   create public .
 
 public section.
@@ -19,11 +19,11 @@ public section.
     importing
       !TEXTID like IF_T100_MESSAGE=>T100KEY optional
       !PREVIOUS like PREVIOUS optional
-      !MSG type ref to /GIB/IF_MSG_QUEUE optional
+      !MSG type ref to ZIF_MSG_QUEUE optional
       !TCODE type TCODE optional
       !PLNID type Z_PLNID optional
       !VORNR type VORNR optional
-      !SART type /GIB/DCP_SART optional
+      !SART type Z_SART optional
       !AUTYP type AUFTYP optional .
 protected section.
 private section.

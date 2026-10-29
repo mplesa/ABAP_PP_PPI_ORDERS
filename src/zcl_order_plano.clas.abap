@@ -581,16 +581,16 @@ METHOD convert.
         lf_converted  TYPE char1.
 
   IF ms_plaf-umskz IS INITIAL."Planaufträge ohne Umsetzungskennzeichen können nicht umgesetzt werden.
-    RAISE EXCEPTION TYPE /gib/cx_dcp_plano_conv_failed
+    RAISE EXCEPTION TYPE zcx_plano_conv_failed
       EXPORTING
-        textid = /gib/cx_dcp_plano_conv_failed=>no_conversion_indicator
+        textid = zcx_plano_conv_failed=>no_conversion_indicator
         plnum  = ms_plaf-plnum.
   ENDIF.
 
   IF ms_plaf-verid IS INITIAL."Fertigungsversion erforderlich - Planauftrag &1 wird nicht umgesetzt
-    RAISE EXCEPTION TYPE /gib/cx_dcp_plano_conv_failed
+    RAISE EXCEPTION TYPE zcx_plano_conv_failed
       EXPORTING
-        textid = /gib/cx_dcp_plano_conv_failed=>no_production_version
+        textid = zcx_plano_conv_failed=>no_production_version
         plnum  = ms_plaf-plnum.
   ENDIF.
 
@@ -656,7 +656,7 @@ METHOD convert.
       convert_suc             = lf_converted
       plaf_exp                = ms_plaf.
   IF lf_converted = abap_false."Planauftrag(&PLNUM&) umsetzung könnte nicht durchgeführt werden.
-    RAISE EXCEPTION TYPE /gib/cx_dcp_plano_conv_failed
+    RAISE EXCEPTION TYPE zcx_plano_conv_failed
       EXPORTING
         plnum = ms_plaf-plnum.
   ENDIF.

@@ -13,4 +13,6 @@ interface ZIF_CORE_CONSTANTS
     end of co_sart .
 * TODO: values to be confirmed
   constants co_linetype_plano type char1 value 'P' ##NO_TEXT.
+* MRP element: dependent requirement
+  constants co_delkz_secondary_requirement type delkz value 'SB' ##NO_TEXT.
 endinterface.

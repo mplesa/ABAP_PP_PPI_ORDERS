@@ -12,7 +12,7 @@
    <TPOOL>
     <item>
      <ID>R</ID>
-     <ENTRY>Include /GIB/LDCP_BASIC_SCHEDULEI01</ENTRY>
+     <ENTRY>Include LZ_BASIC_DATESI01</ENTRY>
      <LENGTH>35</LENGTH>
     </item>
    </TPOOL>

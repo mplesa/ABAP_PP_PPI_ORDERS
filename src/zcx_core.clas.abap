@@ -26,14 +26,14 @@ public section.
       attr3 type scx_attrname value '',
       attr4 type scx_attrname value '',
     end of NOT_FOUND .
-  data MSG type ref to /GIB/IF_MSG_QUEUE read-only .
+  data MSG type ref to ZIF_MSG_QUEUE read-only .
   data TCODE type TCODE read-only .
 
   methods CONSTRUCTOR
     importing
       !TEXTID like IF_T100_MESSAGE=>T100KEY optional
       !PREVIOUS like PREVIOUS optional
-      !MSG type ref to /GIB/IF_MSG_QUEUE optional
+      !MSG type ref to ZIF_MSG_QUEUE optional
       !TCODE type TCODE optional .
 protected section.
 private section.

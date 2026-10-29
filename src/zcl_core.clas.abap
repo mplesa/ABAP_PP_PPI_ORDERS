@@ -48,7 +48,7 @@ PRIVATE SECTION.
     BEGIN OF ts_relation,
             plnid TYPE z_plnid,
             vornr TYPE /gib/dcp_vornr_first,
-            sart  TYPE /gib/dcp_sart,
+            sart  TYPE z_sart,
             kbed  TYPE cykbed_tab,
            END OF ts_relation .
 
@@ -437,17 +437,17 @@ CLASS ZCL_CORE IMPLEMENTATION.
       APPEND INITIAL LINE TO lt_bapiret2 ASSIGNING <ls_bapiret2>.
       lf_msgno = <ls_message>-msgnr.
       lf_msgid = <ls_message>-arbgb.
-      CALL FUNCTION '/GIB/DCP_FILL_BAPIRET2'
+      CALL FUNCTION 'BALW_BAPIRETURN_GET2'
         EXPORTING
-          if_msgty  = <ls_message>-msgty
-          if_msgno  = lf_msgno
-          if_msgid  = lf_msgid
-          if_par1   = <ls_message>-msgv1
-          if_par2   = <ls_message>-msgv2
-          if_par3   = <ls_message>-msgv3
-          if_par4   = <ls_message>-msgv4
+          type      = <ls_message>-msgty
+          number    = lf_msgno
+          cl        = lf_msgid
+          par1      = <ls_message>-msgv1
+          par2      = <ls_message>-msgv2
+          par3      = <ls_message>-msgv3
+          par4      = <ls_message>-msgv4
         IMPORTING
-          ew_return = <ls_bapiret2>.
+          return    = <ls_bapiret2>.
     ENDLOOP.
 
     APPEND LINES OF lt_bapiret2 TO mt_bapiret2.
@@ -475,10 +475,10 @@ CLASS ZCL_CORE IMPLEMENTATION.
 
       IF is_order-pldat LE sy-datum AND is_order-plzeit LE sy-uzeit.
         APPEND INITIAL LINE TO mt_bapiret2 ASSIGNING <ls_bapiret2>.
-        CALL FUNCTION '/GIB/DCP_FILL_BAPIRET2'
+        CALL FUNCTION 'BALW_BAPIRETURN_GET2'
           EXPORTING
-            if_msgty  = 'E'
-            if_msgno  = '126' "Keine Terminierung! Auftrag &1 --> Datum in der Vergangenheit.
+            type      = 'E'
+            number    = '126' "Keine Terminierung! Auftrag &1 --> Datum in der Vergangenheit.
             if_msgid  = 'Z_CORE'
             if_par1   = is_order-plnid
           IMPORTING
@@ -489,14 +489,14 @@ CLASS ZCL_CORE IMPLEMENTATION.
     ELSE.
       APPEND INITIAL LINE TO mt_bapiret2 ASSIGNING <ls_bapiret2>.
       " operation can not be rescheduled
-      CALL FUNCTION '/GIB/DCP_FILL_BAPIRET2'
+      CALL FUNCTION 'BALW_BAPIRETURN_GET2'
         EXPORTING
-          if_msgty  = 'E'
-          if_msgno  = '129' "Keine Terminierung! Auftrag &1 --> Interner Fehler
-          if_msgid  = 'Z_CORE'
-          if_par1   = is_order-plnid
+          type      = 'E'
+          number    = '129' "Keine Terminierung! Auftrag &1 --> Interner Fehler
+          cl        = 'Z_CORE'
+          par1      = is_order-plnid
         IMPORTING
-          ew_return = <ls_bapiret2>.
+          return    = <ls_bapiret2>.
       RETURN.
     ENDIF.
 

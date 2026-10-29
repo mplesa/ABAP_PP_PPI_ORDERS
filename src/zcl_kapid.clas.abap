@@ -39,14 +39,14 @@ public section.
     importing
       !IF_KAPID type KAPID
     raising
-      /GIB/CX_DCP_CAPACITY .
+      ZCX_CAPACITY .
   class-methods GET_INSTANCE
     importing
       !IF_KAPID type KAPID
     returning
       value(RR_KAPID) type ref to ZCL_KAPID
     raising
-      /GIB/CX_DCP_CAPACITY .
+      ZCX_CAPACITY .
   methods UNIT_CONVERSION
     importing
       !IF_UNIT_IN type MEINS
@@ -155,15 +155,15 @@ CLASS ZCL_KAPID IMPLEMENTATION.
     CASE sy-subrc.
       WHEN 0.
       WHEN 1.
-        RAISE EXCEPTION TYPE /gib/cx_dcp_capacity
+        RAISE EXCEPTION TYPE zcx_capacity
           EXPORTING
-            textid = /gib/cx_dcp_capacity=>invalid_capa_id
+            textid = zcx_capacity=>invalid_capa_id
             kapid  = ms_kako-kapid.
 
       WHEN OTHERS.
-        RAISE EXCEPTION TYPE /gib/cx_dcp_capacity
+        RAISE EXCEPTION TYPE zcx_capacity
           EXPORTING
-            textid = /gib/cx_dcp_capacity=>no_single_capa_available
+            textid = zcx_capacity=>no_single_capa_available
             kapid  = ms_kako-kapid.
 
     ENDCASE.

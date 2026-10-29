@@ -19,7 +19,7 @@ interface ZIF_ORDER_BUFFER
       !IF_WAIT type FLAG default 'X'
     exporting
       !ET_CHANGED_ORDERS type CAUFVDN_T
-      !ER_MSG type ref to /GIB/IF_MSG_QUEUE .
+      !ER_MSG type ref to ZIF_MSG_QUEUE .
   class-methods WAS_POST_CALLED
     returning
       value(RF_ANSWER) type FLAG .
@@ -47,7 +47,7 @@ interface ZIF_ORDER_BUFFER
   methods GET_BY_ID
     importing
       !IF_PLNID type Z_PLNID
-      !IF_SART type /GIB/DCP_SART
+      !IF_SART type Z_SART
     returning
       value(RR_ORDER) type ref to ZIF_ORDER .
   methods REFRESH

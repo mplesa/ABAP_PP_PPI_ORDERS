@@ -109,7 +109,7 @@ CLASS ZCL_ORDER_BUFFER IMPLEMENTATION.
 
     CHECK lt_ord_pre IS NOT INITIAL.
     lf_max = lines( lt_ord_pre ).
-    /gib/cl_services=>show_progress_bar( if_text  = 'Auftragsinformationen werden gelesen.'(001)
+    zcl_services=>show_progress_bar( if_text  = 'Auftragsinformationen werden gelesen.'(001)
                                           if_max   = 1
                                           if_count = 1
                                           if_reset = abap_false ).
@@ -129,7 +129,7 @@ CLASS ZCL_ORDER_BUFFER IMPLEMENTATION.
     ENDIF.
 
     LOOP AT lt_ord_pre_new INTO ls_ord_pre.
-      /gib/cl_services=>show_progress_bar( if_text  = 'Auftragsinformationen werden gelesen.'(001)
+      zcl_services=>show_progress_bar( if_text  = 'Auftragsinformationen werden gelesen.'(001)
                                            if_max   = lf_max
                                            if_count = sy-tabix
                                            if_reset = abap_false ).
@@ -194,7 +194,7 @@ METHOD add_plannedorders.
 
   DATA(lf_max) = lines( lt_plaf ).
   IF if_show_progress = abap_true.
-    /gib/cl_services=>show_progress_bar( if_text = 'Planauftragsinformationen werden gelesen.'(002) if_max = lf_max if_count = 0 if_reset = abap_false ).
+    zcl_services=>show_progress_bar( if_text = 'Planauftragsinformationen werden gelesen.'(002) if_max = lf_max if_count = 0 if_reset = abap_false ).
   ENDIF.
 
   CALL FUNCTION 'CY_BT_KBED_PRE_READ'
@@ -289,7 +289,7 @@ METHOD add_plannedorders.
       ls_plaf-plnum = lf_plnum.
     ENDIF.
     IF if_show_progress = abap_true.
-      /gib/cl_services=>show_progress_bar( if_text = 'Planauftragsinformationen werden gelesen.'(002) if_max = lf_max if_count = sy-tabix if_reset = abap_false ).
+      zcl_services=>show_progress_bar( if_text = 'Planauftragsinformationen werden gelesen.'(002) if_max = lf_max if_count = sy-tabix if_reset = abap_false ).
     ENDIF.
 
     DATA(lr_planned_order) = NEW zcl_order_plano( ls_plaf ).

@@ -20,7 +20,7 @@ public section.
     importing
       !TEXTID like IF_T100_MESSAGE=>T100KEY optional
       !PREVIOUS like PREVIOUS optional
-      !MSG type ref to /GIB/IF_MSG_QUEUE optional
+      !MSG type ref to ZIF_MSG_QUEUE optional
       !TCODE type TCODE optional
       !AUFNR type AUFNR optional .
 protected section.

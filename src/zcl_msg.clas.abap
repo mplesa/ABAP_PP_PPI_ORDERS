@@ -8,7 +8,7 @@ class ZCL_MSG definition
 public section.
   type-pools ABAP .
 
-  interfaces /GIB/IF_MSG_QUEUE .
+  interfaces ZIF_MSG_QUEUE .
 
   constants CO_ERROR type SYMSGTY value 'E' ##NO_TEXT.
   constants CO_SUCCESS type SYMSGTY value 'S' ##NO_TEXT.
@@ -132,12 +132,12 @@ ENDCLASS.
 
 CLASS ZCL_MSG IMPLEMENTATION.
 
-  METHOD /gib/if_msg_queue~add_bapireturn.
+  METHOD zif_msg_queue~add_bapireturn.
     add_bapiret2_tab( it_bapiret2 ).
 
   ENDMETHOD.
 
-  METHOD /gib/if_msg_queue~add_bdcmsgcoll.
+  METHOD zif_msg_queue~add_bdcmsgcoll.
     DATA: ls_msg TYPE bdcmsgcoll,
           lf_msgno TYPE sy-msgno.
 
@@ -156,14 +156,14 @@ CLASS ZCL_MSG IMPLEMENTATION.
 
   ENDMETHOD.
 
-  METHOD /gib/if_msg_queue~add_exception_msg.
+  METHOD zif_msg_queue~add_exception_msg.
     set_exc( ir_exc = ir_exception
              typ          = if_msgty
              no_duplicate = if_no_duplicate ).
 
   ENDMETHOD.
 
-  method /GIB/IF_MSG_QUEUE~ADD_MSG.
+  method ZIF_MSG_QUEUE~ADD_MSG.
     set( mid          = if_mid
         num          = if_num
         pa1          = if_pa1
@@ -175,9 +175,9 @@ CLASS ZCL_MSG IMPLEMENTATION.
 
   endmethod.
 
-  METHOD /gib/if_msg_queue~add_msg_queue.
-    DATA: lt_msg TYPE /gib/dcv_msg_t,
-          ls_msg TYPE /gib/dcv_msg_s.
+  METHOD zif_msg_queue~add_msg_queue.
+    DATA: lt_msg TYPE zif_msg_queue=>tt_msg,
+          ls_msg TYPE zif_msg_queue=>ts_msg.
 
     IF NOT ir_msg IS INITIAL.
       lt_msg = ir_msg->get_msg_tab( ).
@@ -195,19 +195,19 @@ CLASS ZCL_MSG IMPLEMENTATION.
 
   ENDMETHOD.
 
-  METHOD /gib/if_msg_queue~add_symsg.
+  METHOD zif_msg_queue~add_symsg.
     sy_set(  if_no_duplicate   ).
 
   ENDMETHOD.
 
-  METHOD /gib/if_msg_queue~add_text.
+  METHOD zif_msg_queue~add_text.
     DATA: lf_text TYPE text255.
 
     FIELD-SYMBOLS: <ls_text> TYPE any.
 
     LOOP AT it_text ASSIGNING <ls_text>.
       lf_text = <ls_text>.
-      /gib/if_msg_queue~add_msg( if_mid = 'Z_CORE'
+      zif_msg_queue~add_msg( if_mid = 'Z_CORE'
                                  if_num          = '998'
                                  if_pa1          = lf_text(50)
                                  if_pa2          = lf_text+50(50)
@@ -219,45 +219,45 @@ CLASS ZCL_MSG IMPLEMENTATION.
 
   ENDMETHOD.
 
-  METHOD /gib/if_msg_queue~delete_msg.
+  METHOD zif_msg_queue~delete_msg.
     DELETE m_msg_tab
       WHERE id = if_msgid
         AND no = if_msgno.
 
   ENDMETHOD.
 
-  METHOD /gib/if_msg_queue~get_bapireturn.
+  METHOD zif_msg_queue~get_bapireturn.
     et_msg = get_bapiret2_tab( ).
 
   ENDMETHOD.
 
-  METHOD /gib/if_msg_queue~get_count.
+  METHOD zif_msg_queue~get_count.
     ef_count = get_count( ).
 
   ENDMETHOD.
 
-  METHOD /gib/if_msg_queue~get_max_severity.
-    IF /gib/if_msg_queue~has_error( ) = abap_true.
+  METHOD zif_msg_queue~get_max_severity.
+    IF zif_msg_queue~has_error( ) = abap_true.
       ef_msg_type = 'E'.
       EXIT.
     ENDIF.
-    IF /gib/if_msg_queue~has_type( if_type = /gib/if_msg_queue=>co_warning ) = abap_true.
-      ef_msg_type = /gib/if_msg_queue=>co_warning.
+    IF zif_msg_queue~has_type( if_type = zif_msg_queue=>co_warning ) = abap_true.
+      ef_msg_type = zif_msg_queue=>co_warning.
       EXIT.
     ENDIF.
-    IF /gib/if_msg_queue~has_type( if_type = /gib/if_msg_queue=>co_info ) = abap_true
-    OR /gib/if_msg_queue~has_type( if_type = /gib/if_msg_queue=>co_status ) = abap_true.
-      ef_msg_type = /gib/if_msg_queue=>co_status.
+    IF zif_msg_queue~has_type( if_type = zif_msg_queue=>co_info ) = abap_true
+    OR zif_msg_queue~has_type( if_type = zif_msg_queue=>co_status ) = abap_true.
+      ef_msg_type = zif_msg_queue=>co_status.
       EXIT.
     ENDIF.
     ef_msg_type = space.
 
   ENDMETHOD.
 
-  METHOD /gib/if_msg_queue~get_msg_tab.
-    DATA: ls_msg TYPE /gib/dcv_msg_s.
+  METHOD zif_msg_queue~get_msg_tab.
+    DATA: ls_msg TYPE zif_msg_queue=>ts_msg.
 
-    FIELD-SYMBOLS: <ls_msg> TYPE /gib/dcv_msg_s.
+    FIELD-SYMBOLS: <ls_msg> TYPE zif_msg_queue=>ts_msg.
 
     MOVE-CORRESPONDING m_msg_tab TO et_msg.
     LOOP AT et_msg ASSIGNING <ls_msg>.
@@ -287,10 +287,10 @@ CLASS ZCL_MSG IMPLEMENTATION.
 
   ENDMETHOD.
 
-  METHOD /gib/if_msg_queue~has_error.
+  METHOD zif_msg_queue~has_error.
     LOOP AT m_msg_tab TRANSPORTING NO FIELDS
-      WHERE type = /gib/if_msg_queue=>co_error
-         OR type = /gib/if_msg_queue=>co_abend
+      WHERE type = zif_msg_queue=>co_error
+         OR type = zif_msg_queue=>co_abend
          OR type = 'X'.
       EXIT.
     ENDLOOP.
@@ -302,7 +302,7 @@ CLASS ZCL_MSG IMPLEMENTATION.
 
   ENDMETHOD.
 
-  METHOD /gib/if_msg_queue~has_type.
+  METHOD zif_msg_queue~has_type.
     DATA(lt_type_ra) = it_type_ra.
     IF if_type IS SUPPLIED.
       APPEND INITIAL LINE TO lt_type_ra ASSIGNING FIELD-SYMBOL(<ls_type_ra>).
@@ -319,12 +319,12 @@ CLASS ZCL_MSG IMPLEMENTATION.
 
   ENDMETHOD.
 
-  METHOD /gib/if_msg_queue~reset.
+  METHOD zif_msg_queue~reset.
     reset( ).
 
   ENDMETHOD.
 
-  METHOD /gib/if_msg_queue~show.
+  METHOD zif_msg_queue~show.
     CLEAR ef_cancel.
     DATA(lt_msg) = m_msg_tab.    "save for later
     DELETE m_msg_tab
@@ -336,7 +336,7 @@ CLASS ZCL_MSG IMPLEMENTATION.
     ef_cancel = m_exit_code.
     m_msg_tab = lt_msg.   "restore
 
-    IF /gib/if_msg_queue~has_error( ) = abap_true
+    IF zif_msg_queue~has_error( ) = abap_true
       AND sy-batch = abap_true
       AND if_end_job_on_error = abap_true.
       MESSAGE e316(z_core)..
@@ -396,17 +396,17 @@ CLASS ZCL_MSG IMPLEMENTATION.
 
     LOOP AT m_msg_tab ASSIGNING <ls_msg>.
       APPEND INITIAL LINE TO rt_bapiret2 ASSIGNING <ls_bapiret2>.
-      CALL FUNCTION '/GIB/DCP_FILL_BAPIRET2'
+      CALL FUNCTION 'BALW_BAPIRETURN_GET2'
         EXPORTING
-          if_msgty  = <ls_msg>-type
-          if_msgno  = <ls_msg>-no
-          if_msgid  = <ls_msg>-id
-          if_par1   = <ls_msg>-v1
-          if_par2   = <ls_msg>-v2
-          if_par3   = <ls_msg>-v3
-          if_par4   = <ls_msg>-v4
+          type      = <ls_msg>-type
+          number    = <ls_msg>-no
+          cl        = <ls_msg>-id
+          par1      = <ls_msg>-v1
+          par2      = <ls_msg>-v2
+          par3      = <ls_msg>-v3
+          par4      = <ls_msg>-v4
         IMPORTING
-          ew_return = <ls_bapiret2>.
+          return    = <ls_bapiret2>.
     ENDLOOP.
   ENDMETHOD.
 

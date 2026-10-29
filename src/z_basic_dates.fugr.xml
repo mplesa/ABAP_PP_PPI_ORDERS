@@ -35,7 +35,7 @@
      </CHANGING>
      <EXCEPTION>
       <RSEXC>
-       <EXCEPTION>/GIB/CX_DCP_UI</EXCEPTION>
+       <EXCEPTION>ZCX_UI</EXCEPTION>
       </RSEXC>
      </EXCEPTION>
      <DOCUMENTATION>
@@ -55,7 +55,7 @@
        <STEXT>Terminierungsart</STEXT>
       </RSFDO>
       <RSFDO>
-       <PARAMETER>/GIB/CX_DCP_UI</PARAMETER>
+       <PARAMETER>ZCX_UI</PARAMETER>
        <KIND>X</KIND>
        <STEXT>User actions</STEXT>
       </RSFDO>
