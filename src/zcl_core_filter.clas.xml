@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_CORE_FILTER</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>GXM Core Filter</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_ORDERS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>allgemeines flag</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD_AREA</CMPNAME>
+     <SCONAME>IF_AREA</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Bereich</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD_AREAS</CMPNAME>
+     <SCONAME>IT_AREAS</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>allgemeines flag</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET</CMPNAME>
+     <SCONAME>RT_FILTER</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>RT_FILTER</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_KAPAR</CMPNAME>
+     <SCONAME>IF_KAPAR</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>IF_KAPAR</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_WERKS</CMPNAME>
+     <SCONAME>IF_WERKS</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>IF_WERKS</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>Z_DURATION_NPO</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>INT4</DOMNAME>
+    <HEADLEN>34</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>34</SCRLEN3>
+    <DDTEXT>Dauer Nichtproduktive Vorgang (s)</DDTEXT>
+    <REPTEXT>Nichtproduktive Vorgang  Dauer (s)</REPTEXT>
+    <SCRTEXT_S>NPV Dauer</SCRTEXT_S>
+    <SCRTEXT_M>NPV Dauer (s)</SCRTEXT_M>
+    <SCRTEXT_L>Nichtproduktive Vorgang  Dauer (s)</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>2</LANGU>
+    <LANGU>3</LANGU>
+    <LANGU>4</LANGU>
+    <LANGU>5</LANGU>
+    <LANGU>6</LANGU>
+    <LANGU>C</LANGU>
+    <LANGU>E</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>Q</LANGU>
+    <LANGU>R</LANGU>
+    <LANGU>S</LANGU>
+    <LANGU>T</LANGU>
+    <LANGU>V</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>时长 非生产性工序（秒）</DDTEXT>
+     <REPTEXT>非生产性工序 时长（秒）</REPTEXT>
+     <SCRTEXT_S>NPO durat.</SCRTEXT_S>
+     <SCRTEXT_M>NPO duration(s)</SCRTEXT_M>
+     <SCRTEXT_L>非生产性工序 时长（秒）</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <DDTEXT>ระยะเวลาการดำเนินการที่ไม่ใช่การผลิต (s)</DDTEXT>
+     <REPTEXT>ระยะเวลาดำเนินการที่มช.ก.ผลิต(s)</REPTEXT>
+     <SCRTEXT_S>NPO durat.</SCRTEXT_S>
+     <SCRTEXT_M>NPO ระยะเวลา(s)</SCRTEXT_M>
+     <SCRTEXT_L>ระยะเวลาดำเนินการที่มช.ก.ผลิต(s)</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DDTEXT>비생산적인 작업 기간 (s)</DDTEXT>
+     <REPTEXT>비생산적인 작업 기간(s)</REPTEXT>
+     <SCRTEXT_S>NPO durat.</SCRTEXT_S>
+     <SCRTEXT_M>NPO duration(s)</SCRTEXT_M>
+     <SCRTEXT_L>비생산적인 작업 기간(s)</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>4</DDLANGUAGE>
+     <DDTEXT>Durată operaţie neproductivă (s)</DDTEXT>
+     <REPTEXT>Durată operaţie neproductivă (s)</REPTEXT>
+     <SCRTEXT_S>DurOpNepr</SCRTEXT_S>
+     <SCRTEXT_M>Dur.Op.Nepr.(s)</SCRTEXT_M>
+     <SCRTEXT_L>Durată operaţie neproductivă (s)</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>5</DDLANGUAGE>
+     <DDTEXT>Trajanje neproduktiven postopek (s)</DDTEXT>
+     <REPTEXT>Neproduktiven postopek trajanje (s</REPTEXT>
+     <SCRTEXT_S>NPP traj.</SCRTEXT_S>
+     <SCRTEXT_M>Nep.p. trajanje</SCRTEXT_M>
+     <SCRTEXT_L>Neproduktiven postopek trajanje</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>6</DDLANGUAGE>
+     <DDTEXT>Trajanje Neproduktivni Postupak (s)</DDTEXT>
+     <REPTEXT>Neproduktivni Postupak Trajanje(s)</REPTEXT>
+     <SCRTEXT_S>NPP Traj.</SCRTEXT_S>
+     <SCRTEXT_M>NPP Trajanje(s)</SCRTEXT_M>
+     <SCRTEXT_L>Neproduktivni Postupak Trajanje(s)</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DDTEXT>Délka neproduktivní operace (s)</DDTEXT>
+     <REPTEXT>Nepraduktivní operace délka (s)</REPTEXT>
+     <SCRTEXT_S>NPO délka</SCRTEXT_S>
+     <SCRTEXT_M>NPO délka (s)</SCRTEXT_M>
+     <SCRTEXT_L>Nepraduktivní operace délka (s)</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Duration non productive operation (s)</DDTEXT>
+     <REPTEXT>Non productive operation duration</REPTEXT>
+     <SCRTEXT_S>NPO durat.</SCRTEXT_S>
+     <SCRTEXT_M>NPO duration(s)</SCRTEXT_M>
+     <SCRTEXT_L>Non productive operation duration</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Durée opération non productive (s)</DDTEXT>
+     <REPTEXT>Opération non productive durée (s)</REPTEXT>
+     <SCRTEXT_S>ONP durée</SCRTEXT_S>
+     <SCRTEXT_M>ONP durée (s)</SCRTEXT_M>
+     <SCRTEXT_L>Opération non productive durée (s)</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>Nem produktív művelet időtartama (s)</DDTEXT>
+     <REPTEXT>Nem produktív művelet időtart. (s)</REPTEXT>
+     <SCRTEXT_S>NPM időt.</SCRTEXT_S>
+     <SCRTEXT_M>NPM időtart.(s)</SCRTEXT_M>
+     <SCRTEXT_L>Nem produktív művelet időtart. (s)</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Dur. oper. non prod. (s)</DDTEXT>
+     <REPTEXT>Dur. oper. non prod. (s)</REPTEXT>
+     <SCRTEXT_S>NPO Dur.</SCRTEXT_S>
+     <SCRTEXT_M>NPO Dur. (s)</SCRTEXT_M>
+     <SCRTEXT_L>Dur. oper. non prod. (s)</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>期間 非活動作業 (s)</DDTEXT>
+     <REPTEXT>非活動作業 期間 (s)</REPTEXT>
+     <SCRTEXT_S>NPO 期間</SCRTEXT_S>
+     <SCRTEXT_M>NPO 期間(s)</SCRTEXT_M>
+     <SCRTEXT_L>非活動作業 期間 (s)</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Trwanie nieproduktywnej (nych) operacji</DDTEXT>
+     <REPTEXT>Trwanie nieprodukt. (nych) opera.</REPTEXT>
+     <SCRTEXT_S>NPO trwa.</SCRTEXT_S>
+     <SCRTEXT_M>NPO trwanie</SCRTEXT_M>
+     <SCRTEXT_L>Trwanie nieprodukt.(nych) opera.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Duur niet produktieve operatie(s)</DDTEXT>
+     <REPTEXT>Niet produktieve operatie  duur</REPTEXT>
+     <SCRTEXT_S>NPO duur</SCRTEXT_S>
+     <SCRTEXT_M>NPO duur</SCRTEXT_M>
+     <SCRTEXT_L>Niet produktieve operatie  duur</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Duração operação não produtiva (s)</DDTEXT>
+     <REPTEXT>Operação não produtiva duração (s)</REPTEXT>
+     <SCRTEXT_S>OñP duraç.</SCRTEXT_S>
+     <SCRTEXT_M>OñP duração (s)</SCRTEXT_M>
+     <SCRTEXT_L>Operação não produtiva duração (s)</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DDTEXT>Trvanie neproduktívna operácia (s)</DDTEXT>
+     <REPTEXT>Neproduktívna operácia trvanie (s)</REPTEXT>
+     <SCRTEXT_S>NPO trvan.</SCRTEXT_S>
+     <SCRTEXT_M>NPO trvanie (s)</SCRTEXT_M>
+     <SCRTEXT_L>Neproduktívna operácia trvanie (s)</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DDTEXT>Продолжительность непродукт. операции</DDTEXT>
+     <REPTEXT>Продолжит. непродукт. операции</REPTEXT>
+     <SCRTEXT_S>ПродНепрОп</SCRTEXT_S>
+     <SCRTEXT_M>ПродолжНепродОп</SCRTEXT_M>
+     <SCRTEXT_L>Продолжит. непродукт. операции</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Duración operación no productiva (s)</DDTEXT>
+     <REPTEXT>Duración operación no produc. (s)</REPTEXT>
+     <SCRTEXT_S>Dur. ONoP</SCRTEXT_S>
+     <SCRTEXT_M>Dur. ONoPro (s)</SCRTEXT_M>
+     <SCRTEXT_L>Duración oper. no produc. (s)</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DDTEXT>Süre Çalışmayan işlem (s)</DDTEXT>
+     <REPTEXT>Çalışmayan işlem Süre (s)</REPTEXT>
+     <SCRTEXT_S>ÇlşmİşlSre</SCRTEXT_S>
+     <SCRTEXT_M>ÇlşmyİşlmSre(s)</SCRTEXT_M>
+     <SCRTEXT_L>Çalışmayan işlem Süre (s)</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DDTEXT>Tidslängd oproduktiv operation (s)</DDTEXT>
+     <REPTEXT>Oproduktiv operation tidslängd (s)</REPTEXT>
+     <SCRTEXT_S>OPO tidsl.</SCRTEXT_S>
+     <SCRTEXT_M>OPO tidsl. (s)</SCRTEXT_M>
+     <SCRTEXT_L>Oproduktiv operation tidslängd (s)</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

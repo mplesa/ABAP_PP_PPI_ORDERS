@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCX_ORDERS</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>GXM Auftrag</DESCRIPT>
+    <CATEGORY>40</CATEGORY>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <SOTR>
+    <item>
+     <HEADER>
+      <CONCEPT>005056A600C21EE5B2F16CD809D37569</CONCEPT>
+      <CREA_LAN>D</CREA_LAN>
+      <TRALA_TYPE>1</TRALA_TYPE>
+      <OBJID_VEC>CA==</OBJID_VEC>
+     </HEADER>
+     <ENTRIES>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21EE5B2F16CD809D37569</CONCEPT>
+       <LANGU>E</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Exception occurred.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21EE5B2F16CD809D37569</CONCEPT>
+       <LANGU>1</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>出现一个例外。</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21EE5B2F16CD809D37569</CONCEPT>
+       <LANGU>F</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Une exception s&apos;est produite</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21EE5B2F16CD809D37569</CONCEPT>
+       <LANGU>I</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Si è verificata un&apos;eccezione.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21EE5B2F16CD809D37569</CONCEPT>
+       <LANGU>J</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>例外が発生しました。</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21EE5B2F16CD809D37569</CONCEPT>
+       <LANGU>3</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>예외 출현</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21EE5B2F16CD809D37569</CONCEPT>
+       <LANGU>6</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Nastao je izuzetak.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21EE5B2F16CD809D37569</CONCEPT>
+       <LANGU>N</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Er is een uitzondering vastgesteld.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21EE5B2F16CD809D37569</CONCEPT>
+       <LANGU>P</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Ocorreu uma exceção.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21EE5B2F16CD809D37569</CONCEPT>
+       <LANGU>4</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Sa produs o excepţie.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21EE5B2F16CD809D37569</CONCEPT>
+       <LANGU>R</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Возникла особая ситуация.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21EE5B2F16CD809D37569</CONCEPT>
+       <LANGU>V</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Undantag uppstod.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21EE5B2F16CD809D37569</CONCEPT>
+       <LANGU>Q</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Vyskytla sa výnimka.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21EE5B2F16CD809D37569</CONCEPT>
+       <LANGU>5</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Pojavila se je izjema.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21EE5B2F16CD809D37569</CONCEPT>
+       <LANGU>S</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Ocurrió una excepción.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21EE5B2F16CD809D37569</CONCEPT>
+       <LANGU>2</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>มีข้อยกเว้นเกิดขึ้น</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21EE5B2F16CD809D37569</CONCEPT>
+       <LANGU>C</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Došlo k výjimce</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21EE5B2F16CD809D37569</CONCEPT>
+       <LANGU>T</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Bir istisna ortaya çıktı.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21EE5B2F16CD809D37569</CONCEPT>
+       <LANGU>H</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Kivétel fordult elő.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21EE5B2F16CD809D37569</CONCEPT>
+       <LANGU>L</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Wystąpił wyjątek.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21EE5B2F16CD809D37569</CONCEPT>
+       <LANGU>D</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Es ist eine Ausnahme aufgetreten.</TEXT>
+      </SOTR_TEXT>
+     </ENTRIES>
+    </item>
+   </SOTR>
+   <SOTR_USE>
+    <SOTR_USE>
+     <PGMID>LIMU</PGMID>
+     <OBJECT>CPUB</OBJECT>
+     <OBJ_NAME>ZCX_ORDERS</OBJ_NAME>
+     <CONCEPT>005056A600C21EE5B2F16CD809D37569</CONCEPT>
+     <LFD_NUM>0001</LFD_NUM>
+    </SOTR_USE>
+   </SOTR_USE>
+   <SOTS_USE>
+    <SOTR_USEU>
+     <PGMID>LIMU</PGMID>
+     <OBJECT>CPUB</OBJECT>
+     <OBJ_NAME>ZCX_ORDERS</OBJ_NAME>
+     <LFD_NUM>0001</LFD_NUM>
+    </SOTR_USEU>
+   </SOTS_USE>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_CONFIRMATION_API</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Abstract Confirmation API</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MF_RUECK</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Rückmeldenummer des Vorgangs</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>OPERATION_FACTORY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Order Factory</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ORDER_FACTORY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Operation Factory</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>POST_TIME_EVENTS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Post new Time Events</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>POST_TIME_TICKETS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Post the New Time Tickets</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IF_RUECK</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Rückmeldenummer des Vorgangs</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>OPERATION_FACTORY</CMPNAME>
+     <SCONAME>IR_OPERATION</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>GXM Vorgang</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ORDER_FACTORY</CMPNAME>
+     <SCONAME>IR_ORDER</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>GXM Auftrag</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>POST_TIME_EVENTS</CMPNAME>
+     <SCONAME>RR_MSG</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Message Object</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>POST_TIME_TICKETS</CMPNAME>
+     <SCONAME>RR_MSG</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Message Object</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

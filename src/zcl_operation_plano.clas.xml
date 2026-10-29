@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_OPERATION_PLANO</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Planauftragsvorgang</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GENERATE_OBJNR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Vorgangs Objektnummer generieren</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_VIRTUAL_OPERATION</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Get The virtual operation for the Planned Order</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MR_VIRTUAL_OPERATION</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>GXM PPS Vorgang</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IR_ORDER</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>DCP Auftrag</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IS_AFVGD</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Vorgangs Informationen(AFVC/AFVU/AFVV)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_VIRTUAL_OPERATION</CMPNAME>
+     <SCONAME>RR_OPERATION</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>DCP Vorgang</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_WORKCENTER_FROM_ROOTING</CMPNAME>
+     <SCONAME>IF_REFRESH_ROUTING</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liest den Arbeitsplan neu ein</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

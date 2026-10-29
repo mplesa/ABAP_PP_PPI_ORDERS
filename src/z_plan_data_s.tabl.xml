@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TABL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD02V>
+    <TABNAME>Z_PLAN_DATA_S</TABNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <TABCLASS>INTTAB</TABCLASS>
+    <DDTEXT>GXM Vorgang planning Daten</DDTEXT>
+    <EXCLASS>4</EXCLASS>
+   </DD02V>
+   <DD03P_TABLE>
+    <DD03P>
+     <FIELDNAME>AREA</FIELDNAME>
+     <ROLLNAME>/GIB/DCP_AREA</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <SHLPORIGIN>D</SHLPORIGIN>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>EZKAP</FIELDNAME>
+     <ROLLNAME>/GIB/DCP_EZKAP</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>SECOND_STEP</FIELDNAME>
+     <ROLLNAME>Z_SECOND_STEP</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <VALEXI>X</VALEXI>
+     <SHLPORIGIN>F</SHLPORIGIN>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>FIX</FIELDNAME>
+     <ROLLNAME>/GIB/DCP_FIX</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <VALEXI>X</VALEXI>
+     <SHLPORIGIN>F</SHLPORIGIN>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>KZPLA</FIELDNAME>
+     <ROLLNAME>/GIB/DCP_KZPLA</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <VALEXI>X</VALEXI>
+     <SHLPORIGIN>F</SHLPORIGIN>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>PLDAT</FIELDNAME>
+     <ROLLNAME>/GIB/DCP_PLDAT</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <SHLPORIGIN>T</SHLPORIGIN>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>PLZEIT</FIELDNAME>
+     <ROLLNAME>/GIB/DCP_PLZEIT</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <SHLPORIGIN>T</SHLPORIGIN>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>PEDAT</FIELDNAME>
+     <ROLLNAME>/GIB/DCP_PEDAT</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <SHLPORIGIN>T</SHLPORIGIN>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>PEZEIT</FIELDNAME>
+     <ROLLNAME>/GIB/DCP_PEZEIT</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <SHLPORIGIN>T</SHLPORIGIN>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>RFPOS</FIELDNAME>
+     <ROLLNAME>/GIB/DCP_RFPOS</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+   </DD03P_TABLE>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>2</LANGU>
+    <LANGU>3</LANGU>
+    <LANGU>4</LANGU>
+    <LANGU>5</LANGU>
+    <LANGU>6</LANGU>
+    <LANGU>C</LANGU>
+    <LANGU>E</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>K</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>Q</LANGU>
+    <LANGU>R</LANGU>
+    <LANGU>S</LANGU>
+    <LANGU>T</LANGU>
+    <LANGU>V</LANGU>
+   </I18N_LANGS>
+   <DD02_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>GXM 工序 计划数据</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <DDTEXT>GXM การปฏิบัติการ ข้อมูลการวางแผน</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DDTEXT>GXM 작업 계획 데이터</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>4</DDLANGUAGE>
+     <DDTEXT>GXM Date planificare operaţie</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>5</DDLANGUAGE>
+     <DDTEXT>GXM Podatki postopka in planiranja dela</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>6</DDLANGUAGE>
+     <DDTEXT>GXM Postupak planninng podaci</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DDTEXT>GXM Operace plánování data</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>GXM Operation planning data</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>GXM Opération données de planification</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>GXM  művelet tervezésadatok</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>GXM data pianif. operazione</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>GXM 作業 計画 データ</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DDTEXT>DCP Operation planning data</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>GXM Operacja planowanie danych</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>GXM operatie planning gegevens</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>GXM Operação planejamento dados</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DDTEXT>GXM Operácia dáta plánovania</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DDTEXT>GXM Операция данные планирования</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Operación datos planif. GXM</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DDTEXT>GXM İşlem planlama verileri</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DDTEXT>GXM Operation planeringsdata</DDTEXT>
+    </item>
+   </DD02_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

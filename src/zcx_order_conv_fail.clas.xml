@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCX_ORDER_CONV_FAIL</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>obsolet: -&gt; /GIB/CX_DCP_PLANO_CONV_FAILED</DESCRIPT>
+    <CATEGORY>40</CATEGORY>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <SOTR>
+    <item>
+     <HEADER>
+      <CONCEPT>005056A600C21EE5B5C61C77BA895569</CONCEPT>
+      <CREA_LAN>D</CREA_LAN>
+      <TRALA_TYPE>1</TRALA_TYPE>
+      <OBJID_VEC>CA==</OBJID_VEC>
+     </HEADER>
+     <ENTRIES>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21EE5B5C61C77BA895569</CONCEPT>
+       <LANGU>E</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Convert planned order (&amp;PLNUM&amp;) could not be executed.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21EE5B5C61C77BA895569</CONCEPT>
+       <LANGU>1</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>无法进行计划订单(&amp;PLNUM&amp;)的转换。</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21EE5B5C61C77BA895569</CONCEPT>
+       <LANGU>F</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Ordre planifié(&amp;PLNUM&amp;) conversion n&apos;a pas pu être exécutée.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21EE5B5C61C77BA895569</CONCEPT>
+       <LANGU>I</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Convers. ord. di pian.(&amp;PLNUM&amp;)non poteva essere eseguita.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21EE5B5C61C77BA895569</CONCEPT>
+       <LANGU>J</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>計画手配(&amp;PLNUM&amp;)変換は実行できませんでした。</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21EE5B5C61C77BA895569</CONCEPT>
+       <LANGU>3</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>계획오더(&amp;PLNUM&amp;) 전환을 실행할 수 없습니다.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21EE5B5C61C77BA895569</CONCEPT>
+       <LANGU>6</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Nalog plana(&amp;PLNUM&amp;)Sprovedba nije mogla biti provedena.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21EE5B5C61C77BA895569</CONCEPT>
+       <LANGU>N</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Conversie van planorder (&amp;PLNUM&amp;) kon niet worden uitgevoerd.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21EE5B5C61C77BA895569</CONCEPT>
+       <LANGU>P</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Conversão da ordem planejada (&amp;PLNUM&amp;) não pôde ser executada.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21EE5B5C61C77BA895569</CONCEPT>
+       <LANGU>4</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Conversie comandă planificată (&amp;PLNUM&amp;) ar putea să nu fie executată.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21EE5B5C61C77BA895569</CONCEPT>
+       <LANGU>R</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Преобразование планового заказа (&amp;PLNUM&amp;) не может быть выполнено.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21EE5B5C61C77BA895569</CONCEPT>
+       <LANGU>V</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Konvertera planorder (&amp;PLNUM&amp;) kunde inte utföras.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21EE5B5C61C77BA895569</CONCEPT>
+       <LANGU>Q</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Konverziu plán. zákazky (&amp;PLNUM&amp;) nebolo možné vykonať.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21EE5B5C61C77BA895569</CONCEPT>
+       <LANGU>5</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Pretvorbe planskega naloga (&amp;PLNUM&amp;) ni bilo mogoče izvesti.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21EE5B5C61C77BA895569</CONCEPT>
+       <LANGU>S</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Conversión de la orden previsional (&amp;PLNUM&amp;) no pudo ser efectuada.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21EE5B5C61C77BA895569</CONCEPT>
+       <LANGU>2</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>การแปลงใบสั่งตามแผน(&amp;PLNUM&amp;)ไม่สามารถทำได้</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21EE5B5C61C77BA895569</CONCEPT>
+       <LANGU>C</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Konverze plán.zakázek (&amp;PLNUM&amp;) nemohla být provedena.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21EE5B5C61C77BA895569</CONCEPT>
+       <LANGU>T</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Planlı sipariş (&amp;PLNUM&amp;) dönüştürmesi yürütülemez.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21EE5B5C61C77BA895569</CONCEPT>
+       <LANGU>H</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Tervrendelés(&amp;PLNUM&amp;) konvertálása nem végrehajtható.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21EE5B5C61C77BA895569</CONCEPT>
+       <LANGU>L</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Konwersja zlecenia planowanego (&amp;PLNUM&amp;) nie mogła zostać przeprowadzona.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21EE5B5C61C77BA895569</CONCEPT>
+       <LANGU>D</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Planauftrag(&amp;PLNUM&amp;) umsetzung könnte nicht durchgeführt werden.</TEXT>
+      </SOTR_TEXT>
+     </ENTRIES>
+    </item>
+   </SOTR>
+   <SOTR_USE>
+    <SOTR_USE>
+     <PGMID>LIMU</PGMID>
+     <OBJECT>CPUB</OBJECT>
+     <OBJ_NAME>ZCX_ORDER_CONV_FAIL</OBJ_NAME>
+     <CONCEPT>005056A600C21EE5B5C61C77BA895569</CONCEPT>
+     <LFD_NUM>0001</LFD_NUM>
+    </SOTR_USE>
+   </SOTR_USE>
+   <SOTS_USE>
+    <SOTR_USEU>
+     <PGMID>LIMU</PGMID>
+     <OBJECT>CPUB</OBJECT>
+     <OBJ_NAME>ZCX_ORDER_CONV_FAIL</OBJ_NAME>
+     <LFD_NUM>0001</LFD_NUM>
+    </SOTR_USEU>
+   </SOTS_USE>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>PLNUM</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Nummer des Planauftrags</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

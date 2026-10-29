@@ -1,0 +1,535 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_OP_PRODO_CONF_API</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Confirmation API for Production Order Operations</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>021</KEY>
+     <ENTRY>Auftrag gesperrt! Stornierung nicht erfolgreich</ENTRY>
+     <LENGTH>94</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>022</KEY>
+     <ENTRY>Fehler in der Stornierung.</ENTRY>
+     <LENGTH>52</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>023</KEY>
+     <ENTRY>Letzte Buchung wurde erfolgreich storniert.</ENTRY>
+     <LENGTH>86</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>1</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>021</KEY>
+       <ENTRY>订单被冻结！未成功取消</ENTRY>
+       <LENGTH>94</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>022</KEY>
+       <ENTRY>取消中出错</ENTRY>
+       <LENGTH>52</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>023</KEY>
+       <ENTRY>上一次过帐已成功取消。</ENTRY>
+       <LENGTH>86</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>2</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>021</KEY>
+       <ENTRY>ใบสั่งถูกบล็อค! ไม่สามารถทำการยกเลิกได้</ENTRY>
+       <LENGTH>94</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>022</KEY>
+       <ENTRY>ข้อผิดพลาดในการยกเลิก</ENTRY>
+       <LENGTH>52</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>023</KEY>
+       <ENTRY>ก.ผ่านรายการล่าสุดได้ถูกยกเลิกเรียบร้อยแล้ว</ENTRY>
+       <LENGTH>86</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>3</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>021</KEY>
+       <ENTRY>오더 차단됨! 취소 실패</ENTRY>
+       <LENGTH>94</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>022</KEY>
+       <ENTRY>취소시 오류 발생</ENTRY>
+       <LENGTH>52</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>023</KEY>
+       <ENTRY>최종 전기가 성공적으로 최소되었습니다.</ENTRY>
+       <LENGTH>86</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>4</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>021</KEY>
+       <ENTRY>Comandă blocată! Anulare eşuată</ENTRY>
+       <LENGTH>94</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>022</KEY>
+       <ENTRY>Eroare în anulare.</ENTRY>
+       <LENGTH>52</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>023</KEY>
+       <ENTRY>Ultima contabilizare anulată cu succes.</ENTRY>
+       <LENGTH>86</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>5</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>021</KEY>
+       <ENTRY>Nalog blokiran! Storno ni uspešen.</ENTRY>
+       <LENGTH>94</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>022</KEY>
+       <ENTRY>Napaka v stornu.</ENTRY>
+       <LENGTH>52</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>023</KEY>
+       <ENTRY>Zadnje knjiženje je bilo uspešno preklicano.</ENTRY>
+       <LENGTH>86</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>6</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>021</KEY>
+       <ENTRY>Nalog blokiran!Storniranje nije uspješno</ENTRY>
+       <LENGTH>94</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>022</KEY>
+       <ENTRY>Greška u storniranju.</ENTRY>
+       <LENGTH>52</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>023</KEY>
+       <ENTRY>Posljednje knjiženje je uspješno stornirano</ENTRY>
+       <LENGTH>86</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>C</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>021</KEY>
+       <ENTRY>Zakázka blokována! Neúspěšné stornování.</ENTRY>
+       <LENGTH>94</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>022</KEY>
+       <ENTRY>Chyba ve stornování.</ENTRY>
+       <LENGTH>52</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>023</KEY>
+       <ENTRY>Poslední účtování úspěšně stornováno.</ENTRY>
+       <LENGTH>86</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>E</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>021</KEY>
+       <ENTRY>Order locked! Reversal unsuccessful.</ENTRY>
+       <LENGTH>94</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>022</KEY>
+       <ENTRY>Error in reversal.</ENTRY>
+       <LENGTH>52</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>023</KEY>
+       <ENTRY>Last posting was reversed successfully.</ENTRY>
+       <LENGTH>86</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>F</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>021</KEY>
+       <ENTRY>Ordre bloqué! Annulation sans succès.</ENTRY>
+       <LENGTH>94</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>022</KEY>
+       <ENTRY>Erreur dans l&apos;annulation.</ENTRY>
+       <LENGTH>52</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>023</KEY>
+       <ENTRY>Dernière confirm. a été annulée avec succès.</ENTRY>
+       <LENGTH>86</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>H</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>021</KEY>
+       <ENTRY>Rendelés zárolva! Stornózás nem sikerült</ENTRY>
+       <LENGTH>94</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>022</KEY>
+       <ENTRY>Hiba a stornózásban.</ENTRY>
+       <LENGTH>52</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>023</KEY>
+       <ENTRY>Az utolsó könyvelés sikeresen stornózva.</ENTRY>
+       <LENGTH>86</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>I</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>021</KEY>
+       <ENTRY>Ordine bloccato! Storno non riuscito</ENTRY>
+       <LENGTH>94</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>022</KEY>
+       <ENTRY>Errore nello storno.</ENTRY>
+       <LENGTH>52</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>023</KEY>
+       <ENTRY>L&apos;ultima registr. è stata stornata con successo.</ENTRY>
+       <LENGTH>86</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>J</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>021</KEY>
+       <ENTRY>受注はロックされてます！取消は成功しませんでした</ENTRY>
+       <LENGTH>94</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>022</KEY>
+       <ENTRY>取消にエラーがありました</ENTRY>
+       <LENGTH>52</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>023</KEY>
+       <ENTRY>最終転記は取消されました</ENTRY>
+       <LENGTH>86</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>L</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>021</KEY>
+       <ENTRY>Zlecenie zablokowane! Stornowanie nie powiodło się</ENTRY>
+       <LENGTH>94</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>022</KEY>
+       <ENTRY>Błąd w stornowaniu.</ENTRY>
+       <LENGTH>52</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>023</KEY>
+       <ENTRY>Ostatnie księgowanie zostało stornowane.</ENTRY>
+       <LENGTH>86</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>N</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>021</KEY>
+       <ENTRY>Order geblokkeerd! Annulering niet uitgevoerd.</ENTRY>
+       <LENGTH>94</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>022</KEY>
+       <ENTRY>Fout bij annulering.</ENTRY>
+       <LENGTH>52</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>023</KEY>
+       <ENTRY>Laatste boeking is succesvol geannuleerd.</ENTRY>
+       <LENGTH>86</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>P</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>021</KEY>
+       <ENTRY>Ordem bloqueada! Estorno sem sucesso</ENTRY>
+       <LENGTH>94</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>022</KEY>
+       <ENTRY>Erro no estorno.</ENTRY>
+       <LENGTH>52</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>023</KEY>
+       <ENTRY>Última contabiliz.foi estornado com sucesso.</ENTRY>
+       <LENGTH>86</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>Q</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>021</KEY>
+       <ENTRY>Zákazka zablokovaná! Storno neúspešné.</ENTRY>
+       <LENGTH>94</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>022</KEY>
+       <ENTRY>Chyba v storne.</ENTRY>
+       <LENGTH>52</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>023</KEY>
+       <ENTRY>Posledné účtovanie bolo úspešne stornované.</ENTRY>
+       <LENGTH>86</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>R</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>021</KEY>
+       <ENTRY>Заказ заблокирован! Сторнирование не удалось.</ENTRY>
+       <LENGTH>94</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>022</KEY>
+       <ENTRY>Ошибка в сторнировании.</ENTRY>
+       <LENGTH>52</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>023</KEY>
+       <ENTRY>Последн.проводка была успешно сторнирована.</ENTRY>
+       <LENGTH>86</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>S</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>021</KEY>
+       <ENTRY>Orden bloqueada! Anulación sin éxito</ENTRY>
+       <LENGTH>94</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>022</KEY>
+       <ENTRY>Error en la anulación.</ENTRY>
+       <LENGTH>52</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>023</KEY>
+       <ENTRY>Última contabiliz. fue anulada con éxito.</ENTRY>
+       <LENGTH>86</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>T</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>021</KEY>
+       <ENTRY>Sipariş bloke edildi! Ters kayıt başarısız</ENTRY>
+       <LENGTH>94</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>022</KEY>
+       <ENTRY>Ters kayıtta hata.</ENTRY>
+       <LENGTH>52</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>023</KEY>
+       <ENTRY>Son kayıt başarıyla iptal edildi.</ENTRY>
+       <LENGTH>86</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>V</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>021</KEY>
+       <ENTRY>Order spärrad! Annullering gick ej</ENTRY>
+       <LENGTH>94</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>022</KEY>
+       <ENTRY>Fel i annullering.</ENTRY>
+       <LENGTH>52</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>023</KEY>
+       <ENTRY>Senaste bokning annullerades fullständigt.</ENTRY>
+       <LENGTH>86</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_GOODS_MOVEMENT_TE_PROP</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Get Goods Movement Table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_KEY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PP Operation Key for Conf. structure</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IR_OPERATION</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>GXM Vorgang</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_GOODS_MOVEMENT_TE_PROP</CMPNAME>
+     <SCONAME>ET_GOODS_MOVEMENT</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>BAPI-Tabellentyp: Materialbelegposition anlegen</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_GOODS_MOVEMENT_TE_PROP</CMPNAME>
+     <SCONAME>ET_LINK_CONF_GOODSMOV</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>BAPI-Tabellentyp Verknüpfung Rückmeldung mit Warenbewegungen</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

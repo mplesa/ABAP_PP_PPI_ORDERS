@@ -1,0 +1,425 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCX_TCX_NOTFOUND</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Vorgang nicht Gefunden</DESCRIPT>
+    <CATEGORY>40</CATEGORY>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <SOTR>
+    <item>
+     <HEADER>
+      <CONCEPT>0050568F645F1ED9A681DBDAB5CEAC84</CONCEPT>
+      <CREA_LAN>D</CREA_LAN>
+      <TRALA_TYPE>1</TRALA_TYPE>
+      <OBJID_VEC>CA==</OBJID_VEC>
+     </HEADER>
+     <ENTRIES>
+      <SOTR_TEXT>
+       <CONCEPT>0050568F645F1ED9A681DBDAB5CEAC84</CONCEPT>
+       <LANGU>E</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>No planning levels and control parameters found for scheduling.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>0050568F645F1ED9A681DBDAB5CEAC84</CONCEPT>
+       <LANGU>1</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>未找到用于排程的计划层级和控制参数。</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>0050568F645F1ED9A681DBDAB5CEAC84</CONCEPT>
+       <LANGU>F</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Aucuns niveaux de planification et paramètres de contrôle trouvés pour ordonnancement.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>0050568F645F1ED9A681DBDAB5CEAC84</CONCEPT>
+       <LANGU>I</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Nessun liv. di pian. e parametri di Ctrl per schedulazione trovato</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>0050568F645F1ED9A681DBDAB5CEAC84</CONCEPT>
+       <LANGU>J</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>計画のための計画レベルと制御パラメータが見つかりませんでした。</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>0050568F645F1ED9A681DBDAB5CEAC84</CONCEPT>
+       <LANGU>3</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>일정계획에 계획레벨과 제어매개변수가 없습니다.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>0050568F645F1ED9A681DBDAB5CEAC84</CONCEPT>
+       <LANGU>6</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Nije pronađena razina planiranja i parametar upravljanja za Terminiranje</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>0050568F645F1ED9A681DBDAB5CEAC84</CONCEPT>
+       <LANGU>N</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Geen planningsniveau en besturingsparameter voor indeling gevonden.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>0050568F645F1ED9A681DBDAB5CEAC84</CONCEPT>
+       <LANGU>P</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Nenhum nível de planejamento e parâmetros de controle encontrados para programação</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>0050568F645F1ED9A681DBDAB5CEAC84</CONCEPT>
+       <LANGU>4</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Nu au fost găsite niveluri de planificare şi paramteri de control pt. programare.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>0050568F645F1ED9A681DBDAB5CEAC84</CONCEPT>
+       <LANGU>R</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Уровни планирования и параметры управления не найдены для календарного планирования</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>0050568F645F1ED9A681DBDAB5CEAC84</CONCEPT>
+       <LANGU>V</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Inga planeringsnivåer och styrparameter hittades för planeringen.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>0050568F645F1ED9A681DBDAB5CEAC84</CONCEPT>
+       <LANGU>Q</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Neboli nájdené žiadne úrovne plánovania a riadiace parametre k rozvrhovaniu</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>0050568F645F1ED9A681DBDAB5CEAC84</CONCEPT>
+       <LANGU>5</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Ravni planiranja in parametri nadzora za terminiranje niso bili najdeni.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>0050568F645F1ED9A681DBDAB5CEAC84</CONCEPT>
+       <LANGU>S</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>No se han encontrado niveles de planificación ni parámetros de control para la programación.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>0050568F645F1ED9A681DBDAB5CEAC84</CONCEPT>
+       <LANGU>2</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>ไม่พบระดับการวางแผนและพารามิเตอร์การควบคุมเกี่ยวกับการจัดกำหนดการ</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>0050568F645F1ED9A681DBDAB5CEAC84</CONCEPT>
+       <LANGU>C</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Pro plánování nenalezena žádná úroveň plánování a řídící parametr</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>0050568F645F1ED9A681DBDAB5CEAC84</CONCEPT>
+       <LANGU>T</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Çizelgelemeye planlama düzeyi ve denetim parametresi bulunamadı.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>0050568F645F1ED9A681DBDAB5CEAC84</CONCEPT>
+       <LANGU>H</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Nem találhatóak tervezési szintek és vezérlési paraméterek az ütemezéshez.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>0050568F645F1ED9A681DBDAB5CEAC84</CONCEPT>
+       <LANGU>L</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Nie znaleziono poziomów planowania i parametrów kontroli do tworzenia harmonogramów</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>0050568F645F1ED9A681DBDAB5CEAC84</CONCEPT>
+       <LANGU>D</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Keine Planungsebenen und Steuerungsparameter zur Terminierung  gefunden</TEXT>
+      </SOTR_TEXT>
+     </ENTRIES>
+    </item>
+   </SOTR>
+   <SOTR_USE>
+    <SOTR_USE>
+     <PGMID>LIMU</PGMID>
+     <OBJECT>CPUB</OBJECT>
+     <OBJ_NAME>ZCX_TCX_NOTFOUND</OBJ_NAME>
+     <CONCEPT>0050568F645F1ED9A681DBDAB5CEAC84</CONCEPT>
+     <LFD_NUM>0001</LFD_NUM>
+    </SOTR_USE>
+   </SOTR_USE>
+   <SOTS>
+    <item>
+     <HEADER>
+      <CONCEPT>0050568F645F1ED9A681DC86E0374C84</CONCEPT>
+      <CREA_LAN>D</CREA_LAN>
+      <TRALA_TYPE>1</TRALA_TYPE>
+      <OBJID_VEC>CA==</OBJID_VEC>
+     </HEADER>
+     <ENTRIES>
+      <SOTR_TEXTL>
+       <CONCEPT>0050568F645F1ED9A681DC86E0374C84</CONCEPT>
+       <LANGU>D</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <TEXT>In der Tablle TCX00 wurde kein passender Eintrag gefunden.</TEXT>
+      </SOTR_TEXTL>
+      <SOTR_TEXTL>
+       <CONCEPT>0050568F645F1ED9A681DC86E0374C84</CONCEPT>
+       <LANGU>E</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <TEXT>No suitable entry found in table TCX00.</TEXT>
+      </SOTR_TEXTL>
+      <SOTR_TEXTL>
+       <CONCEPT>0050568F645F1ED9A681DC86E0374C84</CONCEPT>
+       <LANGU>1</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <TEXT>表格TCX00中未找到合适的内容。</TEXT>
+      </SOTR_TEXTL>
+      <SOTR_TEXTL>
+       <CONCEPT>0050568F645F1ED9A681DC86E0374C84</CONCEPT>
+       <LANGU>F</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+      </SOTR_TEXTL>
+      <SOTR_TEXTL>
+       <CONCEPT>0050568F645F1ED9A681DC86E0374C84</CONCEPT>
+       <LANGU>I</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <TEXT>Nella tab. TCX00 non è stato trovato nessun inserim. adatto.</TEXT>
+      </SOTR_TEXTL>
+      <SOTR_TEXTL>
+       <CONCEPT>0050568F645F1ED9A681DC86E0374C84</CONCEPT>
+       <LANGU>J</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <TEXT>テーブルTCX00に適切なエントリは見つかりませんでした。</TEXT>
+      </SOTR_TEXTL>
+      <SOTR_TEXTL>
+       <CONCEPT>0050568F645F1ED9A681DC86E0374C84</CONCEPT>
+       <LANGU>3</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <TEXT>테이블 TCX00에 적합한 엔트리가 없습니다.</TEXT>
+      </SOTR_TEXTL>
+      <SOTR_TEXTL>
+       <CONCEPT>0050568F645F1ED9A681DC86E0374C84</CONCEPT>
+       <LANGU>6</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <TEXT>U tabeli TCX00 nije pronađen odgovarajući unos.</TEXT>
+      </SOTR_TEXTL>
+      <SOTR_TEXTL>
+       <CONCEPT>0050568F645F1ED9A681DC86E0374C84</CONCEPT>
+       <LANGU>N</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <TEXT>In de tabel TCX00 is geen passende invoer gevonden.
+</TEXT>
+      </SOTR_TEXTL>
+      <SOTR_TEXTL>
+       <CONCEPT>0050568F645F1ED9A681DC86E0374C84</CONCEPT>
+       <LANGU>P</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <TEXT>Nenhuma entrada correspondente foi encontrada na tabela TCX00.</TEXT>
+      </SOTR_TEXTL>
+      <SOTR_TEXTL>
+       <CONCEPT>0050568F645F1ED9A681DC86E0374C84</CONCEPT>
+       <LANGU>4</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <TEXT>În tabelul TCX00 nu a fost găsită nici o intrare corespunzătoare.</TEXT>
+      </SOTR_TEXTL>
+      <SOTR_TEXTL>
+       <CONCEPT>0050568F645F1ED9A681DC86E0374C84</CONCEPT>
+       <LANGU>R</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <TEXT>В таблице TCX00 подходящяя запись не найдена.</TEXT>
+      </SOTR_TEXTL>
+      <SOTR_TEXTL>
+       <CONCEPT>0050568F645F1ED9A681DC86E0374C84</CONCEPT>
+       <LANGU>V</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <TEXT>I tabellen TCX00 hittades ingen passande uppgift.</TEXT>
+      </SOTR_TEXTL>
+      <SOTR_TEXTL>
+       <CONCEPT>0050568F645F1ED9A681DC86E0374C84</CONCEPT>
+       <LANGU>Q</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <TEXT>V tabuľke TCX00 nebol nájdený žiadny zápis.
+</TEXT>
+      </SOTR_TEXTL>
+      <SOTR_TEXTL>
+       <CONCEPT>0050568F645F1ED9A681DC86E0374C84</CONCEPT>
+       <LANGU>5</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <TEXT>V tabeli TCX00 ni bil najden noben ustrezen vnos.</TEXT>
+      </SOTR_TEXTL>
+      <SOTR_TEXTL>
+       <CONCEPT>0050568F645F1ED9A681DC86E0374C84</CONCEPT>
+       <LANGU>S</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <TEXT>No se encontró ninguna entrada coincidente en la tabla TCX00.</TEXT>
+      </SOTR_TEXTL>
+      <SOTR_TEXTL>
+       <CONCEPT>0050568F645F1ED9A681DC86E0374C84</CONCEPT>
+       <LANGU>2</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <TEXT>ไม่พบรายการที่สอดคล้องกันอยู่ในตาราง TCX00</TEXT>
+      </SOTR_TEXTL>
+      <SOTR_TEXTL>
+       <CONCEPT>0050568F645F1ED9A681DC86E0374C84</CONCEPT>
+       <LANGU>C</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <TEXT>V tabulce TCX00 nebyl nalezen vhodný záznam.
+</TEXT>
+      </SOTR_TEXTL>
+      <SOTR_TEXTL>
+       <CONCEPT>0050568F645F1ED9A681DC86E0374C84</CONCEPT>
+       <LANGU>T</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <TEXT>TCX00 tablosunda uygun bir giriş bulunamadı.</TEXT>
+      </SOTR_TEXTL>
+      <SOTR_TEXTL>
+       <CONCEPT>0050568F645F1ED9A681DC86E0374C84</CONCEPT>
+       <LANGU>H</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <TEXT>A TCX00 táblában nem található megfelelő bejegyzés.</TEXT>
+      </SOTR_TEXTL>
+      <SOTR_TEXTL>
+       <CONCEPT>0050568F645F1ED9A681DC86E0374C84</CONCEPT>
+       <LANGU>L</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <TEXT>Nie znaleziono pasującego wpisu w tabeli TCX00.</TEXT>
+      </SOTR_TEXTL>
+     </ENTRIES>
+    </item>
+   </SOTS>
+   <SOTS_USE>
+    <SOTR_USEU>
+     <PGMID>LIMU</PGMID>
+     <OBJECT>CPUB</OBJECT>
+     <OBJ_NAME>ZCX_TCX_NOTFOUND</OBJ_NAME>
+     <CONCEPT>0050568F645F1ED9A681DC86E0374C84</CONCEPT>
+     <LFD_NUM>0001</LFD_NUM>
+    </SOTR_USEU>
+   </SOTS_USE>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

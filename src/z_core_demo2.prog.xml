@@ -1,0 +1,3373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>Z_CORE_DEMO2</NAME>
+    <SUBC>1</SUBC>
+    <RLOAD>D</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>Auftragstyp</ENTRY>
+     <LENGTH>11</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>Auftrag</ENTRY>
+     <LENGTH>7</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>003</KEY>
+     <ENTRY>Planauftrag</ENTRY>
+     <LENGTH>11</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>004</KEY>
+     <ENTRY>Selektion</ENTRY>
+     <LENGTH>9</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>005</KEY>
+     <ENTRY>Kopf Tabellen</ENTRY>
+     <LENGTH>13</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>006</KEY>
+     <ENTRY>Vorangstabellen</ENTRY>
+     <LENGTH>15</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>008</KEY>
+     <ENTRY>Mittelpunktterminierung</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>009</KEY>
+     <ENTRY>Arbeitsplatzwechsel</ENTRY>
+     <LENGTH>19</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>010</KEY>
+     <ENTRY>Vorgabewerte ändern</ENTRY>
+     <LENGTH>19</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>011</KEY>
+     <ENTRY>Auftrag Terminieren</ENTRY>
+     <LENGTH>19</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>012</KEY>
+     <ENTRY>Auftragsfreigabe</ENTRY>
+     <LENGTH>16</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>013</KEY>
+     <ENTRY>Auftrag Transaktion</ENTRY>
+     <LENGTH>19</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>014</KEY>
+     <ENTRY>Auftrag Gantt</ENTRY>
+     <LENGTH>13</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>015</KEY>
+     <ENTRY>Fertigungsversion Ändern</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>016</KEY>
+     <ENTRY>Langtext Ändern</ENTRY>
+     <LENGTH>15</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>017</KEY>
+     <ENTRY>Gesamtmenge Ändern</ENTRY>
+     <LENGTH>18</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>018</KEY>
+     <ENTRY>Virtuelle Auftrag</ENTRY>
+     <LENGTH>17</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>019</KEY>
+     <ENTRY>Auftrag umsetzen</ENTRY>
+     <LENGTH>16</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>020</KEY>
+     <ENTRY>Stammfolge</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>021</KEY>
+     <ENTRY>alternative Folge</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>022</KEY>
+     <ENTRY>parallele Folge</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+    <item>
+     <ID>R</ID>
+     <ENTRY>GXM Auftrag technisch anzeigen</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_AUFNR</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>15</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_PLNUM</KEY>
+     <ENTRY>.</ENTRY>
+     <LENGTH>19</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_VIRT</KEY>
+     <ENTRY>Virtueller Auftrag anzeigen</ENTRY>
+     <LENGTH>35</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>1</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>订单类型</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>订单</ENTRY>
+       <LENGTH>7</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>计划订单</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>选择</ENTRY>
+       <LENGTH>9</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>抬头表</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>006</KEY>
+       <ENTRY>操作表</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>008</KEY>
+       <ENTRY>排程重点</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>009</KEY>
+       <ENTRY>调换工位</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>010</KEY>
+       <ENTRY>更改标准值</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>011</KEY>
+       <ENTRY>排程订单</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>012</KEY>
+       <ENTRY>订单发布</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>013</KEY>
+       <ENTRY>订单交易</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>014</KEY>
+       <ENTRY>订单甘特图</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>015</KEY>
+       <ENTRY>更改生产版本</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>016</KEY>
+       <ENTRY>更改长文本</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>017</KEY>
+       <ENTRY>更改总量</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>018</KEY>
+       <ENTRY>虚拟订单</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>019</KEY>
+       <ENTRY>转换订单</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>020</KEY>
+       <ENTRY>   标准工序顺序</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>021</KEY>
+       <ENTRY>备选工序顺序</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>022</KEY>
+       <ENTRY>平行工序顺序</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>GXM 订单 技术显示</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_VIRT</KEY>
+       <ENTRY>显示虚拟订单</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_AUFNR</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>15</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PLNUM</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>2</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>ปภ.ใบสั่ง</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>ใบสั่ง</ENTRY>
+       <LENGTH>7</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>ใบสั่งต.แผน</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>การเลือก</ENTRY>
+       <LENGTH>9</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>หัวของตาราง</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>006</KEY>
+       <ENTRY>ตารางทำงาน</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>008</KEY>
+       <ENTRY>การจัดกำหนดจากกึ่งกลาง</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>009</KEY>
+       <ENTRY>การเปลี่ยนศูนย์งาน</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>010</KEY>
+       <ENTRY>เปลี่ยนค่าเริ่มต้น</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>011</KEY>
+       <ENTRY>จัดกำหนดการใบสั่ง</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>012</KEY>
+       <ENTRY>ก.อนุมัติใบสั่ง</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>013</KEY>
+       <ENTRY>รายการใบสั่ง</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>014</KEY>
+       <ENTRY>แกนท์ใบสั่ง</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>015</KEY>
+       <ENTRY>เปลี่ยนเวอร์ชันก.ผลิต</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>016</KEY>
+       <ENTRY>เปลี่ยนข้อค.ยาว</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>017</KEY>
+       <ENTRY>เปลี่ยนปริมาณรวม</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>018</KEY>
+       <ENTRY>ใบสั่งแบบเสมือน</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>019</KEY>
+       <ENTRY>แปลงใบสั่ง</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>020</KEY>
+       <ENTRY>ลำดับมาตรฐาน</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>021</KEY>
+       <ENTRY>ลำดับปฏิบัติงานสำรอง</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>022</KEY>
+       <ENTRY>ลำดับปฏิบัติฯคู่ขนาน</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>GXM แสดงใบสั่งแบบทางเทคนิค</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_VIRT</KEY>
+       <ENTRY>แสดงคำสั่งแบบเสมือน</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_AUFNR</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>15</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PLNUM</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>3</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>오더유형</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>오더</ENTRY>
+       <LENGTH>7</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>계획오더</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>선택</ENTRY>
+       <LENGTH>9</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>헤더 테이블</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>006</KEY>
+       <ENTRY>작업 테이블</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>008</KEY>
+       <ENTRY>중간점 일정계획</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>009</KEY>
+       <ENTRY>작업장 변경</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>010</KEY>
+       <ENTRY>기본값 변경</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>011</KEY>
+       <ENTRY>오더 일정계획</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>012</KEY>
+       <ENTRY>오더 릴리스</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>013</KEY>
+       <ENTRY>트랜젝션 오더</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>014</KEY>
+       <ENTRY>간트 오더</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>015</KEY>
+       <ENTRY>생산버전 변경</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>016</KEY>
+       <ENTRY>설명 변경</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>017</KEY>
+       <ENTRY>총수량 변경</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>018</KEY>
+       <ENTRY>가상 오더</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>019</KEY>
+       <ENTRY>오더 전환</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>020</KEY>
+       <ENTRY>표준 순서</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>021</KEY>
+       <ENTRY>대체 순서</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>022</KEY>
+       <ENTRY>병렬 순서</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>GXM 오더 기술적 조회</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_VIRT</KEY>
+       <ENTRY>가상 오더 조회</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_AUFNR</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>15</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PLNUM</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>4</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Tip comandă</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Comandă</ENTRY>
+       <LENGTH>7</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Cmd. plan.</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Selecţie</ENTRY>
+       <LENGTH>9</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>Antete tabele</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>006</KEY>
+       <ENTRY>Tabel operaţii</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>008</KEY>
+       <ENTRY>Progr. operaţie critică</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>009</KEY>
+       <ENTRY>Schimb post lucru</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>010</KEY>
+       <ENTRY>Modif. val. stand.</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>011</KEY>
+       <ENTRY>Programare comandă</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>012</KEY>
+       <ENTRY>Elib. comandă</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>013</KEY>
+       <ENTRY>Tranzacţie comandă</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>014</KEY>
+       <ENTRY>Comandă Gantt</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>015</KEY>
+       <ENTRY>Modif. versiune de prod.</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>016</KEY>
+       <ENTRY>Modif. txt lung</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>017</KEY>
+       <ENTRY>Modif. cnt. totală</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>018</KEY>
+       <ENTRY>Cmd. virtuală</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>019</KEY>
+       <ENTRY>Convertire cmd.</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>020</KEY>
+       <ENTRY>Secvenţă de bază</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>021</KEY>
+       <ENTRY>Secvenţă alternativă</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>022</KEY>
+       <ENTRY>Secvenţă paralelă</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Afişare tehnică comandă GXM</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_VIRT</KEY>
+       <ENTRY>Afişare comandă virtuală</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_AUFNR</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>15</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PLNUM</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>5</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Tip naloga</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Nalog</ENTRY>
+       <LENGTH>7</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Plans.nalog</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Izbira</ENTRY>
+       <LENGTH>9</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>Tabele glave</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>006</KEY>
+       <ENTRY>Tabele postopka</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>008</KEY>
+       <ENTRY>Središčno terminiranje</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>009</KEY>
+       <ENTRY>Menjava delov. mes.</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>010</KEY>
+       <ENTRY>Spremeni privze.vr.</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>011</KEY>
+       <ENTRY>Terminiranje naloga</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>012</KEY>
+       <ENTRY>LansiranjeNaloga</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>013</KEY>
+       <ENTRY>Nalog transakcija</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>014</KEY>
+       <ENTRY>Nalog Gantt</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>015</KEY>
+       <ENTRY>Spremeni proizv.verzijo</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>016</KEY>
+       <ENTRY>Spr.dolgi tekst</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>017</KEY>
+       <ENTRY>Spr.skupno količ.</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>018</KEY>
+       <ENTRY>Virtualni nalog</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>019</KEY>
+       <ENTRY>Pretvorba naloga</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>020</KEY>
+       <ENTRY>Standardno zaporedje</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>021</KEY>
+       <ENTRY>Alternativ.zaporedje</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>022</KEY>
+       <ENTRY>Paralelno zaporedje</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>GXM tehnični prikaz naloga</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_VIRT</KEY>
+       <ENTRY>Prikaz virtualnega naloga</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_AUFNR</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>15</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PLNUM</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>6</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Tip naloga</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Nalog</ENTRY>
+       <LENGTH>7</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>PlanNalog</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Odabir</ENTRY>
+       <LENGTH>9</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>Glava Tabele</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>006</KEY>
+       <ENTRY>Unapređene tabe</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>008</KEY>
+       <ENTRY>središnje terminiranje</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>009</KEY>
+       <ENTRY>Promjena radnog mj.</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>010</KEY>
+       <ENTRY>Vrijed.Norme promij</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>011</KEY>
+       <ENTRY>Nalog terminirati</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>012</KEY>
+       <ENTRY>Otpuštan. naloga</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>013</KEY>
+       <ENTRY>Nalog Transakcija</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>014</KEY>
+       <ENTRY>Nalog Gantt</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>015</KEY>
+       <ENTRY>Promijeniti Verziju Izra</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>016</KEY>
+       <ENTRY>Promijeniti dug</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>017</KEY>
+       <ENTRY>Ukupna količina pr</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>018</KEY>
+       <ENTRY>Virtualni Nalog</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>019</KEY>
+       <ENTRY>Nalog sprovesti</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>020</KEY>
+       <ENTRY>Standardni slijed</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>021</KEY>
+       <ENTRY>Alternativni slijed</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>022</KEY>
+       <ENTRY>Paralelni slijed</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>GXM Nalog tehnički prikazati</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_VIRT</KEY>
+       <ENTRY>Virtualni  nalog prikazati</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_AUFNR</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>15</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PLNUM</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>C</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Typ zakázky</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Zakázka</ENTRY>
+       <LENGTH>7</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Plán. zak.</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Výběr</ENTRY>
+       <LENGTH>9</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>Hlav. tabulky</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>006</KEY>
+       <ENTRY>Tab.operace</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>008</KEY>
+       <ENTRY>Střed.plánování</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>009</KEY>
+       <ENTRY>Změna pracoviště</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>010</KEY>
+       <ENTRY>Změnit stand.hodnot</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>011</KEY>
+       <ENTRY>Plánování zakázky</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>012</KEY>
+       <ENTRY>Uvolnění zakázky</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>013</KEY>
+       <ENTRY>Transakce zakázky</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>014</KEY>
+       <ENTRY>Zakázka Gantt</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>015</KEY>
+       <ENTRY>Změnit verzi zpracování</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>016</KEY>
+       <ENTRY>Změnit dl. text</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>017</KEY>
+       <ENTRY>Změnit celk. množ.</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>018</KEY>
+       <ENTRY>Virtuelní zakázka</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>019</KEY>
+       <ENTRY>Zkonvert.zakázku</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>020</KEY>
+       <ENTRY>Standardní sekvence</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>021</KEY>
+       <ENTRY>Alternativní sekvenc</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>022</KEY>
+       <ENTRY>Paralel.sekvence</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>GXM zobrazit technicky zakázku</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_VIRT</KEY>
+       <ENTRY>Zobrazit virtuální zakázku</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_AUFNR</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>15</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PLNUM</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>E</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Order cat.</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Order</ENTRY>
+       <LENGTH>7</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Plnd order</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Selection</ENTRY>
+       <LENGTH>9</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>Header tables</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>006</KEY>
+       <ENTRY>Operation table</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>008</KEY>
+       <ENTRY>Midpoint scheduling</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>009</KEY>
+       <ENTRY>Work center change</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>010</KEY>
+       <ENTRY>Chg. default values</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>011</KEY>
+       <ENTRY>Schedule order</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>012</KEY>
+       <ENTRY>Order release</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>013</KEY>
+       <ENTRY>Order transaction</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>014</KEY>
+       <ENTRY>Order Gantt</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>015</KEY>
+       <ENTRY>Change prod. version</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>016</KEY>
+       <ENTRY>Change long txt</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>017</KEY>
+       <ENTRY>Change total qty</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>018</KEY>
+       <ENTRY>Virtual order</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>019</KEY>
+       <ENTRY>Convert order</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>020</KEY>
+       <ENTRY>Standard sequence</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>021</KEY>
+       <ENTRY>Alternative sequence</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>022</KEY>
+       <ENTRY>Parallel sequence</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>GXM Order Technical Display</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_VIRT</KEY>
+       <ENTRY>Display virtual order</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_AUFNR</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>15</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PLNUM</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>F</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Type ordre</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Ordre</ENTRY>
+       <LENGTH>7</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Ord.planif.</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Sélection</ENTRY>
+       <LENGTH>9</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>Tabl. en-tête</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>006</KEY>
+       <ENTRY>Tabl. opérat.</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>008</KEY>
+       <ENTRY>Jalonnem. s. op. centr.</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>009</KEY>
+       <ENTRY>Chngem. poste trav.</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>010</KEY>
+       <ENTRY>Chg. val. p. défaut</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>011</KEY>
+       <ENTRY>Ordonnancer ordre</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>012</KEY>
+       <ENTRY>Lancement ordre</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>013</KEY>
+       <ENTRY>Transaction ordre</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>014</KEY>
+       <ENTRY>Ordre Gantt</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>015</KEY>
+       <ENTRY>Modif. version fabricat.</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>016</KEY>
+       <ENTRY>Mod. txteDescr.</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>017</KEY>
+       <ENTRY>Mod. quant. tot.</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>018</KEY>
+       <ENTRY>Ordre virtuel</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>019</KEY>
+       <ENTRY>Convertir ordre</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>020</KEY>
+       <ENTRY>Séquence de base</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>021</KEY>
+       <ENTRY>Séquence alternative</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>022</KEY>
+       <ENTRY>Séquence parallèle</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Afficher l&apos;ordre GXM au niveau technique</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_VIRT</KEY>
+       <ENTRY>Afficher ordre virtuel</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_AUFNR</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>15</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PLNUM</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>H</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Rendel.típ.</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Rendel.</ENTRY>
+       <LENGTH>7</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Tervrendel.</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Szelekció</ENTRY>
+       <LENGTH>9</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>Fej táblák</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>006</KEY>
+       <ENTRY>Műveleti táblák</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>008</KEY>
+       <ENTRY>Középpontos ütemezés</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>009</KEY>
+       <ENTRY>Munkahelyváltás</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>010</KEY>
+       <ENTRY>Normaértékek módos.</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>011</KEY>
+       <ENTRY>Rendelés Ütemezése</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>012</KEY>
+       <ENTRY>Rendelés enged.</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>013</KEY>
+       <ENTRY>Rendelés tranzakció</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>014</KEY>
+       <ENTRY>Rendelés Gant</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>015</KEY>
+       <ENTRY>Gyártási verz.módosítása</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>016</KEY>
+       <ENTRY>Hosszú szöv.mód</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>017</KEY>
+       <ENTRY>Összmennyiség mód.</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>018</KEY>
+       <ENTRY>Virtuál. rendelés</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>019</KEY>
+       <ENTRY>Rendelés konver.</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>020</KEY>
+       <ENTRY>Törzssorrend</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>021</KEY>
+       <ENTRY>alternatív sorrend</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>022</KEY>
+       <ENTRY>párhuzamos sorrend</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>GXM rendelés technikai megjelenítése</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_VIRT</KEY>
+       <ENTRY>Virtuál.rendelés megjelenítése</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_AUFNR</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>15</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PLNUM</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>I</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Tipo d&apos;ord.</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Ordine</ENTRY>
+       <LENGTH>7</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Ord. pian.</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Selezione</ENTRY>
+       <LENGTH>9</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>Testata tab.</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>006</KEY>
+       <ENTRY>Tabelle operaz.</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>008</KEY>
+       <ENTRY> SchedulPuntoIntermedio</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>009</KEY>
+       <ENTRY>Cambio posto lavoro</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>010</KEY>
+       <ENTRY>Cambiare val. pred.</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>011</KEY>
+       <ENTRY>Sched. ordine</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>012</KEY>
+       <ENTRY>Rilascio ordine</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>013</KEY>
+       <ENTRY>Trans. ordine</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>014</KEY>
+       <ENTRY>Ordine Gantt</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>015</KEY>
+       <ENTRY>Mod. vers. di prod.</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>016</KEY>
+       <ENTRY>Mod. testo est.</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>017</KEY>
+       <ENTRY>Mod. qtà totale</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>018</KEY>
+       <ENTRY>Ordine virtuale</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>019</KEY>
+       <ENTRY>Convertire ord.</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>020</KEY>
+       <ENTRY>Sequenza standard</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>021</KEY>
+       <ENTRY>Sequenza alternativa</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>022</KEY>
+       <ENTRY>Sequenza parallela</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Visualizzare GXM ordine tecnico</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_VIRT</KEY>
+       <ENTRY>Visualiz. ordine virtuale</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_AUFNR</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>15</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PLNUM</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>J</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>発注タイプ</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>指図</ENTRY>
+       <LENGTH>7</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>計画手配</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>選択</ENTRY>
+       <LENGTH>9</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>ヘッダー表</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>006</KEY>
+       <ENTRY>優先度表</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>008</KEY>
+       <ENTRY>中間点日程計画</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>009</KEY>
+       <ENTRY>作業区変更</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>010</KEY>
+       <ENTRY>標準値を変更する</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>011</KEY>
+       <ENTRY>発注日程計画を実行</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>012</KEY>
+       <ENTRY>指図リリース</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>013</KEY>
+       <ENTRY>発注Transaktion</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>014</KEY>
+       <ENTRY>オーダ Gantt</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>015</KEY>
+       <ENTRY>構造バージョン 変更</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>016</KEY>
+       <ENTRY>テキスト長 変更</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>017</KEY>
+       <ENTRY>合計数量 変更</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>018</KEY>
+       <ENTRY>バーチャル発注</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>019</KEY>
+       <ENTRY>発注変換</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>020</KEY>
+       <ENTRY>標準順序</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>021</KEY>
+       <ENTRY>代替順序</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>022</KEY>
+       <ENTRY>並行順序</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>GXM 発注の技術的な表示</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_VIRT</KEY>
+       <ENTRY>仮想オーダーを表示する</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_AUFNR</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>15</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PLNUM</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>K</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Order type</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Order</ENTRY>
+       <LENGTH>7</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Plnd order</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Selection</ENTRY>
+       <LENGTH>9</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>Header tables</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>006</KEY>
+       <ENTRY>Operation table</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>008</KEY>
+       <ENTRY>Midpoint scheduling</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>009</KEY>
+       <ENTRY>Work center change</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>010</KEY>
+       <ENTRY>Chg. default values</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>DCP Order</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_AUFNR</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>9</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PLNUM</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>9</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_VIRT</KEY>
+       <ENTRY>Display virtual order</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>L</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Typ zlec.</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Zlec.</ENTRY>
+       <LENGTH>7</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>ZlecPlan.</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Wybór</ENTRY>
+       <LENGTH>9</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>Nagłówek tab.</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>006</KEY>
+       <ENTRY>Tabele operacji</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>008</KEY>
+       <ENTRY>Harmonogr. punktu środ.</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>009</KEY>
+       <ENTRY>Zmiana stan. rob.</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>010</KEY>
+       <ENTRY>Zmiana wart.stand.</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>011</KEY>
+       <ENTRY>Harmonogr. zlecenia</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>012</KEY>
+       <ENTRY>Zatw. zlec.</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>013</KEY>
+       <ENTRY>Zlec. tansakc.</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>014</KEY>
+       <ENTRY>Zlecenie Gant</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>015</KEY>
+       <ENTRY>Zmień wersję produkcyjną</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>016</KEY>
+       <ENTRY>Zmień dł. tekst</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>017</KEY>
+       <ENTRY>Zmień ilość całk.</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>018</KEY>
+       <ENTRY>Zlecenie wirtualn</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>019</KEY>
+       <ENTRY>Konwersja zlec.</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>020</KEY>
+       <ENTRY>Sekwencja podstawowa</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>021</KEY>
+       <ENTRY>Sekwencja  alternaty</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>022</KEY>
+       <ENTRY>Sekwencja równoległa</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>GXM Zlecenie</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_VIRT</KEY>
+       <ENTRY>Wyświetlanie wirtualnego zlece</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_AUFNR</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>15</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PLNUM</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>N</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Ordertype</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Order</ENTRY>
+       <LENGTH>7</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Planorder</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Selectie</ENTRY>
+       <LENGTH>9</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>Koptabellen</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>006</KEY>
+       <ENTRY>Operat.tabellen</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>008</KEY>
+       <ENTRY>Middelpuntindeling</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>009</KEY>
+       <ENTRY>Werkplekwissel</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>010</KEY>
+       <ENTRY>Std.waarden wijzig.</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>011</KEY>
+       <ENTRY>Order indelen</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>012</KEY>
+       <ENTRY>Ordervrijgave</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>013</KEY>
+       <ENTRY>Order transactie</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>014</KEY>
+       <ENTRY>Order Gantt</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>015</KEY>
+       <ENTRY>Produktieversie wijzigen</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>016</KEY>
+       <ENTRY>Langtekst wijz.</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>017</KEY>
+       <ENTRY>Totale hoev. wijz.</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>018</KEY>
+       <ENTRY>Virtuele order</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>019</KEY>
+       <ENTRY>Converteer order</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>020</KEY>
+       <ENTRY>Stamvolgorde</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>021</KEY>
+       <ENTRY>Alternative volgorde</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>022</KEY>
+       <ENTRY>Parallelle volgorde</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>GXM order technisch weergeven</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_VIRT</KEY>
+       <ENTRY>Virtuele order weergeven</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_AUFNR</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>15</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PLNUM</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>P</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>TipoOrdem</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Ordem</ENTRY>
+       <LENGTH>7</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Ord.planej.</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Seleção</ENTRY>
+       <LENGTH>9</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>Cabeç. tabs.</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>006</KEY>
+       <ENTRY>Tabs.de operaç.</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>008</KEY>
+       <ENTRY>Programação de PtoMédio</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>009</KEY>
+       <ENTRY>Mudança-CentrTrab.</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>010</KEY>
+       <ENTRY>Alterar Vals.padrs</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>011</KEY>
+       <ENTRY>Programar ordem</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>012</KEY>
+       <ENTRY>Liberar ordem</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>013</KEY>
+       <ENTRY>Ordem transação</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>014</KEY>
+       <ENTRY>Ordem Gantt</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>015</KEY>
+       <ENTRY>Alterar versão-produção</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>016</KEY>
+       <ENTRY>Modf.txt.descr.</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>017</KEY>
+       <ENTRY>Alterar qtd. total</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>018</KEY>
+       <ENTRY>Ordem virtual</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>019</KEY>
+       <ENTRY>Converter ordem</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>020</KEY>
+       <ENTRY>Sequência mestre</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>021</KEY>
+       <ENTRY>Sequência alternativ</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>022</KEY>
+       <ENTRY>Sequência paralela</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>GXM exibir técnicam. ordem</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_VIRT</KEY>
+       <ENTRY>Visualizar ordem virtual</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_AUFNR</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>15</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PLNUM</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>Q</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Typ zákazky</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Zákazka</ENTRY>
+       <LENGTH>7</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Plán. zák.</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Výber</ENTRY>
+       <LENGTH>9</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>Hlav. tabuľky</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>006</KEY>
+       <ENTRY>Tabuľky oper.</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>008</KEY>
+       <ENTRY>Rozvrh.podľa kľúč.oper.</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>009</KEY>
+       <ENTRY>Zmena pracoviska</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>010</KEY>
+       <ENTRY>Zmeniť štand. hodn.</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>011</KEY>
+       <ENTRY>Zákazku rozvrhovať</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>012</KEY>
+       <ENTRY>Uvoľ. zákazky</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>013</KEY>
+       <ENTRY>Zákazka transakcia</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>014</KEY>
+       <ENTRY>Zákazka Gantt</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>015</KEY>
+       <ENTRY>Zmeniť výrobnú verziu</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>016</KEY>
+       <ENTRY>Zmeniť dlhý txt</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>017</KEY>
+       <ENTRY>Zmeniť celk.množ.</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>018</KEY>
+       <ENTRY>Virtuálna zákazka</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>019</KEY>
+       <ENTRY>Zákazku konvert.</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>020</KEY>
+       <ENTRY>Kmeňová sekvencia</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>021</KEY>
+       <ENTRY>Alternatívna sekvenc</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>022</KEY>
+       <ENTRY> Paralelná sekvencia</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>GXM zákazka technicky zobraziť</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_VIRT</KEY>
+       <ENTRY>Zobraziť virtuálnu zákazku</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_AUFNR</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>15</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PLNUM</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>R</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Тип заказа</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Заказ</ENTRY>
+       <LENGTH>7</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>План. заказ</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Выбор</ENTRY>
+       <LENGTH>9</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>Загол. таблиц</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>006</KEY>
+       <ENTRY>Таблица операц.</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>008</KEY>
+       <ENTRY>Планир. по средн. точке</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>009</KEY>
+       <ENTRY>Смена рабоч. места</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>010</KEY>
+       <ENTRY>Измен.знач.по умол.</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>011</KEY>
+       <ENTRY>ПланировСрокиЗаказа</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>012</KEY>
+       <ENTRY>Деблокир. заказа</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>013</KEY>
+       <ENTRY>Транзакция заказа</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>014</KEY>
+       <ENTRY>Заказ Gantt</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>015</KEY>
+       <ENTRY>Изменить вариант изготов</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>016</KEY>
+       <ENTRY>ИзменПодрбТекст</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>017</KEY>
+       <ENTRY>Изменить общОбъем</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>018</KEY>
+       <ENTRY>Виртуальный заказ</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>019</KEY>
+       <ENTRY>Преобраз. заказ</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>020</KEY>
+       <ENTRY>ОсновПоследовтл.</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>021</KEY>
+       <ENTRY>АльтернативПоследовт</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>022</KEY>
+       <ENTRY>ПараллПоследоват.</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>GXM Просмотреть заказ технически</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_VIRT</KEY>
+       <ENTRY>Просмотр виртуального заказа</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_AUFNR</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>15</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PLNUM</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>S</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Tipo orden</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Orden</ENTRY>
+       <LENGTH>7</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Orden plan.</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Selección</ENTRY>
+       <LENGTH>9</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>Cabece. tabs.</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>006</KEY>
+       <ENTRY>Tabs.de operac.</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>008</KEY>
+       <ENTRY>Program. del ptoMedio</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>009</KEY>
+       <ENTRY>Cambio pst. trabajo</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>010</KEY>
+       <ENTRY>Modif. vals. prefi.</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>011</KEY>
+       <ENTRY>Programar orden</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>012</KEY>
+       <ENTRY>Liberación orden</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>013</KEY>
+       <ENTRY>Orden transacción</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>014</KEY>
+       <ENTRY>Orden Gantt</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>015</KEY>
+       <ENTRY>Mod.versión-fabricación</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>016</KEY>
+       <ENTRY>Modif.txt.expl.</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>017</KEY>
+       <ENTRY>Modif. ctd. total</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>018</KEY>
+       <ENTRY>Orden virtual</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>019</KEY>
+       <ENTRY>Convertir orden</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>020</KEY>
+       <ENTRY>Secuencia estándar</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>021</KEY>
+       <ENTRY>Secuencia alternativ</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>022</KEY>
+       <ENTRY>Secuencia paralela</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Mostrar orden GXM técnicamente</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_VIRT</KEY>
+       <ENTRY>Visualizar orden virtual</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_AUFNR</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>15</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PLNUM</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>T</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Sipariş tip</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Sipariş</ENTRY>
+       <LENGTH>7</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Planlı sip.</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Seçim</ENTRY>
+       <LENGTH>9</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>Ana Tablolar</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>006</KEY>
+       <ENTRY>Öncelik tablolr</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>008</KEY>
+       <ENTRY>Orta nokta tmlnd trmnlm</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>009</KEY>
+       <ENTRY>İşyeri değişikliği</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>010</KEY>
+       <ENTRY>Stndrt değer değişt</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>011</KEY>
+       <ENTRY>Siparişi terminle</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>012</KEY>
+       <ENTRY>Sipariş onayı</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>013</KEY>
+       <ENTRY>Sipariş işlemi</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>014</KEY>
+       <ENTRY>Sipariş Gantt</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>015</KEY>
+       <ENTRY>Üretim versiyonu değişti</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>016</KEY>
+       <ENTRY>Uzun metni deği</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>017</KEY>
+       <ENTRY>Toplam mktr dğştr</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>018</KEY>
+       <ENTRY>Sanal sipariş</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>019</KEY>
+       <ENTRY>Sipariş dönüştür</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>020</KEY>
+       <ENTRY>Standart sıra</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>021</KEY>
+       <ENTRY>Alternatif sıra</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>022</KEY>
+       <ENTRY>Paralel sıra</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>GXM Siparişi teknik görüntüle</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_VIRT</KEY>
+       <ENTRY>Sanal siparişi görüntüle</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_AUFNR</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>15</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PLNUM</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>V</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Ordertyp</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Order</ENTRY>
+       <LENGTH>7</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Planorder</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Urval</ENTRY>
+       <LENGTH>9</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>HuvudTabeller</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>006</KEY>
+       <ENTRY>Operat.tabeller</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>008</KEY>
+       <ENTRY>Mittpunktsplanering</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>009</KEY>
+       <ENTRY>Arbetsplatsbyte</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>010</KEY>
+       <ENTRY>Ändra std.värden</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>011</KEY>
+       <ENTRY>Planera order</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>012</KEY>
+       <ENTRY>Orderfrisläpp</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>013</KEY>
+       <ENTRY>Ortertransaktion</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>014</KEY>
+       <ENTRY>Order Gantt</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>015</KEY>
+       <ENTRY>Ändra produktionsversion</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>016</KEY>
+       <ENTRY>Ändra långtext</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>017</KEY>
+       <ENTRY>Ändra totalkvant.</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>018</KEY>
+       <ENTRY>Virtuell order</ENTRY>
+       <LENGTH>17</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>019</KEY>
+       <ENTRY>Konvertera order</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>020</KEY>
+       <ENTRY>Standardföljd</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>021</KEY>
+       <ENTRY>Alternativ följd</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>022</KEY>
+       <ENTRY>Parallell följd</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>GXM Visa order tekniskt</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_VIRT</KEY>
+       <ENTRY>Visa virtuell order</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_AUFNR</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>15</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PLNUM</KEY>
+       <ENTRY>.</ENTRY>
+       <LENGTH>19</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

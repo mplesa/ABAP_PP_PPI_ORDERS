@@ -1,0 +1,871 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_PEGGED_REQUIREMENT</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Auftragsverursacher</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS_INTERFACE>
+    <SEOCLASSTX>
+     <LANGU>3</LANGU>
+     <DESCRIPT>페깅된 오더</DESCRIPT>
+    </SEOCLASSTX>
+    <SEOCLASSTX>
+     <LANGU>4</LANGU>
+     <DESCRIPT>Origine comandă</DESCRIPT>
+    </SEOCLASSTX>
+    <SEOCLASSTX>
+     <LANGU>5</LANGU>
+     <DESCRIPT>Povzročitelj naloga</DESCRIPT>
+    </SEOCLASSTX>
+    <SEOCLASSTX>
+     <LANGU>C</LANGU>
+     <DESCRIPT>Původce zakázky</DESCRIPT>
+    </SEOCLASSTX>
+    <SEOCLASSTX>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Pegged order</DESCRIPT>
+    </SEOCLASSTX>
+    <SEOCLASSTX>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Identification de l&apos;origine des besoins</DESCRIPT>
+    </SEOCLASSTX>
+    <SEOCLASSTX>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Origine dell&apos;ordine</DESCRIPT>
+    </SEOCLASSTX>
+    <SEOCLASSTX>
+     <LANGU>L</LANGU>
+     <DESCRIPT>Źródło zlecenia</DESCRIPT>
+    </SEOCLASSTX>
+    <SEOCLASSTX>
+     <LANGU>N</LANGU>
+     <DESCRIPT>Orderveroorzaker</DESCRIPT>
+    </SEOCLASSTX>
+    <SEOCLASSTX>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Origem da ordem</DESCRIPT>
+    </SEOCLASSTX>
+    <SEOCLASSTX>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>Pôvodca zákazky</DESCRIPT>
+    </SEOCLASSTX>
+    <SEOCLASSTX>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Origen de orden</DESCRIPT>
+    </SEOCLASSTX>
+    <SEOCLASSTX>
+     <LANGU>V</LANGU>
+     <DESCRIPT>Orderkälla</DESCRIPT>
+    </SEOCLASSTX>
+   </DESCRIPTIONS_INTERFACE>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MAINTENANCE</CMPNAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>MRP요소 서비스와 유지보수 오더</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MAINTENANCE</CMPNAME>
+     <LANGU>4</LANGU>
+     <DESCRIPT>Element PNM comandă de serviciu şi întreţinere</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MAINTENANCE</CMPNAME>
+     <LANGU>5</LANGU>
+     <DESCRIPT>Element MRP storitveni nalog in nalog za vzdrževanje</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MAINTENANCE</CMPNAME>
+     <LANGU>C</LANGU>
+     <DESCRIPT>Zakázka na servis a údržbu dispo. prvku</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MAINTENANCE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Dispositionselement Service- und Instandhaltungsauftrag</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MAINTENANCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>MRP element service and maintenance order</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MAINTENANCE</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Élément MRP ordre de service et de travail</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MAINTENANCE</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Elem. pian. MRP Servizio- e ordine di manutenzione</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MAINTENANCE</CMPNAME>
+     <LANGU>L</LANGU>
+     <DESCRIPT>Zlecenie gospodarki remontowej i obsługi elementów MRP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MAINTENANCE</CMPNAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>Planningselement service- en instandhoudingsorder</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MAINTENANCE</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Elemento MRP ordem de serviço e manutenção</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MAINTENANCE</CMPNAME>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>Prvok dispozície zákazka na servis a údržbu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MAINTENANCE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Elemento de planificación orden de servicio/mantenimiento</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MAINTENANCE</CMPNAME>
+     <LANGU>V</LANGU>
+     <DESCRIPT>MRP-element service- och underhållsorder</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NETZPLAN</CMPNAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>MRP요소 네트워크 오더</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NETZPLAN</CMPNAME>
+     <LANGU>4</LANGU>
+     <DESCRIPT>Element PNM comandă colectivă</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NETZPLAN</CMPNAME>
+     <LANGU>5</LANGU>
+     <DESCRIPT>Element MRP mreža nalogov</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NETZPLAN</CMPNAME>
+     <LANGU>C</LANGU>
+     <DESCRIPT>Dispo. prvek síť. zakázky</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NETZPLAN</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Dispositionselement Netzauftrag</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NETZPLAN</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>MRP element collective order</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NETZPLAN</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Élément MRP réseau d&apos;ordres</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NETZPLAN</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Elem. pian. MRP rete d&apos;ordine</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NETZPLAN</CMPNAME>
+     <LANGU>L</LANGU>
+     <DESCRIPT>Element MRP sieć zleceń</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NETZPLAN</CMPNAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>Planningselement netwerkorder</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NETZPLAN</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Elemento MRP ordem da rede</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NETZPLAN</CMPNAME>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>Prvok dispozície sieť. zákazka</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NETZPLAN</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Elemento de planificación orden de red</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NETZPLAN</CMPNAME>
+     <LANGU>V</LANGU>
+     <DESCRIPT>MRP-element nätorder</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PLANO</CMPNAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>MRP요소 계획오더</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PLANO</CMPNAME>
+     <LANGU>4</LANGU>
+     <DESCRIPT>Element PNM comandă planificată</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PLANO</CMPNAME>
+     <LANGU>5</LANGU>
+     <DESCRIPT>Element MRP planski nalog</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PLANO</CMPNAME>
+     <LANGU>C</LANGU>
+     <DESCRIPT>Dispo. prvek plán. zakázky</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PLANO</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Dispositionselement Planauftrag</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PLANO</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>MRP element planned order</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PLANO</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Élément MRP ordre planifié</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PLANO</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Elem. pian. MRP ord. pian.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PLANO</CMPNAME>
+     <LANGU>L</LANGU>
+     <DESCRIPT>Element MRP zlecenie planowane</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PLANO</CMPNAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>Planningselement netwerkorder</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PLANO</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Elemento MRP ordem de planejamento</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PLANO</CMPNAME>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>Prvok dispozície plán.zákazka</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PLANO</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Elemento de planificación orden previsional</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PLANO</CMPNAME>
+     <LANGU>V</LANGU>
+     <DESCRIPT>MRP-element planorder</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PROCESS</CMPNAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>MRP요소 프로세스 오더</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PROCESS</CMPNAME>
+     <LANGU>4</LANGU>
+     <DESCRIPT>Element PNM comandă de proces</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PROCESS</CMPNAME>
+     <LANGU>5</LANGU>
+     <DESCRIPT>Element MRP procesni nalog</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PROCESS</CMPNAME>
+     <LANGU>C</LANGU>
+     <DESCRIPT>Dispo. prvek procesní zakázky</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PROCESS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Dispositionselement Prozeßauftrag</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PROCESS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>MRP element process order</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PROCESS</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Élément MRP - ordre de process</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PROCESS</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Elem. pian. MRP ord. di processo</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PROCESS</CMPNAME>
+     <LANGU>L</LANGU>
+     <DESCRIPT>Element MRP zlecenie procesowe</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PROCESS</CMPNAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>Planningselement procesorder</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PROCESS</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Elemento MRP ordem de processo</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PROCESS</CMPNAME>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>Prvok dispozície procesná zákazka</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PROCESS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Elemento de planificación orden de proceso</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PROCESS</CMPNAME>
+     <LANGU>V</LANGU>
+     <DESCRIPT>MRP-element processorder</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PRODO</CMPNAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>MRP요소 생산오더</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PRODO</CMPNAME>
+     <LANGU>4</LANGU>
+     <DESCRIPT>Element PNM comandă de producţie</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PRODO</CMPNAME>
+     <LANGU>5</LANGU>
+     <DESCRIPT>Element MRP proizvodni nalog</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PRODO</CMPNAME>
+     <LANGU>C</LANGU>
+     <DESCRIPT>Dispo. prvek výrobní zakázky</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PRODO</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Dispositionselement Fertigungsauftag</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PRODO</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>MRP element production order</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PRODO</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Élément MRP ordre de fabrication</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PRODO</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Elem. pian. MRP ord. di produz.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PRODO</CMPNAME>
+     <LANGU>L</LANGU>
+     <DESCRIPT>Element MRP zlecenie produkcyjne</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PRODO</CMPNAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>Planningselement eigen productieorder</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PRODO</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Elemento MRP ordem de produção</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PRODO</CMPNAME>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>Prvok dispozície výrobná zákazka</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PRODO</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Elemento de planificación orden de fabricación</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PRODO</CMPNAME>
+     <LANGU>V</LANGU>
+     <DESCRIPT>MRP-element produktionsorder</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DISPLAY</CMPNAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>페깅된 오더 조회</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DISPLAY</CMPNAME>
+     <LANGU>4</LANGU>
+     <DESCRIPT>Afişare origine comandă</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DISPLAY</CMPNAME>
+     <LANGU>5</LANGU>
+     <DESCRIPT>Prikaz povzročitelja potreb</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DISPLAY</CMPNAME>
+     <LANGU>C</LANGU>
+     <DESCRIPT>Zobrazit původce zakázky</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DISPLAY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Auftragsverursacher Anzeigen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DISPLAY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Display pegged order</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DISPLAY</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Afficher identification de l&apos;origine des besoins</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DISPLAY</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Visualizzare origine dell&apos;ordine</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DISPLAY</CMPNAME>
+     <LANGU>L</LANGU>
+     <DESCRIPT>Wyświetl źródło zlecenia</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DISPLAY</CMPNAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>Orderveroorzaker weergeven</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DISPLAY</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Exibir origem da ordem</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DISPLAY</CMPNAME>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>Zobraziť pôvodcu zákazky</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DISPLAY</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Visualizar origen de orden</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DISPLAY</CMPNAME>
+     <LANGU>V</LANGU>
+     <DESCRIPT>Visa orderkälla</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET</CMPNAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>페깅된 오더 가져오기</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET</CMPNAME>
+     <LANGU>4</LANGU>
+     <DESCRIPT>OBŢINERE origine comandă</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET</CMPNAME>
+     <LANGU>5</LANGU>
+     <DESCRIPT>GET povzročitelj potreb</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET</CMPNAME>
+     <LANGU>C</LANGU>
+     <DESCRIPT>GET původce zakázky</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>GET Auftragsverursacher</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>GET pegged order</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>GET Identification de l&apos;origine des besoins</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>GET Origine dell&apos;ordine</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET</CMPNAME>
+     <LANGU>L</LANGU>
+     <DESCRIPT>GET źródło zlecenia</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET</CMPNAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>GET orderveroorzaker</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>GET origem da ordem</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET</CMPNAME>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>GET Pôvodca zákazky</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Origen de orden GET</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET</CMPNAME>
+     <LANGU>V</LANGU>
+     <DESCRIPT>GET orderkälla</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GT_T457T</CMPNAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>MRP요소 내역</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GT_T457T</CMPNAME>
+     <LANGU>4</LANGU>
+     <DESCRIPT>Descriere elemente PNM</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GT_T457T</CMPNAME>
+     <LANGU>5</LANGU>
+     <DESCRIPT>Oznaka MRP elementov</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GT_T457T</CMPNAME>
+     <LANGU>C</LANGU>
+     <DESCRIPT>Označení dispozičních prvků</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GT_T457T</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Bezeichnung Dispositionselemente</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GT_T457T</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Description MRP elements</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GT_T457T</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Désignation des éléments MRP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GT_T457T</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Descrizione elem. pian. MRP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GT_T457T</CMPNAME>
+     <LANGU>L</LANGU>
+     <DESCRIPT>Opis element MPR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GT_T457T</CMPNAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>Betekenis planningselementen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GT_T457T</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Descrição de elementos MRP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GT_T457T</CMPNAME>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>Popis prvky dispozície</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GT_T457T</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Denominación elemento de planificación</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GT_T457T</CMPNAME>
+     <LANGU>V</LANGU>
+     <DESCRIPT>Beskrivning MRP-element</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TT_T457T</CMPNAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>MRP요소 내역</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TT_T457T</CMPNAME>
+     <LANGU>4</LANGU>
+     <DESCRIPT>Descriere elemente PNM</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TT_T457T</CMPNAME>
+     <LANGU>5</LANGU>
+     <DESCRIPT>Oznaka MRP elementov</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TT_T457T</CMPNAME>
+     <LANGU>C</LANGU>
+     <DESCRIPT>Označení dispozičních prvků</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TT_T457T</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Bezeichnung Dispositionselemente</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TT_T457T</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Description MRP elements</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TT_T457T</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Désignation des éléments MRP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TT_T457T</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Descrizione elem. pian. MRP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TT_T457T</CMPNAME>
+     <LANGU>L</LANGU>
+     <DESCRIPT>Opis element MPR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TT_T457T</CMPNAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>Betekenis planningselementen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TT_T457T</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Descrição de elementos MRP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TT_T457T</CMPNAME>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>Popis prvky dispozície</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TT_T457T</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Denominación elemento de planificación</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TT_T457T</CMPNAME>
+     <LANGU>V</LANGU>
+     <DESCRIPT>Beskrivning MRP-element</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET</CMPNAME>
+     <SCONAME>EF_DATE</SCONAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>페깅된 소요량</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET</CMPNAME>
+     <SCONAME>EF_DATE</SCONAME>
+     <LANGU>4</LANGU>
+     <DESCRIPT>Origine necesar</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET</CMPNAME>
+     <SCONAME>EF_DATE</SCONAME>
+     <LANGU>5</LANGU>
+     <DESCRIPT>Povzročitelj potreb</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET</CMPNAME>
+     <SCONAME>EF_DATE</SCONAME>
+     <LANGU>C</LANGU>
+     <DESCRIPT>Původce potřeby</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET</CMPNAME>
+     <SCONAME>EF_DATE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Bedarfsverursacher</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET</CMPNAME>
+     <SCONAME>EF_DATE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Pegged requirements</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET</CMPNAME>
+     <SCONAME>EF_DATE</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Origine des besoins</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET</CMPNAME>
+     <SCONAME>EF_DATE</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Origine fabbisogno</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET</CMPNAME>
+     <SCONAME>EF_DATE</SCONAME>
+     <LANGU>L</LANGU>
+     <DESCRIPT>Źródło zapotrzebowania</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET</CMPNAME>
+     <SCONAME>EF_DATE</SCONAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>Behoefteveroorzak.</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET</CMPNAME>
+     <SCONAME>EF_DATE</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Origem necessidade</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET</CMPNAME>
+     <SCONAME>EF_DATE</SCONAME>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>Pôvodca potreby</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET</CMPNAME>
+     <SCONAME>EF_DATE</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Origen de necesidades</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET</CMPNAME>
+     <SCONAME>EF_DATE</SCONAME>
+     <LANGU>V</LANGU>
+     <DESCRIPT>Behovskälla</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET</CMPNAME>
+     <SCONAME>EF_NAME</SCONAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>페깅된 소요-일자</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET</CMPNAME>
+     <SCONAME>EF_NAME</SCONAME>
+     <LANGU>4</LANGU>
+     <DESCRIPT>Origine necesar - Dată</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET</CMPNAME>
+     <SCONAME>EF_NAME</SCONAME>
+     <LANGU>5</LANGU>
+     <DESCRIPT>Povzročitelj potreb - datum</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET</CMPNAME>
+     <SCONAME>EF_NAME</SCONAME>
+     <LANGU>C</LANGU>
+     <DESCRIPT>Datum původce potřeby</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET</CMPNAME>
+     <SCONAME>EF_NAME</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Bedarfsverursacher-Datum</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET</CMPNAME>
+     <SCONAME>EF_NAME</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Pegged requirement date</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET</CMPNAME>
+     <SCONAME>EF_NAME</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Date d&apos;origine des besoins</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET</CMPNAME>
+     <SCONAME>EF_NAME</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Data origine fabbisogno</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET</CMPNAME>
+     <SCONAME>EF_NAME</SCONAME>
+     <LANGU>L</LANGU>
+     <DESCRIPT>Źródło zapotrzebowania - Data</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET</CMPNAME>
+     <SCONAME>EF_NAME</SCONAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>Behoefteveroorzaker-datum</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET</CMPNAME>
+     <SCONAME>EF_NAME</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Data de origem da necessidade</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET</CMPNAME>
+     <SCONAME>EF_NAME</SCONAME>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>Pôvodca potreby-dátum</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET</CMPNAME>
+     <SCONAME>EF_NAME</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Fecha de origen de necesidades</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET</CMPNAME>
+     <SCONAME>EF_NAME</SCONAME>
+     <LANGU>V</LANGU>
+     <DESCRIPT>Behovskälla datum</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,619 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_ORDER</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>GXM PPS Auftrag</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>Ändern</ENTRY>
+     <LENGTH>10</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>Gesamtmenge Auftrag</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>1</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>更改</ENTRY>
+       <LENGTH>10</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>订单总数</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>2</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>แก้ไข</ENTRY>
+       <LENGTH>10</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>ปริมาณทั้งหมดของใบสั่ง</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>3</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>변경</ENTRY>
+       <LENGTH>10</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>오더 총량</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>4</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Modificare</ENTRY>
+       <LENGTH>10</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Cantitate totală comandă</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>5</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Spremeni</ENTRY>
+       <LENGTH>10</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Celotna količina naloga</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>6</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Promijenit</ENTRY>
+       <LENGTH>10</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Ukupna količina Nalog</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>C</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Změnit</ENTRY>
+       <LENGTH>10</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Celkové množstv. zakázek</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>E</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Change</ENTRY>
+       <LENGTH>10</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Total quantity of order</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>F</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Modifier</ENTRY>
+       <LENGTH>10</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Quantité totale ordre</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>H</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Módosítás</ENTRY>
+       <LENGTH>10</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Összemennyiség rendelés</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>I</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Modificare</ENTRY>
+       <LENGTH>10</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Qtà tot. ordine</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>J</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>変更</ENTRY>
+       <LENGTH>10</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>オーダー合計数量</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>K</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Change</ENTRY>
+       <LENGTH>10</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Total quantity of order</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>L</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Zmiana</ENTRY>
+       <LENGTH>10</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Łączna ilość zlecenie</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>N</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Wijzigen</ENTRY>
+       <LENGTH>10</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Totale hoeveelheid van order</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>P</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Modificar</ENTRY>
+       <LENGTH>10</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Quantidade total da ordem</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>Q</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Zmeniť</ENTRY>
+       <LENGTH>10</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Celkové množstvo zákazka</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>R</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Изменить</ENTRY>
+       <LENGTH>10</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Общее количество заказа</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>S</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Modificar</ENTRY>
+       <LENGTH>10</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Cantidad total de la orden</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>T</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Değiştir</ENTRY>
+       <LENGTH>10</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Toplam miktar sipariş</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>V</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Ändra</ENTRY>
+       <LENGTH>10</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Total kvantitet order</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>BUILD_OPERATIONS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Auftragsvorgänge aufbauen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>BUILD_OPERATION_SEQUANCES</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Build Operation Sequances</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>BUILD_PEGGED_REQUIREMENT_HEAD</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Auftragsverursacher Kopf bauen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CLASS_CONSTRUCTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>CLASS_CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DO_AFTER_RELEASE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>nach dem Freigeben ausführen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_FAILED_WORKCENTERS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Get faild workcenters based on capacity ids</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_MAT_AV_PROTOCOL</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Material availability Protocol(CHECK_AVAILABLE_MATERIALS)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_SCHEDULING_PROTOCOL</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>GET Scheduling Protocol(from SCHEDULE method)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GF_AVAIL_FIX_PLANNEDORDER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Planaufträge fixieren bei Verf.Prüfung</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MF_AUFNR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Auftragsnummer or Virtual Auftragsnummer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MF_ENQUEUE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Sperrzustand</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MF_FHM_BUFFERED</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>FHM wurden gelesen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MF_PARALLEL_SEQUENCES</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Also read parallel sequances</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MF_PEGGED_REQUIREMENT_BUFFERED</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Bedarfsverursacher schon gelesen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MF_PEGGED_REQUIREMENT_DATE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Bedarfsverursacher-Datum</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MF_PEGGED_REQUIREMENT_NAME</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Bedarfsverursacher</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MR_COMPRESSION</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>GXM Operation Compression Table Type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_PEGGED_REQUIREMENT_HEAD</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Bedarfsverursacher Header</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_ALL_OPERATIONS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Auftragsvorgänge Stam/Parallele/Alternative Folgen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_ALTERNATIVE_SEQ_OPERATIONS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Auftragsvorgänge Alternative Folgen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_AOB</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Auftrags Anordnungsbeziehungen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_FHM</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Fertigngshilfsmittel</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_PARALLEL_SEQ_OPERATIONS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Auftragsvorgänge Parallele Folgen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_STANDARD_SEQ_OPERATIONS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Auftragsvorgänge Stamfolge</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_SUB_OPERATIONS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Untervorgänge</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>READ_AFFL</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Read All sequances of order</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>READ_AOB</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Auftrags  Anordnungsbeziehungen Lesen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>READ_DEMAND_HEADER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>KBKO Lesen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>READ_HEADER_AND_POSITION</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>CAUFVD und AFPOD Lesen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>READ_PRODUCTION_AIDS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Fertigungshilfsmittel lesen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>READ_STATUSES</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Auftrags Systemstatuses Lesen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>READ_TCX00</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Terminierungs Steuerungsparameter Lesen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>RESET_MAT_AV_PROTOCOL</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Material availability Protocol(CHECK_AVAILABLE_MATERIALS)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>RESET_SCHEDULING_PROTOCOL</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Reset the Scheduling Protocol(from SCHEDULE method)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_STATUS_AT_SCHEDULE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Diverse Status überarbeiten bei Terminierung</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TS_PEGGED_REQUIREMENT_HEAD</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Bedarfsverursacher Header</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>UPDATE_ORDER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Auftrag aktualisieren</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_FAILED_WORKCENTERS</CMPNAME>
+     <SCONAME>IT_FEHL_KAP</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Missing Capacity Workcenters</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_MAT_AV_PROTOCOL</CMPNAME>
+     <SCONAME>RR_PROTOCOL</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Speichert Mes. in einer Queue, Ausgabe im Dialog</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_SCHEDULING_PROTOCOL</CMPNAME>
+     <SCONAME>RR_PROTOCOL</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Speichert Mes. in einer Queue, Ausgabe im Dialog</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_TCX00</CMPNAME>
+     <SCONAME>ZCX_TCX_NOTFOUND</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Kein TCX-Eintrag gefunden</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE_ORDER</CMPNAME>
+     <SCONAME>/GIB/CX_DCP</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Basis Ausnahme Klasse</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE_ORDER</CMPNAME>
+     <SCONAME>IF_VBKZ</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Wahrheitswert: wahr/falsch</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TABL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD02V>
+    <TABNAME>Z_OP_COMPRESSION_S</TABNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <TABCLASS>INTTAB</TABCLASS>
+    <DDTEXT>GXM Operation Compression Structure</DDTEXT>
+    <EXCLASS>4</EXCLASS>
+   </DD02V>
+   <DD03P_TABLE>
+    <DD03P>
+     <FIELDNAME>ARBID</FIELDNAME>
+     <ROLLNAME>ZCL_ARBID</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <DATATYPE>REF</DATATYPE>
+     <MASK>  REF RC</MASK>
+     <COMPTYPE>R</COMPTYPE>
+     <REFTYPE>C</REFTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>FIRST_OPERATION</FIELDNAME>
+     <ROLLNAME>ZIF_OPERATION</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <DATATYPE>REF</DATATYPE>
+     <MASK>  REF RI</MASK>
+     <COMPTYPE>R</COMPTYPE>
+     <REFTYPE>I</REFTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>LAST_OPERATION</FIELDNAME>
+     <ROLLNAME>ZIF_OPERATION</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <DATATYPE>REF</DATATYPE>
+     <MASK>  REF RI</MASK>
+     <COMPTYPE>R</COMPTYPE>
+     <REFTYPE>I</REFTYPE>
+    </DD03P>
+   </DD03P_TABLE>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>2</LANGU>
+    <LANGU>3</LANGU>
+    <LANGU>4</LANGU>
+    <LANGU>5</LANGU>
+    <LANGU>6</LANGU>
+    <LANGU>C</LANGU>
+    <LANGU>E</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>Q</LANGU>
+    <LANGU>R</LANGU>
+    <LANGU>S</LANGU>
+    <LANGU>T</LANGU>
+    <LANGU>V</LANGU>
+   </I18N_LANGS>
+   <DD02_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>GXM Operation 压缩结构</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <DDTEXT>GXM Operation Compression Structure</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DDTEXT>GXM 작업 압축 구조</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>4</DDLANGUAGE>
+     <DDTEXT>GXM Operation Compression Structure</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>5</DDLANGUAGE>
+     <DDTEXT>GXM Operation Compression Structure</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>6</DDLANGUAGE>
+     <DDTEXT>GXM Operation Compression Structure</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DDTEXT>GXM Operace Komprese Struktura</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>GXM Operation Compression Structure</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>GXM Opération Compression Structure</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>GXM Operation Compression Structure</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>GXM Operation Compression Structure</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>GXM 作業 圧縮 構造</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>GXM Operation Compression Structure</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>GXM Operation Compression Structure</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>GXM Operation Compression Structure</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DDTEXT>GXM Štruktúra Komprimácia Operácia</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DDTEXT>GXM Operation Compression Structure</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>GXM Operation Compression Structure</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DDTEXT>GXM Operation Compression Structure</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DDTEXT>GXM Operation Compression Structure</DDTEXT>
+    </item>
+   </DD02_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

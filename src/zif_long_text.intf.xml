@@ -1,0 +1,440 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_LONG_TEXT</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Objekt Langtext</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS_INTERFACE>
+    <SEOCLASSTX>
+     <LANGU>3</LANGU>
+     <DESCRIPT>오브젝트 설명</DESCRIPT>
+    </SEOCLASSTX>
+    <SEOCLASSTX>
+     <LANGU>4</LANGU>
+     <DESCRIPT>Text lung obiect</DESCRIPT>
+    </SEOCLASSTX>
+    <SEOCLASSTX>
+     <LANGU>5</LANGU>
+     <DESCRIPT>Stroj</DESCRIPT>
+    </SEOCLASSTX>
+    <SEOCLASSTX>
+     <LANGU>C</LANGU>
+     <DESCRIPT>Dlouhý text objektu</DESCRIPT>
+    </SEOCLASSTX>
+    <SEOCLASSTX>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Object long text</DESCRIPT>
+    </SEOCLASSTX>
+    <SEOCLASSTX>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Texte descriptif de l&apos;objet</DESCRIPT>
+    </SEOCLASSTX>
+    <SEOCLASSTX>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Oggetto testo esteso</DESCRIPT>
+    </SEOCLASSTX>
+    <SEOCLASSTX>
+     <LANGU>L</LANGU>
+     <DESCRIPT>Objekt długi tekst</DESCRIPT>
+    </SEOCLASSTX>
+    <SEOCLASSTX>
+     <LANGU>N</LANGU>
+     <DESCRIPT>Object lange tekst</DESCRIPT>
+    </SEOCLASSTX>
+    <SEOCLASSTX>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Objeto texto longo</DESCRIPT>
+    </SEOCLASSTX>
+    <SEOCLASSTX>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>Objekt dlhý text</DESCRIPT>
+    </SEOCLASSTX>
+    <SEOCLASSTX>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Objeto texto explicativo</DESCRIPT>
+    </SEOCLASSTX>
+    <SEOCLASSTX>
+     <LANGU>V</LANGU>
+     <DESCRIPT>Objekt långtext</DESCRIPT>
+    </SEOCLASSTX>
+   </DESCRIPTIONS_INTERFACE>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>DISPLAY</CMPNAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>오브젝트 설명 조회</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DISPLAY</CMPNAME>
+     <LANGU>5</LANGU>
+     <DESCRIPT>Prikaz objekta dolgi tekst</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DISPLAY</CMPNAME>
+     <LANGU>C</LANGU>
+     <DESCRIPT>Zobrazit dlouhý text objektu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DISPLAY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Objekt Langtext Anzeigen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DISPLAY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Display object long text</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DISPLAY</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Afficher texte descriptif de l&apos;objet</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DISPLAY</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Visualizzare oggetto testo esteso</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DISPLAY</CMPNAME>
+     <LANGU>L</LANGU>
+     <DESCRIPT>Wyświetl objekt długi tekst</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DISPLAY</CMPNAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>Oject lange tekst weegeven</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DISPLAY</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Exibir objeto de texto longo</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DISPLAY</CMPNAME>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>Zobraziť objekt dlhý text</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DISPLAY</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Visualizar objeto texto explicativo</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DISPLAY</CMPNAME>
+     <LANGU>V</LANGU>
+     <DESCRIPT>Visa objekt långtext</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>EDIT</CMPNAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>오브젝트 설명 편집</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>EDIT</CMPNAME>
+     <LANGU>4</LANGU>
+     <DESCRIPT>Editare text lung obiect</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>EDIT</CMPNAME>
+     <LANGU>5</LANGU>
+     <DESCRIPT>Urejanje objekta dolgi tekst</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>EDIT</CMPNAME>
+     <LANGU>C</LANGU>
+     <DESCRIPT>Editovat dlouhý text objektu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>EDIT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Objekt Langtext Editieren</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>EDIT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Edit object long text</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>EDIT</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Éditer texte descriptif de l&apos;objet</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>EDIT</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Editare oggetto testo esteso</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>EDIT</CMPNAME>
+     <LANGU>L</LANGU>
+     <DESCRIPT>Edytuj objekt długi tekst</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>EDIT</CMPNAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>Object lange tekst bewerken</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>EDIT</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Editar objeto de texto longo</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>EDIT</CMPNAME>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>Editovať objekt dlhý text</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>EDIT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Editar objeto texto explicativo</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>EDIT</CMPNAME>
+     <LANGU>V</LANGU>
+     <DESCRIPT>Redigara objekt långtext</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>HAS_LONG_TEXT</CMPNAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>오브젝트에 설명이 있습니까? &apos;X&apos;= 예</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>HAS_LONG_TEXT</CMPNAME>
+     <LANGU>4</LANGU>
+     <DESCRIPT>Are obiectul un text lung? &apos;X&apos; = Da</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>HAS_LONG_TEXT</CMPNAME>
+     <LANGU>5</LANGU>
+     <DESCRIPT>Ima objekt dolgi tekst? &apos;X&apos;= Ja</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>HAS_LONG_TEXT</CMPNAME>
+     <LANGU>C</LANGU>
+     <DESCRIPT>Má objekt dlouhý text ? &apos;X&apos;= ano</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>HAS_LONG_TEXT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Hat das Objekt ein Langtext ? &apos;X&apos;= Ja</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>HAS_LONG_TEXT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Does the object have a long text ? &apos;X&apos;= Yes</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>HAS_LONG_TEXT</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>L&apos;objet a-t-il un texte descriptif ? &quot;X&quot; = oui</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>HAS_LONG_TEXT</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>L&apos;oggetto ha un testo esteso? &apos;X&apos;= Si</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>HAS_LONG_TEXT</CMPNAME>
+     <LANGU>L</LANGU>
+     <DESCRIPT>Czy obiekt ma długi tekst? &apos;X&apos;= Tak</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>HAS_LONG_TEXT</CMPNAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>Heeft het object een lange tekst? &apos;X&apos;=ja</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>HAS_LONG_TEXT</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>O objeto tem o texto longo ? &apos;X&apos;= sim</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>HAS_LONG_TEXT</CMPNAME>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>Má objekt dlhý text? &apos;X&apos;= Áno</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>HAS_LONG_TEXT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>El objeto tiene un texto explicativo? &apos;X&apos;= Sí</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>HAS_LONG_TEXT</CMPNAME>
+     <LANGU>V</LANGU>
+     <DESCRIPT>Har objekt en långtext ? &apos;X&apos;= Ja</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>EDIT</CMPNAME>
+     <SCONAME>/GIB/CX_DCP</SCONAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>GXP 오더</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EDIT</CMPNAME>
+     <SCONAME>/GIB/CX_DCP</SCONAME>
+     <LANGU>5</LANGU>
+     <DESCRIPT>GXM nalog</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EDIT</CMPNAME>
+     <SCONAME>/GIB/CX_DCP</SCONAME>
+     <LANGU>C</LANGU>
+     <DESCRIPT>GXM zakázka</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EDIT</CMPNAME>
+     <SCONAME>/GIB/CX_DCP</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>DCP Auftrag</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EDIT</CMPNAME>
+     <SCONAME>/GIB/CX_DCP</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>DCP Order</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EDIT</CMPNAME>
+     <SCONAME>/GIB/CX_DCP</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>GXM Ordre</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EDIT</CMPNAME>
+     <SCONAME>/GIB/CX_DCP</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Ordine DCP</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EDIT</CMPNAME>
+     <SCONAME>/GIB/CX_DCP</SCONAME>
+     <LANGU>L</LANGU>
+     <DESCRIPT>Zlecenie GXM</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EDIT</CMPNAME>
+     <SCONAME>/GIB/CX_DCP</SCONAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>GXP order</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EDIT</CMPNAME>
+     <SCONAME>/GIB/CX_DCP</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>DCP ordem</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EDIT</CMPNAME>
+     <SCONAME>/GIB/CX_DCP</SCONAME>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>GXM zákazka</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EDIT</CMPNAME>
+     <SCONAME>/GIB/CX_DCP</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>DCP orden</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EDIT</CMPNAME>
+     <SCONAME>/GIB/CX_DCP</SCONAME>
+     <LANGU>V</LANGU>
+     <DESCRIPT>GXM order</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HAS_LONG_TEXT</CMPNAME>
+     <SCONAME>RF_ANSWER</SCONAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>&apos;X&apos; = 예</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HAS_LONG_TEXT</CMPNAME>
+     <SCONAME>RF_ANSWER</SCONAME>
+     <LANGU>4</LANGU>
+     <DESCRIPT>&apos;X&apos; = Da</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HAS_LONG_TEXT</CMPNAME>
+     <SCONAME>RF_ANSWER</SCONAME>
+     <LANGU>5</LANGU>
+     <DESCRIPT>&apos;X&apos; = Ja</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HAS_LONG_TEXT</CMPNAME>
+     <SCONAME>RF_ANSWER</SCONAME>
+     <LANGU>C</LANGU>
+     <DESCRIPT>&apos;X&apos; = ano</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HAS_LONG_TEXT</CMPNAME>
+     <SCONAME>RF_ANSWER</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>&apos;X&apos; = Ja</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HAS_LONG_TEXT</CMPNAME>
+     <SCONAME>RF_ANSWER</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>&apos;X&apos; = Yes</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HAS_LONG_TEXT</CMPNAME>
+     <SCONAME>RF_ANSWER</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>&apos;X&apos; = Oui</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HAS_LONG_TEXT</CMPNAME>
+     <SCONAME>RF_ANSWER</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>&apos;X&apos; = Si</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HAS_LONG_TEXT</CMPNAME>
+     <SCONAME>RF_ANSWER</SCONAME>
+     <LANGU>L</LANGU>
+     <DESCRIPT>&apos;X&apos; = Tak</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HAS_LONG_TEXT</CMPNAME>
+     <SCONAME>RF_ANSWER</SCONAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>&apos;X&apos; = Ja</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HAS_LONG_TEXT</CMPNAME>
+     <SCONAME>RF_ANSWER</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>&apos;X&apos; = sim</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HAS_LONG_TEXT</CMPNAME>
+     <SCONAME>RF_ANSWER</SCONAME>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>&apos;X&apos; = Áno</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HAS_LONG_TEXT</CMPNAME>
+     <SCONAME>RF_ANSWER</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>&apos;X&apos; = Sí</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HAS_LONG_TEXT</CMPNAME>
+     <SCONAME>RF_ANSWER</SCONAME>
+     <LANGU>V</LANGU>
+     <DESCRIPT>&apos;X&apos; = Ja</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

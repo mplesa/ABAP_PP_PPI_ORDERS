@@ -1,0 +1,921 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD01V>
+    <DOMNAME>Z_VGWNR</DOMNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000002</LENG>
+    <OUTPUTLEN>000002</OUTPUTLEN>
+    <VALEXI>X</VALEXI>
+    <DDTEXT>Nummer eines Vorgabewertfeldes</DDTEXT>
+   </DD01V>
+   <DD07V_TAB>
+    <DD07V>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>01</DOMVALUE_L>
+     <DDTEXT>Vorgabewert 1</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>02</DOMVALUE_L>
+     <DDTEXT>Vorgabewert 2</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>03</DOMVALUE_L>
+     <DDTEXT>Vorgabewert 3</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>04</DOMVALUE_L>
+     <DDTEXT>Vorgabewert 4</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>05</DOMVALUE_L>
+     <DDTEXT>Vorgabewert 5</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>06</DOMVALUE_L>
+     <DDTEXT>Vorgabewert 6</DDTEXT>
+    </DD07V>
+   </DD07V_TAB>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>2</LANGU>
+    <LANGU>3</LANGU>
+    <LANGU>4</LANGU>
+    <LANGU>5</LANGU>
+    <LANGU>6</LANGU>
+    <LANGU>C</LANGU>
+    <LANGU>E</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>K</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>Q</LANGU>
+    <LANGU>R</LANGU>
+    <LANGU>S</LANGU>
+    <LANGU>T</LANGU>
+    <LANGU>V</LANGU>
+   </I18N_LANGS>
+   <DD01_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>一个标准值字段的编号</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <DDTEXT>เลขที่ของค่าฟิลด์มาตรฐาน</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DDTEXT>기본값필드 번호</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>4</DDLANGUAGE>
+     <DDTEXT>Numărul unui câmp de valoare standard</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>5</DDLANGUAGE>
+     <DDTEXT>Št. polja privzete vrednosti</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>6</DDLANGUAGE>
+     <DDTEXT>Broj jednog polja vrijednosti norme</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DDTEXT>Číslo pole standardní hodnoty</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Number of default value field</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Nombre d&apos;une zone de la valeur standard</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>Normaértékmezők száma</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Nr. di un campo di val.standard</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>標準値項目の番号</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DDTEXT>Number of default value field</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Numer pola wartości standardowej</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Nummer van een standaardwaarde veld</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Número de um campo do valor standard</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DDTEXT>Číslo poľa štandardnej hodnoty</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DDTEXT>Номер заданного значения</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Número de un campo de valor prefijado</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DDTEXT>Standart değer alan numarası</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DDTEXT>Nummer på standardvärdefält</DDTEXT>
+    </item>
+   </DD01_TEXTS>
+   <DD07_TEXTS>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DOMVALUE_L>01</DOMVALUE_L>
+     <DDTEXT>标准值1</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <DOMVALUE_L>01</DOMVALUE_L>
+     <DDTEXT>ค่ามาตรฐาน 1</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DOMVALUE_L>01</DOMVALUE_L>
+     <DDTEXT>기본값 1</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>4</DDLANGUAGE>
+     <DOMVALUE_L>01</DOMVALUE_L>
+     <DDTEXT>Valoare standard 1</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>5</DDLANGUAGE>
+     <DOMVALUE_L>01</DOMVALUE_L>
+     <DDTEXT>Privzeta vrednost 1</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>6</DDLANGUAGE>
+     <DOMVALUE_L>01</DOMVALUE_L>
+     <DDTEXT>Vrijednost Norme 1</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DOMVALUE_L>01</DOMVALUE_L>
+     <DDTEXT>Standardní hodnota 1</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>01</DOMVALUE_L>
+     <DDTEXT>Default value 1</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>01</DOMVALUE_L>
+     <DDTEXT>Valeur par défaut 1</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DOMVALUE_L>01</DOMVALUE_L>
+     <DDTEXT>Normaérték 1</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>01</DOMVALUE_L>
+     <DDTEXT>Valore standard 1</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>01</DOMVALUE_L>
+     <DDTEXT>標準値１</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DOMVALUE_L>01</DOMVALUE_L>
+     <DDTEXT>Default value 1</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>01</DOMVALUE_L>
+     <DDTEXT>Wartość standardowa 1</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DOMVALUE_L>01</DOMVALUE_L>
+     <DDTEXT>Standaardwaarde 1</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>01</DOMVALUE_L>
+     <DDTEXT>Valor default 1</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DOMVALUE_L>01</DOMVALUE_L>
+     <DDTEXT>Štand. hodnota 1</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DOMVALUE_L>01</DOMVALUE_L>
+     <DDTEXT>Заданное значение 1</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>01</DOMVALUE_L>
+     <DDTEXT>Valor prefijado 1</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DOMVALUE_L>01</DOMVALUE_L>
+     <DDTEXT>Standart değer 1</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DOMVALUE_L>01</DOMVALUE_L>
+     <DDTEXT>Standardvärde 1</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DOMVALUE_L>02</DOMVALUE_L>
+     <DDTEXT>标准值2</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <DOMVALUE_L>02</DOMVALUE_L>
+     <DDTEXT>ค่ามาตรฐาน 2</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DOMVALUE_L>02</DOMVALUE_L>
+     <DDTEXT>기본값 2</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>4</DDLANGUAGE>
+     <DOMVALUE_L>02</DOMVALUE_L>
+     <DDTEXT>Valoare standard 2</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>5</DDLANGUAGE>
+     <DOMVALUE_L>02</DOMVALUE_L>
+     <DDTEXT>Privzeta vrednost 2</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>6</DDLANGUAGE>
+     <DOMVALUE_L>02</DOMVALUE_L>
+     <DDTEXT>Vrijednost Norme 2</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DOMVALUE_L>02</DOMVALUE_L>
+     <DDTEXT>Standardní hodnota 2</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>02</DOMVALUE_L>
+     <DDTEXT>Default value 2</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>02</DOMVALUE_L>
+     <DDTEXT>Valeur par défaut 2</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DOMVALUE_L>02</DOMVALUE_L>
+     <DDTEXT>Normaérték 2</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>02</DOMVALUE_L>
+     <DDTEXT>Valore standard 2</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>02</DOMVALUE_L>
+     <DDTEXT>標準値２</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DOMVALUE_L>02</DOMVALUE_L>
+     <DDTEXT>Default value 2</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>02</DOMVALUE_L>
+     <DDTEXT>Wartość standardowa 2</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DOMVALUE_L>02</DOMVALUE_L>
+     <DDTEXT>Standaardwaarde 2</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>02</DOMVALUE_L>
+     <DDTEXT>Valor default 2</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DOMVALUE_L>02</DOMVALUE_L>
+     <DDTEXT>Štand. hodnota 2</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DOMVALUE_L>02</DOMVALUE_L>
+     <DDTEXT>Заданное значение 2</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>02</DOMVALUE_L>
+     <DDTEXT>Valor prefijado 2</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DOMVALUE_L>02</DOMVALUE_L>
+     <DDTEXT>Standart değer 2</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DOMVALUE_L>02</DOMVALUE_L>
+     <DDTEXT>Standardvärde 2</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DOMVALUE_L>03</DOMVALUE_L>
+     <DDTEXT>标准值3</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <DOMVALUE_L>03</DOMVALUE_L>
+     <DDTEXT>ค่ามาตรฐาน 3</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DOMVALUE_L>03</DOMVALUE_L>
+     <DDTEXT>기본값 3</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>4</DDLANGUAGE>
+     <DOMVALUE_L>03</DOMVALUE_L>
+     <DDTEXT>Valoare standard 3</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>5</DDLANGUAGE>
+     <DOMVALUE_L>03</DOMVALUE_L>
+     <DDTEXT>Privzeta vrednost 3</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>6</DDLANGUAGE>
+     <DOMVALUE_L>03</DOMVALUE_L>
+     <DDTEXT>Vrijednost Norme 3</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DOMVALUE_L>03</DOMVALUE_L>
+     <DDTEXT>Standardní hodnota 3</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>03</DOMVALUE_L>
+     <DDTEXT>Default value 3</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>03</DOMVALUE_L>
+     <DDTEXT>Valeur par défaut 3</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DOMVALUE_L>03</DOMVALUE_L>
+     <DDTEXT>Normaérték 3</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>03</DOMVALUE_L>
+     <DDTEXT>Valore standard 3</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>03</DOMVALUE_L>
+     <DDTEXT>標準値３</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DOMVALUE_L>03</DOMVALUE_L>
+     <DDTEXT>Default value 3</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>03</DOMVALUE_L>
+     <DDTEXT>Przycisk na dział</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DOMVALUE_L>03</DOMVALUE_L>
+     <DDTEXT> Standaardwaarde 3</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>03</DOMVALUE_L>
+     <DDTEXT>Valor default 3</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DOMVALUE_L>03</DOMVALUE_L>
+     <DDTEXT>Štand. hodnota 3</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DOMVALUE_L>03</DOMVALUE_L>
+     <DDTEXT>Заданное значение 3</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>03</DOMVALUE_L>
+     <DDTEXT>Valor prefijado 3</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DOMVALUE_L>03</DOMVALUE_L>
+     <DDTEXT>Standart değer 3</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DOMVALUE_L>03</DOMVALUE_L>
+     <DDTEXT>Standardvärde 3</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DOMVALUE_L>04</DOMVALUE_L>
+     <DDTEXT>标准值4</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <DOMVALUE_L>04</DOMVALUE_L>
+     <DDTEXT>ค่ามาตรฐาน 4</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DOMVALUE_L>04</DOMVALUE_L>
+     <DDTEXT>기본값 4</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>4</DDLANGUAGE>
+     <DOMVALUE_L>04</DOMVALUE_L>
+     <DDTEXT>Valoare standard 4</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>5</DDLANGUAGE>
+     <DOMVALUE_L>04</DOMVALUE_L>
+     <DDTEXT>Privzeta vrednost 4</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>6</DDLANGUAGE>
+     <DOMVALUE_L>04</DOMVALUE_L>
+     <DDTEXT>Vrijednost Norme 4</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DOMVALUE_L>04</DOMVALUE_L>
+     <DDTEXT>Standardní hodnota 4</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>04</DOMVALUE_L>
+     <DDTEXT>Default value 4</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>04</DOMVALUE_L>
+     <DDTEXT>Valeur par défaut 4</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DOMVALUE_L>04</DOMVALUE_L>
+     <DDTEXT>Normaérték 4</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>04</DOMVALUE_L>
+     <DDTEXT>Valore standard 4</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>04</DOMVALUE_L>
+     <DDTEXT>標準値４</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DOMVALUE_L>04</DOMVALUE_L>
+     <DDTEXT>Default value 4</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>04</DOMVALUE_L>
+     <DDTEXT>Wartość standardowa 4</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DOMVALUE_L>04</DOMVALUE_L>
+     <DDTEXT> Standaardwaarde 4</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>04</DOMVALUE_L>
+     <DDTEXT>Valor default 4</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DOMVALUE_L>04</DOMVALUE_L>
+     <DDTEXT>Štand. hodnota 4</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DOMVALUE_L>04</DOMVALUE_L>
+     <DDTEXT>Заданное значение 4</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>04</DOMVALUE_L>
+     <DDTEXT>Valor prefijado 4</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DOMVALUE_L>04</DOMVALUE_L>
+     <DDTEXT>Standart değer 4</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DOMVALUE_L>04</DOMVALUE_L>
+     <DDTEXT>Standardvärde 4</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DOMVALUE_L>05</DOMVALUE_L>
+     <DDTEXT>标准值5</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <DOMVALUE_L>05</DOMVALUE_L>
+     <DDTEXT>ค่ามาตรฐาน 5</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DOMVALUE_L>05</DOMVALUE_L>
+     <DDTEXT>기본값 5</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>4</DDLANGUAGE>
+     <DOMVALUE_L>05</DOMVALUE_L>
+     <DDTEXT>Valoare standard 5</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>5</DDLANGUAGE>
+     <DOMVALUE_L>05</DOMVALUE_L>
+     <DDTEXT>Privzeta vrednost 5</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>6</DDLANGUAGE>
+     <DOMVALUE_L>05</DOMVALUE_L>
+     <DDTEXT>Vrijednost Norme 5</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DOMVALUE_L>05</DOMVALUE_L>
+     <DDTEXT>Standardní hodnota 5</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>05</DOMVALUE_L>
+     <DDTEXT>Default value 5</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>05</DOMVALUE_L>
+     <DDTEXT>Valeur par défaut 5</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DOMVALUE_L>05</DOMVALUE_L>
+     <DDTEXT>Normaérték 5</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>05</DOMVALUE_L>
+     <DDTEXT>Valore standard 5</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>05</DOMVALUE_L>
+     <DDTEXT>標準値５</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DOMVALUE_L>05</DOMVALUE_L>
+     <DDTEXT>Default value 5</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>05</DOMVALUE_L>
+     <DDTEXT>Wartość standardowa 5</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DOMVALUE_L>05</DOMVALUE_L>
+     <DDTEXT>Standaardwaarde 5</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>05</DOMVALUE_L>
+     <DDTEXT>Valor default 5</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DOMVALUE_L>05</DOMVALUE_L>
+     <DDTEXT>Štand. hodnota 5</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DOMVALUE_L>05</DOMVALUE_L>
+     <DDTEXT>Заданное значение 5</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>05</DOMVALUE_L>
+     <DDTEXT>Valor prefijado 5</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DOMVALUE_L>05</DOMVALUE_L>
+     <DDTEXT>Standart değer 5</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DOMVALUE_L>05</DOMVALUE_L>
+     <DDTEXT>Standardvärde 5</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DOMVALUE_L>06</DOMVALUE_L>
+     <DDTEXT>标准值6</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <DOMVALUE_L>06</DOMVALUE_L>
+     <DDTEXT>ค่ามาตรฐาน 6</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DOMVALUE_L>06</DOMVALUE_L>
+     <DDTEXT>기본값 6</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>4</DDLANGUAGE>
+     <DOMVALUE_L>06</DOMVALUE_L>
+     <DDTEXT>Valoare standard 6</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>5</DDLANGUAGE>
+     <DOMVALUE_L>06</DOMVALUE_L>
+     <DDTEXT>Privzeta vrednost 6</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>6</DDLANGUAGE>
+     <DOMVALUE_L>06</DOMVALUE_L>
+     <DDTEXT>Vrijednost Norme 6</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DOMVALUE_L>06</DOMVALUE_L>
+     <DDTEXT>Standardní hodnota 6</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>06</DOMVALUE_L>
+     <DDTEXT>Default value 6</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>06</DOMVALUE_L>
+     <DDTEXT>Valeur par défaut 6</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DOMVALUE_L>06</DOMVALUE_L>
+     <DDTEXT>Normaérték 6</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>06</DOMVALUE_L>
+     <DDTEXT>Valore standard 6</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>06</DOMVALUE_L>
+     <DDTEXT>標準値６</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DOMVALUE_L>06</DOMVALUE_L>
+     <DDTEXT>Default value 6</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>06</DOMVALUE_L>
+     <DDTEXT>Wartość standardowa 6</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DOMVALUE_L>06</DOMVALUE_L>
+     <DDTEXT>Standaardwaarde 6</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>06</DOMVALUE_L>
+     <DDTEXT>Valor default 6</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DOMVALUE_L>06</DOMVALUE_L>
+     <DDTEXT>Štand. hodnota 6</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DOMVALUE_L>06</DOMVALUE_L>
+     <DDTEXT>Заданное значение 6</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>06</DOMVALUE_L>
+     <DDTEXT>Valor prefijado 6</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DOMVALUE_L>06</DOMVALUE_L>
+     <DDTEXT>Standart değer 6</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DOMVALUE_L>06</DOMVALUE_L>
+     <DDTEXT>Standardvärde 6</DDTEXT>
+    </item>
+   </DD07_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

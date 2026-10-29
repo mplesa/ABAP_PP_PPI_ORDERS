@@ -1,0 +1,634 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>Z_PLNID</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>Z_PLNID</DOMNAME>
+    <HEADLEN>12</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Identifikation Planning-Objekt</DDTEXT>
+    <REPTEXT>Plan ID</REPTEXT>
+    <SCRTEXT_S>Plan ID</SCRTEXT_S>
+    <SCRTEXT_M>Plan ID</SCRTEXT_M>
+    <SCRTEXT_L>Plan ID</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>2</LANGU>
+    <LANGU>3</LANGU>
+    <LANGU>4</LANGU>
+    <LANGU>5</LANGU>
+    <LANGU>6</LANGU>
+    <LANGU>C</LANGU>
+    <LANGU>E</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>Q</LANGU>
+    <LANGU>R</LANGU>
+    <LANGU>S</LANGU>
+    <LANGU>T</LANGU>
+    <LANGU>V</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>标识符 计划对象</DDTEXT>
+     <REPTEXT>计划 ID</REPTEXT>
+     <SCRTEXT_S>计划 ID</SCRTEXT_S>
+     <SCRTEXT_M>计划 ID</SCRTEXT_M>
+     <SCRTEXT_L>计划 ID</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <DDTEXT>ข้อกำหนด ออบเจคการวางแผน</DDTEXT>
+     <REPTEXT>แผน ID</REPTEXT>
+     <SCRTEXT_S>แผน ID</SCRTEXT_S>
+     <SCRTEXT_M>แผน ID</SCRTEXT_M>
+     <SCRTEXT_L>แผน ID</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DDTEXT>계획-오브젝트 식별</DDTEXT>
+     <REPTEXT>계획 아이디</REPTEXT>
+     <SCRTEXT_S>계획아이디</SCRTEXT_S>
+     <SCRTEXT_M>계획 아이디</SCRTEXT_M>
+     <SCRTEXT_L>계획 아이디</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>4</DDLANGUAGE>
+     <DDTEXT>Identificare obiect de planificare</DDTEXT>
+     <REPTEXT>Plan ID</REPTEXT>
+     <SCRTEXT_S>Plan ID</SCRTEXT_S>
+     <SCRTEXT_M>Plan ID</SCRTEXT_M>
+     <SCRTEXT_L>Plan ID</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>5</DDLANGUAGE>
+     <DDTEXT>Identifikacija objekta planiranja</DDTEXT>
+     <REPTEXT>Plan ID</REPTEXT>
+     <SCRTEXT_S>Plan ID</SCRTEXT_S>
+     <SCRTEXT_M>Plan ID</SCRTEXT_M>
+     <SCRTEXT_L>Plan ID</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>6</DDLANGUAGE>
+     <DDTEXT>Idetifikacija Planiranje-objekat</DDTEXT>
+     <REPTEXT>Plan ID</REPTEXT>
+     <SCRTEXT_S>Plan ID</SCRTEXT_S>
+     <SCRTEXT_M>Plan ID</SCRTEXT_M>
+     <SCRTEXT_L>Plan ID</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DDTEXT>Identifikace objektu plánování</DDTEXT>
+     <REPTEXT>Plán ID</REPTEXT>
+     <SCRTEXT_S>Plán ID</SCRTEXT_S>
+     <SCRTEXT_M>Plán ID</SCRTEXT_M>
+     <SCRTEXT_L>Plán ID</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Identification Planning Object</DDTEXT>
+     <REPTEXT>Plan ID</REPTEXT>
+     <SCRTEXT_S>Plan ID</SCRTEXT_S>
+     <SCRTEXT_M>Plan ID</SCRTEXT_M>
+     <SCRTEXT_L>Plan ID</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Identification objet de planification</DDTEXT>
+     <REPTEXT>Plan ID</REPTEXT>
+     <SCRTEXT_S>Plan ID</SCRTEXT_S>
+     <SCRTEXT_M>Plan ID</SCRTEXT_M>
+     <SCRTEXT_L>Plan ID</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>Azonosítás tervezési objektum</DDTEXT>
+     <REPTEXT>Terv ID</REPTEXT>
+     <SCRTEXT_S>Terv ID</SCRTEXT_S>
+     <SCRTEXT_M>Terv ID</SCRTEXT_M>
+     <SCRTEXT_L>Terv ID</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Identificazione oggetto di pianificazione</DDTEXT>
+     <REPTEXT>ID pia.</REPTEXT>
+     <SCRTEXT_S>ID pia.</SCRTEXT_S>
+     <SCRTEXT_M>ID pia.</SCRTEXT_M>
+     <SCRTEXT_L>ID pia.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>計画オブジェクトのID</DDTEXT>
+     <REPTEXT>計画ＩＤ</REPTEXT>
+     <SCRTEXT_S>計画ＩＤ</SCRTEXT_S>
+     <SCRTEXT_M>計画ＩＤ</SCRTEXT_M>
+     <SCRTEXT_L>計画ＩＤ</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Identyfikacja objekt  plan.</DDTEXT>
+     <REPTEXT>Plan ID</REPTEXT>
+     <SCRTEXT_S>Plan ID</SCRTEXT_S>
+     <SCRTEXT_M>Plan ID</SCRTEXT_M>
+     <SCRTEXT_L>Plan ID</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Indentification planning-object</DDTEXT>
+     <REPTEXT>Plan ID</REPTEXT>
+     <SCRTEXT_S>Plan ID</SCRTEXT_S>
+     <SCRTEXT_M>Plan ID</SCRTEXT_M>
+     <SCRTEXT_L>Plan ID</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Identificação objeto de planejamento</DDTEXT>
+     <REPTEXT>Plan ID</REPTEXT>
+     <SCRTEXT_S>Plan ID</SCRTEXT_S>
+     <SCRTEXT_M>Plan ID</SCRTEXT_M>
+     <SCRTEXT_L>Plan ID</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DDTEXT>Identifikácia objekt plánovania</DDTEXT>
+     <REPTEXT>Plán ID</REPTEXT>
+     <SCRTEXT_S>Plán ID</SCRTEXT_S>
+     <SCRTEXT_M>Plán ID</SCRTEXT_M>
+     <SCRTEXT_L>Plán ID</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DDTEXT>Идентификация объекта планирования</DDTEXT>
+     <REPTEXT>План Ид.</REPTEXT>
+     <SCRTEXT_S>План Ид.</SCRTEXT_S>
+     <SCRTEXT_M>План Идентиф.</SCRTEXT_M>
+     <SCRTEXT_L>План Идентиф.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Identificación objeto de planificación</DDTEXT>
+     <REPTEXT>Plan ID</REPTEXT>
+     <SCRTEXT_S>Plan ID</SCRTEXT_S>
+     <SCRTEXT_M>Plan ID</SCRTEXT_M>
+     <SCRTEXT_L>Plan ID</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DDTEXT>Tanitici planlama nesnesi</DDTEXT>
+     <REPTEXT>Pln tanitici</REPTEXT>
+     <SCRTEXT_S>Pln tntci</SCRTEXT_S>
+     <SCRTEXT_M>Pln tanitici</SCRTEXT_M>
+     <SCRTEXT_L>Pln tanitici</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DDTEXT>Identifikation planning-objekt</DDTEXT>
+     <REPTEXT>Plan ID</REPTEXT>
+     <SCRTEXT_S>Plan ID</SCRTEXT_S>
+     <SCRTEXT_M>Plan ID</SCRTEXT_M>
+     <SCRTEXT_L>Plan ID</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>Z_PLNID</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00003</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>Z_PLNID</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Nummer der Planungselements.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>In diesem Feld kann in Abhängigkeit des Planungelements eine Auftrags-,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>eine Planauftragsnummer, ein Dummyauftrag etc. zur Anzeige kommen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEPENDENCIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>Z_PLNID</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <TXTLINES>00003</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>Z_PLNID</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Number of the planning element</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Dependent on the planning element an order or a planed order number, a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>dummy order, etc, can be diaplayed in this field.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEPENDENCIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>Z_PLNID</OBJECT>
+      <LANGU>F</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <TXTLINES>00003</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>Z_PLNID</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>F</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Nombre d&apos;élément de planification.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Dans cette zone, un numéro d&apos;ordre/d&apos;ordre planifié, un ordre fictif</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>etc. peut être affiché au gré d&apos;élément de planification.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEPENDENCIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>Z_PLNID</OBJECT>
+      <LANGU>I</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <TXTLINES>00004</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>Z_PLNID</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>I</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Numero degli elementi di pianificazione.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>A seconda dell&apos;elemento di pianificazione, in questo campo è possibile</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>visualizzare un numero d&apos;ordine, un numero d&apos;ordine pianificato, un</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ordine Dummy, ecc.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEPENDENCIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>Z_PLNID</OBJECT>
+      <LANGU>N</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <TXTLINES>00003</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>Z_PLNID</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>N</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Nummer van het planningselement.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>In dit veld kan afhankelijk van het planningselement een ordernummer,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>een gepland ordernummer, een dummyorder etc. worden weergegeven.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEPENDENCIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>Z_PLNID</OBJECT>
+      <LANGU>P</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <TXTLINES>00004</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>Z_PLNID</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>P</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Número do elemento de planejamento.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Dependendo do elemento de planejamento, esse campo pode exibir um número</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>de ordem, um número de ordem planejada, uma ordem dummy e assim por</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>diante.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEPENDENCIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>Z_PLNID</OBJECT>
+      <LANGU>S</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <TXTLINES>00004</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>Z_PLNID</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>S</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Número del elemento de planificación.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>En este campo puede ser visualizado en dependencia del elemento de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>planificación un número de orden / orden previsional, una orden ficticia</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>etc.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEPENDENCIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>Z_PLNID</OBJECT>
+      <LANGU>늑</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <TXTLINES>00002</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>Z_PLNID</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>늑</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Translation object:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>DE Z_PLNID</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

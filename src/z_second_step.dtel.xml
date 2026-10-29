@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>Z_SECOND_STEP</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>FLAG</DOMNAME>
+    <HEADLEN>38</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>17</SCRLEN2>
+    <SCRLEN3>34</SCRLEN3>
+    <DDTEXT>DCP Vorgang Freigegeben für Zweite Schritt</DDTEXT>
+    <REPTEXT>Vorgang Freigegeben für Zweite Schritt</REPTEXT>
+    <SCRTEXT_S>Frei 2Sch.</SCRTEXT_S>
+    <SCRTEXT_M>Frei für 2 Schrit</SCRTEXT_M>
+    <SCRTEXT_L>Vorg. Frei für Zweite Schritt</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>2</LANGU>
+    <LANGU>3</LANGU>
+    <LANGU>4</LANGU>
+    <LANGU>5</LANGU>
+    <LANGU>6</LANGU>
+    <LANGU>C</LANGU>
+    <LANGU>E</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>Q</LANGU>
+    <LANGU>R</LANGU>
+    <LANGU>S</LANGU>
+    <LANGU>T</LANGU>
+    <LANGU>V</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>DCP工序 已为第二步下达</DDTEXT>
+     <REPTEXT>工序 已为第二步下达</REPTEXT>
+     <SCRTEXT_S>Rlsd 2step</SCRTEXT_S>
+     <SCRTEXT_M>已为第二步下达</SCRTEXT_M>
+     <SCRTEXT_L>工序 已为第二步下达</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <DDTEXT>DCP อนุมัติการปฏิบัติการสำหรับขั้นตอนที่สองแล้ว</DDTEXT>
+     <REPTEXT>อนุมัติก.ปฏิบัติการขั้ี่นสองแล้ว</REPTEXT>
+     <SCRTEXT_S>อนุ.ข.2</SCRTEXT_S>
+     <SCRTEXT_M>อนุมัติขั้นสอง</SCRTEXT_M>
+     <SCRTEXT_L>อนุมัติก.ปฏิบัติการขั้ี่นสองแล้ว</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DDTEXT>2단계용 DCP 작업 릴리스됨</DDTEXT>
+     <REPTEXT>2단계용 작업 릴리스됨</REPTEXT>
+     <SCRTEXT_S>Rlsd 2step</SCRTEXT_S>
+     <SCRTEXT_M>2단계용 릴리스</SCRTEXT_M>
+     <SCRTEXT_L>2단계용 작업 릴리스됨</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>4</DDLANGUAGE>
+     <DDTEXT>DCP Operaţie eliberată pt. al doilea pas</DDTEXT>
+     <REPTEXT>Operaţie elib. pt. al doilea pas</REPTEXT>
+     <SCRTEXT_S>Elib.Pas 2</SCRTEXT_S>
+     <SCRTEXT_M>Elib. pt. pasul 2</SCRTEXT_M>
+     <SCRTEXT_L>Operaţie elib. pt. al doilea pas</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>5</DDLANGUAGE>
+     <DDTEXT>DCP postopek lansiran za drugi korak</DDTEXT>
+     <REPTEXT>Postopek lansiran za drugi korak</REPTEXT>
+     <SCRTEXT_S>La.2.korak</SCRTEXT_S>
+     <SCRTEXT_M>Lans. za 2. korak</SCRTEXT_M>
+     <SCRTEXT_L>Postopek lansiran za drugi korak</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>6</DDLANGUAGE>
+     <DDTEXT>DCP Postupak oslobođen za drugi korak</DDTEXT>
+     <REPTEXT>Postupak oslobođen za drugi korak</REPTEXT>
+     <SCRTEXT_S>slob.2kor.</SCRTEXT_S>
+     <SCRTEXT_M>Slob. za 2 korak</SCRTEXT_M>
+     <SCRTEXT_L>Post. oslobođen za drugi korak</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DDTEXT>DCP operace uvolněná pro druhý krok</DDTEXT>
+     <REPTEXT>Operace uvolněná pro druhý krok</REPTEXT>
+     <SCRTEXT_S>Volná2krok</SCRTEXT_S>
+     <SCRTEXT_M>Volná pro 2 krok</SCRTEXT_M>
+     <SCRTEXT_L>Oper.volná pro druhý krok</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>DCP operation released for second step</DDTEXT>
+     <REPTEXT>Operation released for second step</REPTEXT>
+     <SCRTEXT_S>Rlsd 2step</SCRTEXT_S>
+     <SCRTEXT_M>Rlsd for sec step</SCRTEXT_M>
+     <SCRTEXT_L>Operation released for second step</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>DCP opération validée pour la deuxième étape</DDTEXT>
+     <REPTEXT>Opération validée pour la deux. étape</REPTEXT>
+     <SCRTEXT_S>Vld 2étape</SCRTEXT_S>
+     <SCRTEXT_M>Vld pour 2ième ét</SCRTEXT_M>
+     <SCRTEXT_L>Opér. validée pour deuxième étape</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>DCP művelet második lépéshez engedélyez</DDTEXT>
+     <REPTEXT>DCP művelet második lépéshez engedély.</REPTEXT>
+     <SCRTEXT_S>2.lép. eng</SCRTEXT_S>
+     <SCRTEXT_M>2. lépés enged.</SCRTEXT_M>
+     <SCRTEXT_L>Művel. enged. második lépés</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>DCP Oper. rilasc. per la sec. fase</DDTEXT>
+     <REPTEXT>Oper. rilasc. per la sec. fase</REPTEXT>
+     <SCRTEXT_S>Ril. 2Fase</SCRTEXT_S>
+     <SCRTEXT_M>Ril. per sec.fase</SCRTEXT_M>
+     <SCRTEXT_L>Oper. rilasc. per la sec. fase</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>DCP 作業をステップ２へリリースする</DDTEXT>
+     <REPTEXT>作業をステップ2へリリースする</REPTEXT>
+     <SCRTEXT_S>Rls 2Step</SCRTEXT_S>
+     <SCRTEXT_M>ステップ2リリース</SCRTEXT_M>
+     <SCRTEXT_L>作業をステップ2へリリースする</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>GXM operacja zatwierdzona dla drugiego kroku</DDTEXT>
+     <REPTEXT>GXM  operacja zatw. dla drugiego kroku</REPTEXT>
+     <SCRTEXT_S>Zat.2kro.</SCRTEXT_S>
+     <SCRTEXT_M>Zatw. dla 2 kroku</SCRTEXT_M>
+     <SCRTEXT_L>Oper. zatw. dla drugiego kroku</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>DCP operatie vrijgegeven voor tweede stap</DDTEXT>
+     <REPTEXT>Operatie vrijgegeven voor tweede stap</REPTEXT>
+     <SCRTEXT_S>Vrij 2Stap</SCRTEXT_S>
+     <SCRTEXT_M>Vrij voor 2e stap</SCRTEXT_M>
+     <SCRTEXT_L>Operatie vrij voor tweede stap</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>DCP operação liberado para o segundo passo</DDTEXT>
+     <REPTEXT>Operação liberado para o segundo passo</REPTEXT>
+     <SCRTEXT_S>Liv.2°pass</SCRTEXT_S>
+     <SCRTEXT_M>Livre p/ 2° passo</SCRTEXT_M>
+     <SCRTEXT_L>Operação livre para o 2° passo</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DDTEXT>DCP operácia uvoľnená pre druhý krok</DDTEXT>
+     <REPTEXT>Operácia uvoľnená pre druhý krok</REPTEXT>
+     <SCRTEXT_S>Voľná 2kr.</SCRTEXT_S>
+     <SCRTEXT_M>Voľná pre 2 krok</SCRTEXT_M>
+     <SCRTEXT_L>Oper. voľná pre druhý krok</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DDTEXT>Деблокировать DCP операцию для второго шага</DDTEXT>
+     <REPTEXT>Деблокиров. операцию для второго шага</REPTEXT>
+     <SCRTEXT_S>Своб2Шаг</SCRTEXT_S>
+     <SCRTEXT_M>СвободДляВторШага</SCRTEXT_M>
+     <SCRTEXT_L>Операция свободна. для вт.шага</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>DCP operación liberado para segundo paso</DDTEXT>
+     <REPTEXT>Operación liberada para segundo paso</REPTEXT>
+     <SCRTEXT_S>Libre2paso</SCRTEXT_S>
+     <SCRTEXT_M>Libre para 2 paso</SCRTEXT_M>
+     <SCRTEXT_L>Oper. liber. para 2 paso</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DDTEXT>DCP İşlem ikinci adım için onaylandı</DDTEXT>
+     <REPTEXT>İşlem ikinci adım için onaylandı</REPTEXT>
+     <SCRTEXT_S>Onay 2Adım</SCRTEXT_S>
+     <SCRTEXT_M>2 adım için onay.</SCRTEXT_M>
+     <SCRTEXT_L>İşlem ikinci adım için onaylandı</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DDTEXT>GXM operation frisläppt för andra steg</DDTEXT>
+     <REPTEXT>Operation frisläppt för andra steg</REPTEXT>
+     <SCRTEXT_S>Fri 2. st.</SCRTEXT_S>
+     <SCRTEXT_M>Fri för 2. steg</SCRTEXT_M>
+     <SCRTEXT_L>Op. frisläppt för andra steg</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

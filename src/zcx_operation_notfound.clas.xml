@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCX_OPERATION_NOTFOUND</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Vorgang nicht Gefunden</DESCRIPT>
+    <CATEGORY>40</CATEGORY>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <SOTR>
+    <item>
+     <HEADER>
+      <CONCEPT>005056A600C21ED597A804001A45382F</CONCEPT>
+      <CREA_LAN>D</CREA_LAN>
+      <TRALA_TYPE>1</TRALA_TYPE>
+      <OBJID_VEC>CA==</OBJID_VEC>
+     </HEADER>
+     <ENTRIES>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21ED597A804001A45382F</CONCEPT>
+       <LANGU>E</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Order &apos;&amp;PLNID&amp;&apos; operation &apos;&amp;VORNR&amp;&apos; not found.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21ED597A804001A45382F</CONCEPT>
+       <LANGU>1</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>没有找到订单 &apos;&amp;PLNID&amp;&apos; 操作&apos;&amp;VORNR&amp;&apos;</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21ED597A804001A45382F</CONCEPT>
+       <LANGU>F</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Ordre &apos;&amp;PLNID&amp;&apos; opération &apos;&amp;VORNR&amp;&apos; n&apos;a pas trouvé.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21ED597A804001A45382F</CONCEPT>
+       <LANGU>I</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Ordine &apos;&amp;PLNID&amp;&apos; Operaz. &apos;&amp;VORNR&amp;&apos; non trovati.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21ED597A804001A45382F</CONCEPT>
+       <LANGU>J</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>オーダ &apos;&amp;PLNID&amp;&apos; 作業 &apos;&amp;VORNR&amp;&apos; は見つかりませんでした。</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21ED597A804001A45382F</CONCEPT>
+       <LANGU>3</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>오더 &apos;&amp;PLNID&amp;&apos; 작업 &apos;&amp;VORNR&amp;&apos; 없음.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21ED597A804001A45382F</CONCEPT>
+       <LANGU>6</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Nalog &apos;&amp;PLNID&amp;&apos; Postupak &apos;&amp;VORNR&amp;&apos; nije pronađen.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21ED597A804001A45382F</CONCEPT>
+       <LANGU>N</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Opdracht &apos;&amp;PLNID&amp;&apos; operatie &apos;&amp;VORNR&amp;&apos; niet gevonden.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21ED597A804001A45382F</CONCEPT>
+       <LANGU>P</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Ordem &apos;&amp;PLNID&amp;&apos; operação &apos;&amp;VORNR&amp;&apos; não encontrou-se.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21ED597A804001A45382F</CONCEPT>
+       <LANGU>4</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Comanda &apos;&amp;PLNID&amp;&apos; operaţia &apos;&amp;VORNR&amp;&apos; nu a fost găsită.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21ED597A804001A45382F</CONCEPT>
+       <LANGU>R</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Заказ &apos;&amp;PLNID&amp;&apos; операции &apos;&amp;VORNR&amp;&apos; не найден.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21ED597A804001A45382F</CONCEPT>
+       <LANGU>V</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Order &apos;&amp;PLNID&amp;&apos; Operation &apos;&amp;VORNR&amp;&apos; hittades inte.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21ED597A804001A45382F</CONCEPT>
+       <LANGU>Q</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Zákazka &apos;&amp;PLNID&amp;&apos; operácia &apos;&amp;VORNR&amp;&apos; nenájdená.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21ED597A804001A45382F</CONCEPT>
+       <LANGU>5</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Nalog &apos;&amp;PLNID&amp;&apos; postopek &apos;&amp;VORNR&amp;&apos; ni bil najden.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21ED597A804001A45382F</CONCEPT>
+       <LANGU>S</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Orden &apos;&amp;PLNID&amp;&apos; operación &apos;&amp;VORNR&amp;&apos; no encontrado.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21ED597A804001A45382F</CONCEPT>
+       <LANGU>2</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>ไม่พบคำสั่ง &apos;&amp;PLNID&amp;&apos; การปฏิบัติการ &apos;&amp;VORNR&amp;&apos;</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21ED597A804001A45382F</CONCEPT>
+       <LANGU>C</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Zakázka &apos;&amp;PLNID&amp;&apos; operace &apos;&amp;VORNR&amp;&apos; nenalezeny.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21ED597A804001A45382F</CONCEPT>
+       <LANGU>T</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Sipariş &apos;&amp;PLNID&amp;&apos; İşlem &apos;&amp;VORNR&amp;&apos; bulunamadı.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21ED597A804001A45382F</CONCEPT>
+       <LANGU>H</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Rendelés &apos;&amp;PLNID&amp;&apos; művelet &apos;&amp;VORNR&amp;&apos; nem található.</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21ED597A804001A45382F</CONCEPT>
+       <LANGU>L</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Zlecenie &quot;&amp;PLNID&amp;&quot; Operacja &quot;&amp;VORNR&amp;&quot; nie znaleziono</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>005056A600C21ED597A804001A45382F</CONCEPT>
+       <LANGU>D</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Auftrag &apos;&amp;PLNID&amp;&apos; Vorgang &apos;&amp;VORNR&amp;&apos; nicht gefunden.</TEXT>
+      </SOTR_TEXT>
+     </ENTRIES>
+    </item>
+   </SOTR>
+   <SOTR_USE>
+    <SOTR_USE>
+     <PGMID>LIMU</PGMID>
+     <OBJECT>CPUB</OBJECT>
+     <OBJ_NAME>ZCX_OPERATION_NOTFOUND</OBJ_NAME>
+     <CONCEPT>005056A600C21ED597A804001A45382F</CONCEPT>
+     <LFD_NUM>0001</LFD_NUM>
+    </SOTR_USE>
+   </SOTR_USE>
+   <SOTS_USE>
+    <SOTR_USEU>
+     <PGMID>LIMU</PGMID>
+     <OBJECT>CPUB</OBJECT>
+     <OBJ_NAME>ZCX_OPERATION_NOTFOUND</OBJ_NAME>
+     <LFD_NUM>0001</LFD_NUM>
+    </SOTR_USEU>
+   </SOTS_USE>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

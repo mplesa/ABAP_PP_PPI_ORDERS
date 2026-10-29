@@ -1,0 +1,2582 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>Z_CORE</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>Kern Meldungen</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>Z_CORE</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>Z_CORE</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>*                    Terminierung                                       *</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>Z_CORE</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>Z_CORE</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Terminkonflikt: Überschneidung mit Vorgängervorgang &apos;&amp;1&apos;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>Z_CORE</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Terminkonflikt: Überschneidung mit Nachfolgervorgang &apos;&amp;1&apos;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>Z_CORE</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Kapazitätsverfügbarkeit: Arbeitsplätze mit Überlast vorhand.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>Z_CORE</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Arbeitsplätze mit Überlast: &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>Z_CORE</ARBGB>
+     <MSGNR>101</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>Z_CORE</ARBGB>
+     <MSGNR>102</MSGNR>
+     <TEXT>*                    Terminierung                                       *</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>Z_CORE</ARBGB>
+     <MSGNR>103</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>Z_CORE</ARBGB>
+     <MSGNR>104</MSGNR>
+     <TEXT>Bitte Auftragsmenge angeben!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>Z_CORE</ARBGB>
+     <MSGNR>105</MSGNR>
+     <TEXT>Auftrag &apos;&amp;1&apos; ist schon Rückgemeldet oder Teilrückgemeldet.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>Z_CORE</ARBGB>
+     <MSGNR>106</MSGNR>
+     <TEXT>Fertigungsversion &apos;&amp;&apos; ist nicht vorhanden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>Z_CORE</ARBGB>
+     <MSGNR>107</MSGNR>
+     <TEXT>Auftrag &apos;&amp;&apos; ist momentan gesperrt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>Z_CORE</ARBGB>
+     <MSGNR>108</MSGNR>
+     <TEXT>Planauftrag &apos;&amp;&apos;: &quot;Kapazitiv eingeplant&quot; kenzeichen wurde entfernt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>Z_CORE</ARBGB>
+     <MSGNR>109</MSGNR>
+     <TEXT>Auftrag &apos;&amp;1&apos;(Vorgang &amp;2): Status &amp;3(&amp;4) wurde entfernt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>Z_CORE</ARBGB>
+     <MSGNR>110</MSGNR>
+     <TEXT>Auftrag &apos;&amp;1&apos;(Vorgang &amp;2): Status &amp;3(&amp;4) wurde gesetzt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>Z_CORE</ARBGB>
+     <MSGNR>111</MSGNR>
+     <TEXT>Auftrag &apos;&amp;1&apos;(Vorgang &amp;2):</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>Z_CORE</ARBGB>
+     <MSGNR>112</MSGNR>
+     <TEXT>Auftrag &apos;&amp;1&apos;(Phase &amp;2):</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>Z_CORE</ARBGB>
+     <MSGNR>113</MSGNR>
+     <TEXT>Arbeitsplatzwechsel von (&amp;1) nach (&amp;2) wurde durchgeführt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>Z_CORE</ARBGB>
+     <MSGNR>114</MSGNR>
+     <TEXT>&amp;1 wurde von &amp;2 auf &amp;3 geändert.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>Z_CORE</ARBGB>
+     <MSGNR>115</MSGNR>
+     <TEXT>&amp;1 wurde nicht geändert. Vorgabewerte des Arbeitsplatzes beachten!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>Z_CORE</ARBGB>
+     <MSGNR>116</MSGNR>
+     <TEXT>Daten wurden erfolgreich gesichert.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>Z_CORE</ARBGB>
+     <MSGNR>117</MSGNR>
+     <TEXT>Auftrag &apos;&amp;1&apos; hat Systemstatus &quot;Genehmigung erteilt&quot;</TEXT>
+    </T100>
+   </T100>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>2</LANGU>
+    <LANGU>3</LANGU>
+    <LANGU>4</LANGU>
+    <LANGU>5</LANGU>
+    <LANGU>6</LANGU>
+    <LANGU>C</LANGU>
+    <LANGU>E</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>Q</LANGU>
+    <LANGU>R</LANGU>
+    <LANGU>S</LANGU>
+    <LANGU>T</LANGU>
+    <LANGU>V</LANGU>
+   </I18N_LANGS>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>1</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>1</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>*                    排程                                               *</TEXT>
+    </item>
+    <item>
+     <SPRSL>1</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>1</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>日程冲突t: 与先前操作 &apos;&amp;1&apos;重叠.</TEXT>
+    </item>
+    <item>
+     <SPRSL>1</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>日程冲突: 与之后的操作 &apos;&amp;1&apos;重叠.</TEXT>
+    </item>
+    <item>
+     <SPRSL>1</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>产能可用性：存在过载的工作中心</TEXT>
+    </item>
+    <item>
+     <SPRSL>1</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>过载工作中心：  &amp;1。</TEXT>
+    </item>
+    <item>
+     <SPRSL>1</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>1</SPRSL>
+     <MSGNR>102</MSGNR>
+     <TEXT>*                    排程                                               *</TEXT>
+    </item>
+    <item>
+     <SPRSL>1</SPRSL>
+     <MSGNR>103</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>1</SPRSL>
+     <MSGNR>104</MSGNR>
+     <TEXT>请指定订单数量！</TEXT>
+    </item>
+    <item>
+     <SPRSL>1</SPRSL>
+     <MSGNR>105</MSGNR>
+     <TEXT>订单 &apos;&amp;1&apos; 已被确认或部分确认。</TEXT>
+    </item>
+    <item>
+     <SPRSL>1</SPRSL>
+     <MSGNR>106</MSGNR>
+     <TEXT>生产版本&apos;&amp;&apos; 不存在.</TEXT>
+    </item>
+    <item>
+     <SPRSL>1</SPRSL>
+     <MSGNR>107</MSGNR>
+     <TEXT>订单&apos;&amp;&apos; 目前被冻结.</TEXT>
+    </item>
+    <item>
+     <SPRSL>1</SPRSL>
+     <MSGNR>108</MSGNR>
+     <TEXT>计划订单&apos;&amp;&apos;: 标识符&quot;产能规划期间的发派&quot; 已被移除。</TEXT>
+    </item>
+    <item>
+     <SPRSL>1</SPRSL>
+     <MSGNR>109</MSGNR>
+     <TEXT>订单&apos;&amp;1&apos;(工序&amp;2): 状态&amp;3(&amp;4) 已被移除.</TEXT>
+    </item>
+    <item>
+     <SPRSL>1</SPRSL>
+     <MSGNR>110</MSGNR>
+     <TEXT>订单&apos;&amp;1&apos;(工序&amp;2): 已设置状态&amp;3(&amp;4)。</TEXT>
+    </item>
+    <item>
+     <SPRSL>1</SPRSL>
+     <MSGNR>111</MSGNR>
+     <TEXT>订单&apos;&amp;1&apos;(工序&amp;2):</TEXT>
+    </item>
+    <item>
+     <SPRSL>1</SPRSL>
+     <MSGNR>112</MSGNR>
+     <TEXT>订单&apos;&amp;1&apos;(工序&amp;2):</TEXT>
+    </item>
+    <item>
+     <SPRSL>1</SPRSL>
+     <MSGNR>113</MSGNR>
+     <TEXT>工作中心已经从(&amp;1) 转换到 (&amp;2) .</TEXT>
+    </item>
+    <item>
+     <SPRSL>1</SPRSL>
+     <MSGNR>114</MSGNR>
+     <TEXT>&amp;1 已从 &amp;2 改为 &amp;3.</TEXT>
+    </item>
+    <item>
+     <SPRSL>1</SPRSL>
+     <MSGNR>115</MSGNR>
+     <TEXT>&amp;1未更改。请注意工作中心的预设值！</TEXT>
+    </item>
+    <item>
+     <SPRSL>1</SPRSL>
+     <MSGNR>116</MSGNR>
+     <TEXT>数据已成功保存。</TEXT>
+    </item>
+    <item>
+     <SPRSL>1</SPRSL>
+     <MSGNR>117</MSGNR>
+     <TEXT>订单 &apos;&amp;1&apos; 的系统状态为“已授权”</TEXT>
+    </item>
+    <item>
+     <SPRSL>2</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>2</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>*                   การจัดตาราง                                        *</TEXT>
+    </item>
+    <item>
+     <SPRSL>2</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>2</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>ขัดแย้งกับตารางเวลา: คาบเกี่ยวกันกับการดำเนินงานก่อนหน้า &apos;&amp;1&apos;.</TEXT>
+    </item>
+    <item>
+     <SPRSL>2</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>ขัดแย้งกับตารางเวลา: คาบเกี่ยวกันกับการปฏิบัติงานที่ตามมา &apos;&amp;1&apos;.</TEXT>
+    </item>
+    <item>
+     <SPRSL>2</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>กำลังการผลิตที่มีอยู่: มีศูนย์งานที่มีการเกินพิกัดอยู่</TEXT>
+    </item>
+    <item>
+     <SPRSL>2</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>ศูนย์งานที่มีการเกินพิกัด: &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>2</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>2</SPRSL>
+     <MSGNR>102</MSGNR>
+     <TEXT>*                   การจัดตาราง                                        *</TEXT>
+    </item>
+    <item>
+     <SPRSL>2</SPRSL>
+     <MSGNR>103</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>2</SPRSL>
+     <MSGNR>104</MSGNR>
+     <TEXT>โปรดระบุปริมาณการสั่งซื้อ!</TEXT>
+    </item>
+    <item>
+     <SPRSL>2</SPRSL>
+     <MSGNR>105</MSGNR>
+     <TEXT>ใบสั่ง &apos;&amp;1&apos; ได้รับการยืนยันหรือยืนยันบางส่วนแล้ว</TEXT>
+    </item>
+    <item>
+     <SPRSL>2</SPRSL>
+     <MSGNR>106</MSGNR>
+     <TEXT>เวอร์ชันการผลิต &apos;&amp;&apos; ที่ไม่สามารถใช้ได้</TEXT>
+    </item>
+    <item>
+     <SPRSL>2</SPRSL>
+     <MSGNR>107</MSGNR>
+     <TEXT>ใบสั่ง &apos;&amp;&apos; ได้ถูกล็อคในขณะนี้</TEXT>
+    </item>
+    <item>
+     <SPRSL>2</SPRSL>
+     <MSGNR>108</MSGNR>
+     <TEXT>คำสั่งตามแผน &apos;&amp;&apos;: ตัวบ่งชี้ &quot;นำส่งกำลังการผลิตแล้ว&quot; ถูกลบออก</TEXT>
+    </item>
+    <item>
+     <SPRSL>2</SPRSL>
+     <MSGNR>109</MSGNR>
+     <TEXT>ใบสั่ง &apos;&amp;1&apos;(การปฏิบัติการ &amp;2): สถานะ &amp;3(&amp;4) ถูกลบออกแล้ว</TEXT>
+    </item>
+    <item>
+     <SPRSL>2</SPRSL>
+     <MSGNR>110</MSGNR>
+     <TEXT>ใบสั่ง &apos;&amp;1&apos;(การปฏิบัติการ &amp;2): สถานะ &amp;3(&amp;4) ถูกติดตั้งแล้ว</TEXT>
+    </item>
+    <item>
+     <SPRSL>2</SPRSL>
+     <MSGNR>111</MSGNR>
+     <TEXT>ใบสั่ง &apos;&amp;1&apos;(การปฏิบัติการ &amp;2):</TEXT>
+    </item>
+    <item>
+     <SPRSL>2</SPRSL>
+     <MSGNR>112</MSGNR>
+     <TEXT>ใบสั่ง &apos;&amp;1&apos; (ช่วง &amp;2):</TEXT>
+    </item>
+    <item>
+     <SPRSL>2</SPRSL>
+     <MSGNR>113</MSGNR>
+     <TEXT>ดำเนินการการเปลี่ยนศูนย์งานจาก (&amp;1) ไปที่ (&amp;2) แล้ว</TEXT>
+    </item>
+    <item>
+     <SPRSL>2</SPRSL>
+     <MSGNR>114</MSGNR>
+     <TEXT>&amp;1 จะถูกเปลี่ยนจาก &amp;2 เป็น &amp;3</TEXT>
+    </item>
+    <item>
+     <SPRSL>2</SPRSL>
+     <MSGNR>115</MSGNR>
+     <TEXT>&amp;1 ไม่ได้ถูกเปลี่ยนแปลง กรุณาคำนึงถึงค่าเริ่มต้นของศูนย์งาน!</TEXT>
+    </item>
+    <item>
+     <SPRSL>2</SPRSL>
+     <MSGNR>116</MSGNR>
+     <TEXT>บันทึกข้อมูลเรียบร้อยแล้ว</TEXT>
+    </item>
+    <item>
+     <SPRSL>2</SPRSL>
+     <MSGNR>117</MSGNR>
+     <TEXT>ใบสั่ง &apos;&amp;1&apos; มีสถานะของระบบ &quot;อนุมัติแล้ว&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>3</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>3</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>*                             일정계획                                *</TEXT>
+    </item>
+    <item>
+     <SPRSL>3</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>3</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>일정계획충돌: 선행자작업과 중복 &apos;&amp;1&apos;.</TEXT>
+    </item>
+    <item>
+     <SPRSL>3</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>일정계획충돌: 후속자작업과 중복 &apos;&amp;1&apos;.</TEXT>
+    </item>
+    <item>
+     <SPRSL>3</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>생산능력가용성: 과부하된 작업장</TEXT>
+    </item>
+    <item>
+     <SPRSL>3</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>과부하된 작업장: &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>3</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>3</SPRSL>
+     <MSGNR>102</MSGNR>
+     <TEXT>*                                일정계획                             *</TEXT>
+    </item>
+    <item>
+     <SPRSL>3</SPRSL>
+     <MSGNR>103</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>3</SPRSL>
+     <MSGNR>104</MSGNR>
+     <TEXT>오더량을 입력하십시오!</TEXT>
+    </item>
+    <item>
+     <SPRSL>3</SPRSL>
+     <MSGNR>105</MSGNR>
+     <TEXT>오더 &apos;&amp;1&apos;이 이미 확정 또는 부분적으로 확정되었음.</TEXT>
+    </item>
+    <item>
+     <SPRSL>3</SPRSL>
+     <MSGNR>106</MSGNR>
+     <TEXT>생산버전 &apos;&amp;&apos; 없음.</TEXT>
+    </item>
+    <item>
+     <SPRSL>3</SPRSL>
+     <MSGNR>107</MSGNR>
+     <TEXT>오더 &apos;&amp;&apos; 현재 차단되었습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>3</SPRSL>
+     <MSGNR>108</MSGNR>
+     <TEXT>계획오더 &apos;&amp;&apos;: &quot;생산능력 계획내  디스패치됨&quot;  표시 삭제됨.</TEXT>
+    </item>
+    <item>
+     <SPRSL>3</SPRSL>
+     <MSGNR>109</MSGNR>
+     <TEXT>오더 &apos;&amp;1&apos;(작업 &apos;&amp;2): 상태 &amp;3(&amp;4) 삭제됨.</TEXT>
+    </item>
+    <item>
+     <SPRSL>3</SPRSL>
+     <MSGNR>110</MSGNR>
+     <TEXT>오더 &apos;&amp;1&apos;(작업 &amp;2): 상태 &amp;3(&amp;4) 설정됨.</TEXT>
+    </item>
+    <item>
+     <SPRSL>3</SPRSL>
+     <MSGNR>111</MSGNR>
+     <TEXT>오더 &apos;&amp;1&apos;(작업 &amp;2):</TEXT>
+    </item>
+    <item>
+     <SPRSL>3</SPRSL>
+     <MSGNR>112</MSGNR>
+     <TEXT>오더 &apos;&amp;1&apos;(단계 &amp;2):</TEXT>
+    </item>
+    <item>
+     <SPRSL>3</SPRSL>
+     <MSGNR>113</MSGNR>
+     <TEXT>(&amp;1)에서 (&amp;2)로 작업장 변경이 실행되었습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>3</SPRSL>
+     <MSGNR>114</MSGNR>
+     <TEXT>&amp;1는 &amp;2에서 &amp;3으로 변경됨.</TEXT>
+    </item>
+    <item>
+     <SPRSL>3</SPRSL>
+     <MSGNR>115</MSGNR>
+     <TEXT>&amp;1 변경안됨. 작업장의 기본값에 유의하십시오!</TEXT>
+    </item>
+    <item>
+     <SPRSL>3</SPRSL>
+     <MSGNR>116</MSGNR>
+     <TEXT>데이터 저장완료됨.</TEXT>
+    </item>
+    <item>
+     <SPRSL>3</SPRSL>
+     <MSGNR>117</MSGNR>
+     <TEXT>&quot;승인 부여&quot; 시스템상태인 오더 &apos;&amp;1&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>*                    Programare                                       *</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Conflict programare: Suprapunere cu operaţia de predecesor &apos;&amp;1&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Conflict programare: Suprapunere cu operaţia de succesor &apos;&amp;1&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Disponibilitate capacitate: există posturi de lucru cu supraîncărcare</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Posturi de lucru supraîncărcate: &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>102</MSGNR>
+     <TEXT>*                    Programare                                       *</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>103</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>104</MSGNR>
+     <TEXT>Specificaţi cantitatea de comandă!</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>105</MSGNR>
+     <TEXT>Comanda &apos;&amp;1&apos; este deja confirmată sau parţial confirmată.</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>106</MSGNR>
+     <TEXT>Versiunea de producţie &apos;&amp;&apos; nu este disponibilă.</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>107</MSGNR>
+     <TEXT>Comanda &apos;&amp;&apos; este momentan blocată.</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>108</MSGNR>
+     <TEXT>Cmd. planif. &apos;&amp;&apos;: Ind. &quot;Planificat referitor la capacitate&quot; a fost şters.</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>109</MSGNR>
+     <TEXT>Comanda &apos;&amp;1&apos; (operaţia &amp;2): Status &amp;3(&amp;4) a fost şters.</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>110</MSGNR>
+     <TEXT>Comanda &apos;&amp;1&apos;(operaţia&amp;2): Status &amp;3(&amp;4) a fost setat.</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>111</MSGNR>
+     <TEXT>Comanda &apos;&amp;1&apos; (operaţie &amp;2):</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>112</MSGNR>
+     <TEXT>Comanda &apos;&amp;1&apos; (Faza &amp;2):</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>113</MSGNR>
+     <TEXT>Schimbul postului de lucru de la (&amp;1) la (&amp;2) a fost efectuat.</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>114</MSGNR>
+     <TEXT>&amp;1 a fost modificat de la &amp;2 la &amp;3.</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>115</MSGNR>
+     <TEXT>&amp;1 nu a fost modificat. Consideraţi valorile predef. postului de lucru!</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>116</MSGNR>
+     <TEXT>Datele au fost salvate cu succes.</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>117</MSGNR>
+     <TEXT>Comanda &apos;&amp;1&apos; are statusul de sistem &quot;Aprobare acordată&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>*                    Terminiranje                                       *</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Nezdružljivost terminov: prekrivanje s predhodnim postopkom &apos;&amp;1&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Nezdružljivost terminov: prekrivanje z naslednjim postopkom &apos;&amp;1&apos;.</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Razpoložljivost kapacitet: Delovna mesta s preobremenitvijo na voljo</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Delovna mesta s preobremenitvijo: &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>102</MSGNR>
+     <TEXT>*                    Terminiranje                                       *</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>103</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>104</MSGNR>
+     <TEXT>Prosimo, navedite količino naloga!</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>105</MSGNR>
+     <TEXT>Nalog &apos;&amp;1&apos; je že potrjen ali delno potrjen.</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>106</MSGNR>
+     <TEXT>Proizvodna verzija &apos;&amp;&apos; ni na voljo.</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>107</MSGNR>
+     <TEXT>Nalog &apos;&amp;&apos; je trenutno blokiran.</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>108</MSGNR>
+     <TEXT>Planski nalog &apos;&amp;&apos;: oznaka &quot;kapacitivno planirano&quot; je odstranjena.</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>109</MSGNR>
+     <TEXT>Nalog &apos;&amp;1&apos;(postopek &amp;2): status &amp;3(&amp;4) je bil odstranjen.</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>110</MSGNR>
+     <TEXT>Nalog &apos;&amp;1&apos;(postopek &amp;2): status &amp;3(&amp;4) je bil nastavljen.</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>111</MSGNR>
+     <TEXT>Nalog &apos;&amp;1&apos;(postopek &amp;2):</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>112</MSGNR>
+     <TEXT>Nalog &apos;&amp;1&apos;(faza &amp;2):</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>113</MSGNR>
+     <TEXT>Menjava delovnega mesta iz (&amp;1) v (&amp;2) je bila izvedena.</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>114</MSGNR>
+     <TEXT>&amp;1 je bil spremenjen iz &amp;2 na &amp;3.</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>115</MSGNR>
+     <TEXT>&amp;1 ni bil spremenjen. Upoštevajte standardne vrednosti delovnega mesta!</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>116</MSGNR>
+     <TEXT>Podatki so bili uspešno shranjeni.</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>117</MSGNR>
+     <TEXT>Nalog &apos;&amp;1&apos; ima sistemski status &quot;Podeljena odobritev&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>*                    Terminiranje                                       *</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Konflikt termina: Presijecanje sa Postupkom predhodnika &apos;&amp;1&apos;.</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Konflikt termina: Presijecanje sa postupkom sljedbenika &apos;&amp;1&apos;.</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Raspoloživost kapaciteta: Mjesta rada s preopterećenošću postoje.</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Mjesta rada s preopterećenošću: &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>102</MSGNR>
+     <TEXT>*                    Terminiranje                                       *</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>103</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>104</MSGNR>
+     <TEXT>Molim unesite količinu naloga!</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>105</MSGNR>
+     <TEXT>Nalog  &apos;&amp;1&apos; je već povratno javljen ili djelimično povratno javljen.</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>106</MSGNR>
+     <TEXT>Verzija izrade &apos;&amp;&apos; ne postoji.</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>107</MSGNR>
+     <TEXT>Nalog &apos;&amp;&apos; je trenutno blokiran.</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>108</MSGNR>
+     <TEXT>Nalog plana &apos;&amp;&apos;: &quot;Kapacitiv uplaniran&quot; oznaka je odstranjena.</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>109</MSGNR>
+     <TEXT>Nalog&quot;&amp;1&quot;(Postupak &amp;2):Status &amp;3(&amp;4) je odstranjen.</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>110</MSGNR>
+     <TEXT>Nalog&quot;&amp;1&quot;(Postupak &amp;2):Status &amp;3(&amp;4) je postavljen.</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>111</MSGNR>
+     <TEXT>Nalog &apos;&amp;1&apos;(Postupak &amp;2):</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>112</MSGNR>
+     <TEXT>Nalog &apos;&amp;1&apos;(Faza &amp;2):</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>113</MSGNR>
+     <TEXT>Promjena radnog mjesta(&amp;1) ka (&amp;2) je sprovedena.</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>114</MSGNR>
+     <TEXT>&amp;1 je od &amp;2 na &amp;3 promijenjen.</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>115</MSGNR>
+     <TEXT>&amp;1 nije promijenjena.Paziti zadane Vrijednosti radnog mjesta !</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>116</MSGNR>
+     <TEXT>Podaci su uspješno snimljeni</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>117</MSGNR>
+     <TEXT>Nalog &apos;&amp;1&apos; ima Status Sustava &quot;Dozvola dodijeljena&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>C</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>C</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>*                    Plánování                                       *</TEXT>
+    </item>
+    <item>
+     <SPRSL>C</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>C</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Konflikt plánování: překrytí s předcházející operací &apos;&amp;1&apos;.</TEXT>
+    </item>
+    <item>
+     <SPRSL>C</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Konflikt termínu: překrytí s následující operací &apos;&amp;1&apos;.</TEXT>
+    </item>
+    <item>
+     <SPRSL>C</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Dostupnost kapacity: pracoviště s existujícím přetížením.</TEXT>
+    </item>
+    <item>
+     <SPRSL>C</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Pracoviště s přetížením: &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>C</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>C</SPRSL>
+     <MSGNR>102</MSGNR>
+     <TEXT>*                    Plánování                                     *</TEXT>
+    </item>
+    <item>
+     <SPRSL>C</SPRSL>
+     <MSGNR>103</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>C</SPRSL>
+     <MSGNR>104</MSGNR>
+     <TEXT>Prosím zadat zakázkové množství!</TEXT>
+    </item>
+    <item>
+     <SPRSL>C</SPRSL>
+     <MSGNR>105</MSGNR>
+     <TEXT>Zakázka &apos;&amp;1&apos; je již zpětně hlášena nebo částečně zpětně hlášena.</TEXT>
+    </item>
+    <item>
+     <SPRSL>C</SPRSL>
+     <MSGNR>106</MSGNR>
+     <TEXT>Verze zpracování &apos;&amp;&apos; není k dispozici.</TEXT>
+    </item>
+    <item>
+     <SPRSL>C</SPRSL>
+     <MSGNR>107</MSGNR>
+     <TEXT>Zakázka&apos;&amp;&apos; je zrovna blokována.</TEXT>
+    </item>
+    <item>
+     <SPRSL>C</SPRSL>
+     <MSGNR>108</MSGNR>
+     <TEXT>Plánovaná zakázka &apos;&amp;&apos;: &quot;kapacitně naplánovaná&quot; znak byl odstraněn .</TEXT>
+    </item>
+    <item>
+     <SPRSL>C</SPRSL>
+     <MSGNR>109</MSGNR>
+     <TEXT>Zakázka &apos;&amp;1&apos;(operace &amp;2): status &amp;3(&amp;4) odstraněno.</TEXT>
+    </item>
+    <item>
+     <SPRSL>C</SPRSL>
+     <MSGNR>110</MSGNR>
+     <TEXT>Zakázka &apos;&amp;1&apos;(operace &amp;2): status &amp;3(&amp;4) nastavena.</TEXT>
+    </item>
+    <item>
+     <SPRSL>C</SPRSL>
+     <MSGNR>111</MSGNR>
+     <TEXT>Zakázka &apos;&amp;1&apos;(Operace &amp;2):</TEXT>
+    </item>
+    <item>
+     <SPRSL>C</SPRSL>
+     <MSGNR>112</MSGNR>
+     <TEXT>Zakázka &apos;&amp;1&apos;(fáze &amp;2):</TEXT>
+    </item>
+    <item>
+     <SPRSL>C</SPRSL>
+     <MSGNR>113</MSGNR>
+     <TEXT>Změna pracoviště z (&amp;1) na (&amp;2) byla provedena.</TEXT>
+    </item>
+    <item>
+     <SPRSL>C</SPRSL>
+     <MSGNR>114</MSGNR>
+     <TEXT>&amp;1 bylo z &amp;2 na &amp;3 změněno.</TEXT>
+    </item>
+    <item>
+     <SPRSL>C</SPRSL>
+     <MSGNR>115</MSGNR>
+     <TEXT>&amp;1 nezměněno. Zohlednit standardní hodnoty pracoviště !</TEXT>
+    </item>
+    <item>
+     <SPRSL>C</SPRSL>
+     <MSGNR>116</MSGNR>
+     <TEXT>Data byla úspěšně uložena.</TEXT>
+    </item>
+    <item>
+     <SPRSL>C</SPRSL>
+     <MSGNR>117</MSGNR>
+     <TEXT>Zakázka &apos;&amp;1&apos; má systém.status &quot;Povolení uděleno&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>*                    Scheduling                                       *</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Schedule conflict: overlap with predecessor operation &apos;&amp;1&apos;.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Schedule conflict: overlap with successor operation &apos;&amp;1&apos;.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Capacity availability: Work centers with overload existing.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Work centers with overload: &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>102</MSGNR>
+     <TEXT>*                    Scheduling                                       *</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>103</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>104</MSGNR>
+     <TEXT>Please specify order quantity!</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>105</MSGNR>
+     <TEXT>Order &apos;&amp;1&apos; already confirmed or partially confirmed.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>106</MSGNR>
+     <TEXT>Production version &apos;&amp;&apos; ist not available.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>107</MSGNR>
+     <TEXT>Order &apos;&amp;&apos; ist currently blocked.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>108</MSGNR>
+     <TEXT>Planned order &apos;&amp;&apos;: Indicator &quot;Dispatched&quot; has been removed.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>109</MSGNR>
+     <TEXT>Order &apos;&amp;1&apos;(operation &amp;2): Status &amp;3(&amp;4) has been removed.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>110</MSGNR>
+     <TEXT>Order &apos;&amp;1&apos;(operation &amp;2): Status &amp;3(&amp;4) has been set.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>111</MSGNR>
+     <TEXT>Order &apos;&amp;1&apos;(Operation &amp;2):</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>112</MSGNR>
+     <TEXT>Order &apos;&amp;1&apos;(Phase &amp;2):</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>113</MSGNR>
+     <TEXT>Work center change from (&amp;1) to (&amp;2) completed.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>114</MSGNR>
+     <TEXT>&amp;1 was changed from &amp;2 to &amp;3.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>115</MSGNR>
+     <TEXT>&amp;1 not changed. Please note the default values of the work center!</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>116</MSGNR>
+     <TEXT>Data saved successfully.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>117</MSGNR>
+     <TEXT>Order &apos;&amp;1&apos; has system status &quot;Approval granted&quot;.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>*                    Ordonnancement                                 *</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Conflit de dates: chevauchement avec opération de prédécesseur &apos;&amp;1&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Conflit de dates: chevauchement avec opération de successeur &apos;&amp;1&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Disponibilité des capacités: postes de travail avec surcharge disponibles</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Postes de travail avec surcharge: &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>102</MSGNR>
+     <TEXT>*                    Ordonnancement                                 *</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>103</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>104</MSGNR>
+     <TEXT>Veuillez indiquer la quantité commandée!</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>105</MSGNR>
+     <TEXT>Ordre &apos;&amp;1&apos; a déjà été confirmé/confirmé partiellement.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>106</MSGNR>
+     <TEXT>Version de fabrication &apos;&amp;&apos; n&apos;existe pas.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>107</MSGNR>
+     <TEXT>Ordre &apos;&amp;&apos; est bloqué pour le moment.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>108</MSGNR>
+     <TEXT>Ordre planifié &apos;&amp;&apos;: Code &quot;Ordonnancement des capacités&quot; a été supprimé.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>109</MSGNR>
+     <TEXT>Ordre &apos;&amp;1&apos; (activité &amp;2): statut &amp;3(&amp;4) a été supprimé.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>110</MSGNR>
+     <TEXT>Ordre &apos;&amp;1&apos; (activité &amp;2): statut &amp;3(&amp;4) a été activé.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>111</MSGNR>
+     <TEXT>Ordre &apos;&amp;1&apos; (opération &amp;2):</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>112</MSGNR>
+     <TEXT>Ordre &apos;&amp;1&apos; (phase &amp;2):</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>113</MSGNR>
+     <TEXT>Changement d&apos;emploi de (&amp;1) à (&amp;2) a été effectué.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>114</MSGNR>
+     <TEXT>&amp;1 a été modifié par &amp;2 à &amp;3.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>115</MSGNR>
+     <TEXT>&amp;1 n&apos;a pas été modifié. Respecter valeurs par défaut du poste de travail!</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>116</MSGNR>
+     <TEXT>Les données ont été sauvegardées avec succès.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>117</MSGNR>
+     <TEXT>L&apos;ordre &apos;&amp;1&apos; a le statut système &quot; approbation attribuée &quot;.</TEXT>
+    </item>
+    <item>
+     <SPRSL>H</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>H</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>*                    Ütemezés                                       *</TEXT>
+    </item>
+    <item>
+     <SPRSL>H</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>H</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Határidő konfliktus: átfedés az előző művelettel &apos;&amp;1&apos;.</TEXT>
+    </item>
+    <item>
+     <SPRSL>H</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Határidő konfliktus: átfedés a következő művelettel &apos;&amp;1&apos;.</TEXT>
+    </item>
+    <item>
+     <SPRSL>H</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Kapacitás rendelkezésre állás: túlterhelt munkahelyek vannak.</TEXT>
+    </item>
+    <item>
+     <SPRSL>H</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Túlterhelt munkahelyek: &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>H</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>H</SPRSL>
+     <MSGNR>102</MSGNR>
+     <TEXT>*                    Ütemezés                                       *</TEXT>
+    </item>
+    <item>
+     <SPRSL>H</SPRSL>
+     <MSGNR>103</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>H</SPRSL>
+     <MSGNR>104</MSGNR>
+     <TEXT>Kérem adja meg a rendelési mennyiségét!</TEXT>
+    </item>
+    <item>
+     <SPRSL>H</SPRSL>
+     <MSGNR>105</MSGNR>
+     <TEXT>Rendelés &apos;&amp;1&apos;  már visszajelentve vagy részben visszajelentve.</TEXT>
+    </item>
+    <item>
+     <SPRSL>H</SPRSL>
+     <MSGNR>106</MSGNR>
+     <TEXT>Gyártási verzió &apos;&amp;&apos; nem létezik.</TEXT>
+    </item>
+    <item>
+     <SPRSL>H</SPRSL>
+     <MSGNR>107</MSGNR>
+     <TEXT>Rendelés &apos;&amp;&apos; jelenleg zárolva</TEXT>
+    </item>
+    <item>
+     <SPRSL>H</SPRSL>
+     <MSGNR>108</MSGNR>
+     <TEXT>Tervrendelés &apos;&amp;&apos;:&quot;kapacitívan betervezett&quot; kód eltávolítva</TEXT>
+    </item>
+    <item>
+     <SPRSL>H</SPRSL>
+     <MSGNR>109</MSGNR>
+     <TEXT>Rendelés &apos;&amp;&apos; (Művelet &amp;2) : Státus &amp;3(&amp;4) eltávolítva.</TEXT>
+    </item>
+    <item>
+     <SPRSL>H</SPRSL>
+     <MSGNR>110</MSGNR>
+     <TEXT>Rendelés &apos;&amp;1&apos; (Művelet &amp;2):Státus &amp;3(&amp;4) beállítva.</TEXT>
+    </item>
+    <item>
+     <SPRSL>H</SPRSL>
+     <MSGNR>111</MSGNR>
+     <TEXT>Rendelés &apos;&amp;1&apos;(művelet &amp;2):</TEXT>
+    </item>
+    <item>
+     <SPRSL>H</SPRSL>
+     <MSGNR>112</MSGNR>
+     <TEXT>Rendelés &apos;&amp;1&apos;(fázis &amp;2):</TEXT>
+    </item>
+    <item>
+     <SPRSL>H</SPRSL>
+     <MSGNR>113</MSGNR>
+     <TEXT>Munkahelyváltoztatás (&amp;1)-ról (&amp;2)-re végrehajtva.</TEXT>
+    </item>
+    <item>
+     <SPRSL>H</SPRSL>
+     <MSGNR>114</MSGNR>
+     <TEXT>&amp;1 &amp;2-ről &amp;3-ra lett változtatva.</TEXT>
+    </item>
+    <item>
+     <SPRSL>H</SPRSL>
+     <MSGNR>115</MSGNR>
+     <TEXT>&amp;1 nem lett módosítva. Vegye figyelembe a munkahely normaértékeit!</TEXT>
+    </item>
+    <item>
+     <SPRSL>H</SPRSL>
+     <MSGNR>116</MSGNR>
+     <TEXT>Adatok sikeresen mentve.</TEXT>
+    </item>
+    <item>
+     <SPRSL>H</SPRSL>
+     <MSGNR>117</MSGNR>
+     <TEXT>&apos;&amp;1&apos; rendelés rendszerstátusa &quot;Engedély megadva&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>*                    Schedulazione                                      *</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Incomp. tra le date: Sovrappos. operazioni oper. &apos;&amp;1&apos;.</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Incomp. tra le date: sovrappos. con l&apos;oper.successiva &apos;&amp;1&apos;.</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Disponibilità della capacità: posti di lavoro con sovraccarico disp.</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Posti di lavoro con sovraccarico: &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>102</MSGNR>
+     <TEXT>*                    Schedulazione                                      *</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>103</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>104</MSGNR>
+     <TEXT>Inserire quantità d&apos;ord., p.f.!</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>105</MSGNR>
+     <TEXT>Ordine &apos;&amp;1&apos;è già confermato o confermato a parte.</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>106</MSGNR>
+     <TEXT>La versione di produzione &apos;&amp;&apos; non esiste.</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>107</MSGNR>
+     <TEXT>L&apos;ordine &quot;&amp;&quot; è attualmente bloccato.</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>108</MSGNR>
+     <TEXT>L&apos;ordine pianificato &quot;&amp;&quot;: &quot;Programmato capacitivo&quot; ind. è stato rimosso.</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>109</MSGNR>
+     <TEXT>Ordine &apos;&amp;1&apos; (Operazione &amp;2): stato &amp;3 (&amp;4) è stato rimosso.</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>110</MSGNR>
+     <TEXT>Ordine &apos;&amp;1&apos; (attività &amp;2): stato &amp;3 (&amp;4) è stato impostato.</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>111</MSGNR>
+     <TEXT>Ordine &apos;&amp;1&apos;(Operazione &amp;2):</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>112</MSGNR>
+     <TEXT>Ordine &apos;&amp;1&apos;(Fase &amp;2):</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>113</MSGNR>
+     <TEXT>Cambio posto lav. da (&amp;1) a (&amp;2) già effettuato.</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>114</MSGNR>
+     <TEXT>&amp;1 è stato cambiato in &amp;3 da &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>115</MSGNR>
+     <TEXT>&amp;1 non è stato modificato. Tenere presente il val. prescr. del p.lav.!</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>116</MSGNR>
+     <TEXT>Dati salvati con successo.</TEXT>
+    </item>
+    <item>
+     <SPRSL>I</SPRSL>
+     <MSGNR>117</MSGNR>
+     <TEXT>Ordine &apos;&amp;1&apos; ha lo stato sistema &quot;Approvazione garantita&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>-----------------------------------------------------------------------</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>日程計画</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>-----------------------------------------------------------------------</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>日程計画矛盾：先行作業 「&amp;1」 との重複。</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>日程計画矛盾：後次作業「&amp;1」との重複。</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>能力利用可能度: 過負荷のある作業区が存在します</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>過負荷のある作業区: &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>-----------------------------------------------------------------------</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>102</MSGNR>
+     <TEXT>日程計画</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>103</MSGNR>
+     <TEXT>-----------------------------------------------------------------------</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>104</MSGNR>
+     <TEXT>受注数量特定してください。</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>105</MSGNR>
+     <TEXT>オーダ &apos;&amp;1&apos; はもう確認または部分確認されました。</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>106</MSGNR>
+     <TEXT>製造バージョン 「&amp;」 は存在しません。</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>107</MSGNR>
+     <TEXT>オーダ 「&amp;」 はロックされています。</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>108</MSGNR>
+     <TEXT>計画手配 「&amp;」： 「能力的に計画」区分は取消されました。</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>109</MSGNR>
+     <TEXT>オーダ「&amp;1」(作業 &amp;2)： ステータス &amp;3 (&amp;4) は取消されました。</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>110</MSGNR>
+     <TEXT>オーダ 「&amp;1」(作業 &amp;2)： ステータス &amp;3(&amp;4) はセットされました。</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>111</MSGNR>
+     <TEXT>オーダ「&amp;1」　(作業 &amp;2）：　</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>112</MSGNR>
+     <TEXT>オーダ「&amp;1」 (フェーズ &amp;2)：</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>113</MSGNR>
+     <TEXT>(&amp;1)から(&amp;2)へのワークセンター変更は実行されました。</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>114</MSGNR>
+     <TEXT>&amp;1 は&amp;2から&amp;3に変更されました。</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>115</MSGNR>
+     <TEXT>&amp;1は、まだ変化されていません。作業区の標準値を注意してください。</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>116</MSGNR>
+     <TEXT>データは正常に保存されました。</TEXT>
+    </item>
+    <item>
+     <SPRSL>J</SPRSL>
+     <MSGNR>117</MSGNR>
+     <TEXT>オーダー &apos;&amp;1&apos; のシステムステータスが &quot;承認済み&quot; になりました。</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>*                     Harmonogramowanie</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Konflikt harmonogramu: nakładanie się z operacją poprzednika &apos;&amp;1&apos;.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Konflikt harmonogramu: nakładanie się z operacją nastpcy &apos;&amp;1&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Dostępność zdolności produkcyjnych: Istnieją przeciążone stanowiska roboc</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Przeciążone stanowiska robocze: &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>102</MSGNR>
+     <TEXT>*                    Harmonogramowanie                          *</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>103</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>104</MSGNR>
+     <TEXT>Proszę sprecyzować ilość zleceń!</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>105</MSGNR>
+     <TEXT>Zlecenie &apos;&amp;1&apos; zostało już potwierdzone lub częściowo potwierdzone.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>106</MSGNR>
+     <TEXT>Wersja produkcyjna &apos;&amp;&apos; nie istnieje.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>107</MSGNR>
+     <TEXT>Zlecenie &apos;&amp;&apos; jest obecnie zablokowane.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>108</MSGNR>
+     <TEXT>Zlecenie planowane &apos;&amp;&apos;: &quot;przydz. zdolności produkcyjnych&quot; zostało usunięt</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>109</MSGNR>
+     <TEXT>Zlecenie &apos;&amp;1&apos; (operacja &amp;2): status &amp;3 (&amp;4) zostało usunięte.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>110</MSGNR>
+     <TEXT>Zlecenie &apos;&amp;1&apos; (operacja &amp;2): status &amp;3 (&amp;4) zostało ustawione.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>111</MSGNR>
+     <TEXT>Zlecenie &apos;&amp;1&apos;(operacja &amp;2):</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>112</MSGNR>
+     <TEXT>Zlecenie &apos;&amp;1&apos;(faza &amp;2):</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>113</MSGNR>
+     <TEXT>Dokonano zmiany miejsca pracy z (&amp;1) na (&amp;2).</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>114</MSGNR>
+     <TEXT>&amp;1 zmieniono z &amp;2 na &amp;3.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>115</MSGNR>
+     <TEXT>&amp;1 nie został zmieniony. Zwróć uwagę na dom. wart. stanow. roboczego!</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>116</MSGNR>
+     <TEXT>Dane zostały zapisane pomyślnie.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>117</MSGNR>
+     <TEXT>Zlecenie &apos;&amp;1&apos; ma status systemowy &quot;Zezwolenie udzielone&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>N</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>N</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>*                     Indeling                                       *</TEXT>
+    </item>
+    <item>
+     <SPRSL>N</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>N</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Indelingsconflict: Overlapping met voorgangeroperatie &apos;&amp;1&apos;.</TEXT>
+    </item>
+    <item>
+     <SPRSL>N</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Indelingsconflict: overlapping met opvolgeroperatie &apos;&amp;1&apos;.</TEXT>
+    </item>
+    <item>
+     <SPRSL>N</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Capaciteitsbeschikbaarheid: werkplekken met overlast beschikbaar.</TEXT>
+    </item>
+    <item>
+     <SPRSL>N</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Werkplekken met overlast: &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>N</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>N</SPRSL>
+     <MSGNR>102</MSGNR>
+     <TEXT>*                     Indeling                                       *</TEXT>
+    </item>
+    <item>
+     <SPRSL>N</SPRSL>
+     <MSGNR>103</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>N</SPRSL>
+     <MSGNR>104</MSGNR>
+     <TEXT>A.u.b. orderhoeveelheid specificeren!</TEXT>
+    </item>
+    <item>
+     <SPRSL>N</SPRSL>
+     <MSGNR>105</MSGNR>
+     <TEXT>Order &apos;&amp;1&apos; is reeds teruggemeld of deels teruggemeld.</TEXT>
+    </item>
+    <item>
+     <SPRSL>N</SPRSL>
+     <MSGNR>106</MSGNR>
+     <TEXT>Produktieversie &apos;&amp;&apos; is niet beschikbaar.</TEXT>
+    </item>
+    <item>
+     <SPRSL>N</SPRSL>
+     <MSGNR>107</MSGNR>
+     <TEXT>Order &apos;&amp;&apos; is momenteel geblokkeerd.</TEXT>
+    </item>
+    <item>
+     <SPRSL>N</SPRSL>
+     <MSGNR>108</MSGNR>
+     <TEXT>Planorder &apos;&amp;&apos;: teken &quot;capacitief ingepland&quot; is verwijderd.</TEXT>
+    </item>
+    <item>
+     <SPRSL>N</SPRSL>
+     <MSGNR>109</MSGNR>
+     <TEXT>Order &apos;&amp;1&apos;(operatie &amp;2): status &amp;3(&amp;4) is verwijderd.</TEXT>
+    </item>
+    <item>
+     <SPRSL>N</SPRSL>
+     <MSGNR>110</MSGNR>
+     <TEXT>Order &apos;&amp;1&apos;(operatie &amp;2): status &amp;3(&amp;4) is ingesteld.</TEXT>
+    </item>
+    <item>
+     <SPRSL>N</SPRSL>
+     <MSGNR>111</MSGNR>
+     <TEXT>Order &apos;&amp;1&apos;(operatie &amp;2):</TEXT>
+    </item>
+    <item>
+     <SPRSL>N</SPRSL>
+     <MSGNR>112</MSGNR>
+     <TEXT>Order &apos;&amp;1&apos;(fase &amp;2):</TEXT>
+    </item>
+    <item>
+     <SPRSL>N</SPRSL>
+     <MSGNR>113</MSGNR>
+     <TEXT>Werkplekwijziging van (&amp;1) naar (&amp;2) is uitgevoerd.</TEXT>
+    </item>
+    <item>
+     <SPRSL>N</SPRSL>
+     <MSGNR>114</MSGNR>
+     <TEXT>&amp;1 is van &amp;2 in &amp;3 gewijzigd.</TEXT>
+    </item>
+    <item>
+     <SPRSL>N</SPRSL>
+     <MSGNR>115</MSGNR>
+     <TEXT>&amp;1 is niet gewijzigd. Standaardwaarde van werkplaats in acht nemen!</TEXT>
+    </item>
+    <item>
+     <SPRSL>N</SPRSL>
+     <MSGNR>116</MSGNR>
+     <TEXT>Gegevens zijn succesvol opgeslagen.</TEXT>
+    </item>
+    <item>
+     <SPRSL>N</SPRSL>
+     <MSGNR>117</MSGNR>
+     <TEXT>Order &apos;&amp;1&apos; heeft systeemstatus &quot;vrijgegeven&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>*                     Programação                                      *</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Incompatibilidade de datas: Sobreposição com operação do predecessor &apos;&amp;1&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Incompatibilidade de datas: Sobreposição com operação subsequente &apos;&amp;1&apos;.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Disponibilidade-capacidade: centro de trabalho com sobrecarga presente</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Centro de trabalho com sobrecarga &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>102</MSGNR>
+     <TEXT>*                    Programação                                       *</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>103</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>104</MSGNR>
+     <TEXT>Por favor, indicar quantidade da ordem!</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>105</MSGNR>
+     <TEXT>Ordem &apos;&amp;1&apos; já está confirmada ou parcialmente confirmada.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>106</MSGNR>
+     <TEXT>Versão de produção &apos;&amp;&apos; não está disponível.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>107</MSGNR>
+     <TEXT>Ordem &apos;&amp;&apos; está bloqueada no momento.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>108</MSGNR>
+     <TEXT>Ordem planejada &apos;&amp;&apos;: Código &quot;programado a capacidade&quot; foi removido.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>109</MSGNR>
+     <TEXT>Ordem &apos;&amp;1&apos; (Operação &amp;2): Status &amp;3(&amp;4) foi removido.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>110</MSGNR>
+     <TEXT>Ordem &apos;&amp;1&apos; (Operação &amp;2): Status &amp;3(&amp;4) foi definido.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>111</MSGNR>
+     <TEXT>Ordem &apos;&amp;1&apos;(Operação &amp;2):</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>112</MSGNR>
+     <TEXT>Ordem &apos;&amp;1&apos;(Fase &amp;2):</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>113</MSGNR>
+     <TEXT>Mudança do centro de trabalho do (&amp;1) ao (&amp;2) foi efetuado.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>114</MSGNR>
+     <TEXT>&amp;1 foi modificado do &amp;2 para &amp;3.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>115</MSGNR>
+     <TEXT>&amp; não foi modificado. Observar valores predefinid. do centro de trabalho!</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>116</MSGNR>
+     <TEXT>Os dados foram salvos com sucesso.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>117</MSGNR>
+     <TEXT>Pedido &apos;&amp;1&apos; tem o status no sistema &quot;autorização concedida&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>Q</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>Q</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>*                    Rozvrhovanie                                  *</TEXT>
+    </item>
+    <item>
+     <SPRSL>Q</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>Q</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Konflikt plánovania: Prekrytie s predchádzajúcou operáciou &apos;&amp;1&apos;.</TEXT>
+    </item>
+    <item>
+     <SPRSL>Q</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Konflikt plánovania: Prekrytie s nasledujúcou operáciou &apos;&amp;1&apos;.</TEXT>
+    </item>
+    <item>
+     <SPRSL>Q</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Dostupnosť kapacít: Pracoviská s preťažením existujú.</TEXT>
+    </item>
+    <item>
+     <SPRSL>Q</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Pracoviská s preťažením: &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>Q</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>Q</SPRSL>
+     <MSGNR>102</MSGNR>
+     <TEXT>*                    Rozvrhovanie                                  *</TEXT>
+    </item>
+    <item>
+     <SPRSL>Q</SPRSL>
+     <MSGNR>103</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>Q</SPRSL>
+     <MSGNR>104</MSGNR>
+     <TEXT>Zadajte prosím zákazkové množstvo!</TEXT>
+    </item>
+    <item>
+     <SPRSL>Q</SPRSL>
+     <MSGNR>105</MSGNR>
+     <TEXT>Zákazka &apos;&amp;1&apos; je už spätne hlásená alebo čiastkovo spätne hlásená.</TEXT>
+    </item>
+    <item>
+     <SPRSL>Q</SPRSL>
+     <MSGNR>106</MSGNR>
+     <TEXT>Výrobná verzia &apos;&amp;&apos; neexistuje.</TEXT>
+    </item>
+    <item>
+     <SPRSL>Q</SPRSL>
+     <MSGNR>107</MSGNR>
+     <TEXT>Zákazka &apos;&amp;&apos; je momentálne zablokovaná.</TEXT>
+    </item>
+    <item>
+     <SPRSL>Q</SPRSL>
+     <MSGNR>108</MSGNR>
+     <TEXT>Plánovaná zákazka &apos;&amp;&apos;: Znak &quot;Kapacitne naplánovaný&quot; bol zrušený.</TEXT>
+    </item>
+    <item>
+     <SPRSL>Q</SPRSL>
+     <MSGNR>109</MSGNR>
+     <TEXT>Zákazka &apos;&amp;1&apos;(operácia &amp;2): Status &amp;3(&amp;4) bol zrušený.</TEXT>
+    </item>
+    <item>
+     <SPRSL>Q</SPRSL>
+     <MSGNR>110</MSGNR>
+     <TEXT>Zákazka &apos;&amp;1&apos;(operácia &amp;2): Status &amp;3(&amp;4) bol nastavený.</TEXT>
+    </item>
+    <item>
+     <SPRSL>Q</SPRSL>
+     <MSGNR>111</MSGNR>
+     <TEXT>Zákazka &apos;&amp;1&apos;(Operácia &amp;2):</TEXT>
+    </item>
+    <item>
+     <SPRSL>Q</SPRSL>
+     <MSGNR>112</MSGNR>
+     <TEXT>Zákazka &apos;&amp;1&apos;(fáza &amp;2):</TEXT>
+    </item>
+    <item>
+     <SPRSL>Q</SPRSL>
+     <MSGNR>113</MSGNR>
+     <TEXT>Zmena pracoviska z (&amp;1) na (&amp;2) bola vykonaná.</TEXT>
+    </item>
+    <item>
+     <SPRSL>Q</SPRSL>
+     <MSGNR>114</MSGNR>
+     <TEXT>&amp;1 bol zmen. z &amp;2 na &amp;3.</TEXT>
+    </item>
+    <item>
+     <SPRSL>Q</SPRSL>
+     <MSGNR>115</MSGNR>
+     <TEXT>&amp;1 nebol/-a zmenený/-á.  Zohľadnite prosím štandardné hodnoty pracoviska!</TEXT>
+    </item>
+    <item>
+     <SPRSL>Q</SPRSL>
+     <MSGNR>116</MSGNR>
+     <TEXT>Dáta boli úspešne uložené.</TEXT>
+    </item>
+    <item>
+     <SPRSL>Q</SPRSL>
+     <MSGNR>117</MSGNR>
+     <TEXT>Zákazka &apos;&amp;1&apos; má systém.status &quot;Povolenie - pridelené&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>*                Календарное планирование                      *</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Конфликт сроков: пересечение с предшествующей операцией &apos;&amp;1&apos;.</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Конфликт сроков: пересечение с последующей операцией &apos;&amp;1&apos;.</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Доступность мощностей: имеются рабочие места с перегрузкой</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Рабочие места с перегрузкой: &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>102</MSGNR>
+     <TEXT>*                Календарное планирование                      *</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>103</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>104</MSGNR>
+     <TEXT>Пожалуйста определите количество заказа!</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>105</MSGNR>
+     <TEXT>Заказ &apos;&amp;1&apos; уже подтверждён или частично подтверждён.</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>106</MSGNR>
+     <TEXT>Версия изготовления не доступна</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>107</MSGNR>
+     <TEXT>Заказ временно заблокирован</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>108</MSGNR>
+     <TEXT>План. заказа &amp; : индикатор &quot;Запранирован&quot; был удален.</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>109</MSGNR>
+     <TEXT>Заказ &amp;1 (операция &amp;2): Статус`&amp;3(&amp;4) был  удален.</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>110</MSGNR>
+     <TEXT>Заказ &amp;1 (операция &amp;2): Статус &amp;3(&amp;4) был установлен</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>111</MSGNR>
+     <TEXT>Заказ &amp;1 (Операция &amp;2):</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>112</MSGNR>
+     <TEXT>Заказ &amp;1 (Фаза &amp;2):</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>113</MSGNR>
+     <TEXT>Смена рабочего места с (&amp;1) на (&amp;2) произведена</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>114</MSGNR>
+     <TEXT>&amp;1 изменено с &amp;2 на  &amp;3</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>115</MSGNR>
+     <TEXT>&amp;1 не изменена.</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>116</MSGNR>
+     <TEXT>Данные успешно сохранены.</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>117</MSGNR>
+     <TEXT>Заказ «&amp;1» имеет системный статус «Утверждение получено»</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>*                    Programación                                       *</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Conflicto con fechas: Superposición con operación predecesor &apos;&amp;1&apos;.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Conflicto con fechas: Superposición con operación sucesor &apos;&amp;1&apos;.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Disponibilidad de capacidad: existen puestos de trabajo con sobrecarga.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Puestos de trabajo con sobrecarga: &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>102</MSGNR>
+     <TEXT>*                    Programación                                       *</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>103</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>104</MSGNR>
+     <TEXT>¡Por favor, indicar cantidad de pedido!</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>105</MSGNR>
+     <TEXT>La orden &apos;&amp;1&apos; ya está confirmada o parcialmente confimada.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>106</MSGNR>
+     <TEXT>Version de fabricación &apos;&amp;&apos; no está disponible.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>107</MSGNR>
+     <TEXT>Orden &apos;&amp;&apos; está bloqueado por el momento.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>108</MSGNR>
+     <TEXT>Orden previsional &apos;&amp;&apos;: Se eliminó el indicador &quot;planificado a capacidad&quot;.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>109</MSGNR>
+     <TEXT>Orden &apos;&amp;1&apos; (Operación &amp;&quot;): Se eliminó el status &amp;3 (&amp;4).</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>110</MSGNR>
+     <TEXT>Orden &apos;&amp;1&apos; (Operación &amp;2): Se fijó el status &amp;3(&amp;4).</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>111</MSGNR>
+     <TEXT>Orden &apos;&amp;1&apos;(Operación &amp;2):</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>112</MSGNR>
+     <TEXT>Orden &apos;&amp;1&apos;(Fase &amp;2):</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>113</MSGNR>
+     <TEXT>Cambio de puesto de trabajo de (&amp;1) a (&amp;2) efectuado.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>114</MSGNR>
+     <TEXT>&amp;1 se modificó de &amp;2 para &amp;3.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>115</MSGNR>
+     <TEXT>&amp;1 no se modificó. ¡Considerar valor prefijado del puesto de trabajo!</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>116</MSGNR>
+     <TEXT>La copia de seguridad de los datos se ha realizado correctamente.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>117</MSGNR>
+     <TEXT>Orden &apos;&amp;1&apos; tiene estado de sistema &quot;Permiso concedido&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>T</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>T</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>*                    Terminleme                                       *</TEXT>
+    </item>
+    <item>
+     <SPRSL>T</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>T</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Termin uyuşmazlığı: Önceki işlem &apos;&amp;1&apos; ile örtüşme.</TEXT>
+    </item>
+    <item>
+     <SPRSL>T</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Termin uyuşmazlığı: Sonraki işlem &apos;&amp;1&apos; ile örtüşme.</TEXT>
+    </item>
+    <item>
+     <SPRSL>T</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Kapasite durumu: Aşırı yüklenmiş iş yerleri mevcut</TEXT>
+    </item>
+    <item>
+     <SPRSL>T</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Aşırı yüklenmiş iş yerleri: &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>T</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>T</SPRSL>
+     <MSGNR>102</MSGNR>
+     <TEXT>*                    Terminleme                                       *</TEXT>
+    </item>
+    <item>
+     <SPRSL>T</SPRSL>
+     <MSGNR>103</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>T</SPRSL>
+     <MSGNR>104</MSGNR>
+     <TEXT>Sipariş miktarı giriniz!</TEXT>
+    </item>
+    <item>
+     <SPRSL>T</SPRSL>
+     <MSGNR>105</MSGNR>
+     <TEXT>Sipariş &apos;&amp;1&apos; önceden teyit edildi veya kısmen teyit edildi.</TEXT>
+    </item>
+    <item>
+     <SPRSL>T</SPRSL>
+     <MSGNR>106</MSGNR>
+     <TEXT>Üretim versiyonu &apos;&amp;&apos; mevcut değil.</TEXT>
+    </item>
+    <item>
+     <SPRSL>T</SPRSL>
+     <MSGNR>107</MSGNR>
+     <TEXT>Sipariş &apos;&amp;&apos; şu an bloke edildi.</TEXT>
+    </item>
+    <item>
+     <SPRSL>T</SPRSL>
+     <MSGNR>108</MSGNR>
+     <TEXT>Planlı sipariş &apos;&amp;&apos;: &quot;Kapasite ilişkili planlanan&quot; göstergesi kaldırıldı.</TEXT>
+    </item>
+    <item>
+     <SPRSL>T</SPRSL>
+     <MSGNR>109</MSGNR>
+     <TEXT>Sipariş &apos;&amp;1&apos;(İşlem &amp;2): Durum &amp;3(&amp;4) kaldırıldı.</TEXT>
+    </item>
+    <item>
+     <SPRSL>T</SPRSL>
+     <MSGNR>110</MSGNR>
+     <TEXT>Sipariş &apos;&amp;1&apos;(İşlem &amp;2): Durum &amp;3(&amp;4) belirlendi.</TEXT>
+    </item>
+    <item>
+     <SPRSL>T</SPRSL>
+     <MSGNR>111</MSGNR>
+     <TEXT>Sipariş &apos;&amp;1&apos;(İşlem &amp;2):</TEXT>
+    </item>
+    <item>
+     <SPRSL>T</SPRSL>
+     <MSGNR>112</MSGNR>
+     <TEXT>Sipariş &apos;&amp;1&apos;(Evre &amp;2):</TEXT>
+    </item>
+    <item>
+     <SPRSL>T</SPRSL>
+     <MSGNR>113</MSGNR>
+     <TEXT>İşyeri değişikliği (&amp;1) den (&amp;2) ye yürütüldü.</TEXT>
+    </item>
+    <item>
+     <SPRSL>T</SPRSL>
+     <MSGNR>114</MSGNR>
+     <TEXT>&amp;1 &amp;2&apos;den &amp;3&apos;e değiştirildi.</TEXT>
+    </item>
+    <item>
+     <SPRSL>T</SPRSL>
+     <MSGNR>115</MSGNR>
+     <TEXT>&amp;1 değiştirilmedi. İşyerinin varsayılan değerlerini dikkate alınız!</TEXT>
+    </item>
+    <item>
+     <SPRSL>T</SPRSL>
+     <MSGNR>116</MSGNR>
+     <TEXT>Veriler başarıyla saklandı.</TEXT>
+    </item>
+    <item>
+     <SPRSL>T</SPRSL>
+     <MSGNR>117</MSGNR>
+     <TEXT>&apos;&amp;1&apos; siparişinin sistem durumu &quot;Onay verildi&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>V</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>V</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>*                    tidplanering                                       *</TEXT>
+    </item>
+    <item>
+     <SPRSL>V</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>V</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Tidskonflikt: överlappning med föregångaroperation &apos;&amp;1&apos;.</TEXT>
+    </item>
+    <item>
+     <SPRSL>V</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Tidskonflikt: överlappning med efterföljaroperation &apos;&amp;1&apos;.</TEXT>
+    </item>
+    <item>
+     <SPRSL>V</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Kapacitetstillgänglighet: Överbelastade arbetsplatser finns</TEXT>
+    </item>
+    <item>
+     <SPRSL>V</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Överbelastade arbetsplatser:</TEXT>
+    </item>
+    <item>
+     <SPRSL>V</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>V</SPRSL>
+     <MSGNR>102</MSGNR>
+     <TEXT>*                    tidplanering                                       *</TEXT>
+    </item>
+    <item>
+     <SPRSL>V</SPRSL>
+     <MSGNR>103</MSGNR>
+     <TEXT>------------------------------------------------------------------------*</TEXT>
+    </item>
+    <item>
+     <SPRSL>V</SPRSL>
+     <MSGNR>104</MSGNR>
+     <TEXT>Vänligen ange orderkvantitet!</TEXT>
+    </item>
+    <item>
+     <SPRSL>V</SPRSL>
+     <MSGNR>105</MSGNR>
+     <TEXT>Order &apos;&amp;1&apos; är redan återrapporterad eller delvis återrapporterad.</TEXT>
+    </item>
+    <item>
+     <SPRSL>V</SPRSL>
+     <MSGNR>106</MSGNR>
+     <TEXT>Produktionsversion &apos;&amp;&apos; existerar inte.</TEXT>
+    </item>
+    <item>
+     <SPRSL>V</SPRSL>
+     <MSGNR>107</MSGNR>
+     <TEXT>Order &apos;&amp;&apos; är för tillfället spärrad.</TEXT>
+    </item>
+    <item>
+     <SPRSL>V</SPRSL>
+     <MSGNR>108</MSGNR>
+     <TEXT>Planorder &apos;&amp;&apos;: Indikator &quot;Inplanerad kapacitiv&quot; togs bort.</TEXT>
+    </item>
+    <item>
+     <SPRSL>V</SPRSL>
+     <MSGNR>109</MSGNR>
+     <TEXT>Order &apos;&amp;1&apos;(operation &amp;2): Status &amp;3(&amp;4) togs bort.</TEXT>
+    </item>
+    <item>
+     <SPRSL>V</SPRSL>
+     <MSGNR>110</MSGNR>
+     <TEXT>Order &apos;&amp;1&apos;(operation &amp;2): Status &amp;3(&amp;4) sattes.</TEXT>
+    </item>
+    <item>
+     <SPRSL>V</SPRSL>
+     <MSGNR>111</MSGNR>
+     <TEXT>Order &apos;&amp;1&apos;(Operation &amp;2):</TEXT>
+    </item>
+    <item>
+     <SPRSL>V</SPRSL>
+     <MSGNR>112</MSGNR>
+     <TEXT>Order &apos;&amp;1&apos;(Fas &amp;2):</TEXT>
+    </item>
+    <item>
+     <SPRSL>V</SPRSL>
+     <MSGNR>113</MSGNR>
+     <TEXT>Byte av produktionsgrupp från (&amp;1) till (&amp;2) utfördes.</TEXT>
+    </item>
+    <item>
+     <SPRSL>V</SPRSL>
+     <MSGNR>114</MSGNR>
+     <TEXT>&amp;1 ändrades från &amp;2 till &amp;3.</TEXT>
+    </item>
+    <item>
+     <SPRSL>V</SPRSL>
+     <MSGNR>115</MSGNR>
+     <TEXT>&amp;1 ändrades inte. Beakta arbetsplatsens standardvärde</TEXT>
+    </item>
+    <item>
+     <SPRSL>V</SPRSL>
+     <MSGNR>116</MSGNR>
+     <TEXT>Data sparades fullständigt.</TEXT>
+    </item>
+    <item>
+     <SPRSL>V</SPRSL>
+     <MSGNR>117</MSGNR>
+     <TEXT>Order &apos;&amp;1&apos; har systemstatus &quot;Licens tilldelad&quot;</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

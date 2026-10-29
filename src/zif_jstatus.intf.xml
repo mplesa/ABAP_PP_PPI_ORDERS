@@ -1,0 +1,2854 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_JSTATUS</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Objekt Status (Auftrag/Vorgang...)</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS_INTERFACE>
+    <SEOCLASSTX>
+     <LANGU>3</LANGU>
+     <DESCRIPT>오브젝트 상태(오더/작업...)</DESCRIPT>
+    </SEOCLASSTX>
+    <SEOCLASSTX>
+     <LANGU>4</LANGU>
+     <DESCRIPT>Stare obiect (comandă/operaţie...)</DESCRIPT>
+    </SEOCLASSTX>
+    <SEOCLASSTX>
+     <LANGU>5</LANGU>
+     <DESCRIPT>Status objekta (nalog/postopek...)</DESCRIPT>
+    </SEOCLASSTX>
+    <SEOCLASSTX>
+     <LANGU>6</LANGU>
+     <DESCRIPT>Objekt Status (nalog/opercaija...)</DESCRIPT>
+    </SEOCLASSTX>
+    <SEOCLASSTX>
+     <LANGU>C</LANGU>
+     <DESCRIPT>Status objektu (zakázka/operace...)</DESCRIPT>
+    </SEOCLASSTX>
+    <SEOCLASSTX>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Object status (order/operation...)</DESCRIPT>
+    </SEOCLASSTX>
+    <SEOCLASSTX>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Statut objet (ordre/opération...)</DESCRIPT>
+    </SEOCLASSTX>
+    <SEOCLASSTX>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Stato oggetto (Ordine/Operazione...)</DESCRIPT>
+    </SEOCLASSTX>
+    <SEOCLASSTX>
+     <LANGU>L</LANGU>
+     <DESCRIPT>Status obiektu (zlecenie / operacja ...)</DESCRIPT>
+    </SEOCLASSTX>
+    <SEOCLASSTX>
+     <LANGU>N</LANGU>
+     <DESCRIPT>Object Status (Order/Operatie...)</DESCRIPT>
+    </SEOCLASSTX>
+    <SEOCLASSTX>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Objeto status (ordem/procedimento...)</DESCRIPT>
+    </SEOCLASSTX>
+    <SEOCLASSTX>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>Objekt status (zákazka/operácia...)</DESCRIPT>
+    </SEOCLASSTX>
+    <SEOCLASSTX>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Status objeto (Orden/Operación...)</DESCRIPT>
+    </SEOCLASSTX>
+    <SEOCLASSTX>
+     <LANGU>V</LANGU>
+     <DESCRIPT>Objekt status (order/procedur...)</DESCRIPT>
+    </SEOCLASSTX>
+   </DESCRIPTIONS_INTERFACE>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_APG</CMPNAME>
+     <LANGU>C</LANGU>
+     <DESCRIPT>(OPR)Udělit oprávnění</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_APG</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>(GNE)Genehmigung erteilt</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_APG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>(APG)Approval granted</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_APG</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>(PEDÉ) Permis délivré</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_APG</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>(LIC) licenza concessa</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_APG</CMPNAME>
+     <LANGU>L</LANGU>
+     <DESCRIPT>(ZTP) Zezwolenie udzielone</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_APG</CMPNAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>(GNE)Goedkeuring gegeven</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_APG</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>(GNE) autorização conferida</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_APG</CMPNAME>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>(POV)Povolenie - pridelené</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_APG</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>(AUTO)Autorización otorgada</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_APG</CMPNAME>
+     <LANGU>V</LANGU>
+     <DESCRIPT>(GNE)Licens tilldelad</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CLSD</CMPNAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>(ABGS) 종료</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CLSD</CMPNAME>
+     <LANGU>4</LANGU>
+     <DESCRIPT>(ÎNCH) Închis</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CLSD</CMPNAME>
+     <LANGU>5</LANGU>
+     <DESCRIPT>(CMPT) Zaključeno</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CLSD</CMPNAME>
+     <LANGU>6</LANGU>
+     <DESCRIPT>(DOV.) Dovršen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CLSD</CMPNAME>
+     <LANGU>C</LANGU>
+     <DESCRIPT>(UZAV) uzavřeno</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CLSD</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>(ABGS) Abgeschlossen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CLSD</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>(CLSD) Closed</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CLSD</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>(CLOT) Clôturé</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CLSD</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>(CON) concluso</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CLSD</CMPNAME>
+     <LANGU>L</LANGU>
+     <DESCRIPT>(ZAK.) Zakończone</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CLSD</CMPNAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>(ABGS) Afgesloten</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CLSD</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>(ABGS) ) finalizado</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CLSD</CMPNAME>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>(UZAV) Uzavretý</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CLSD</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>(CERR) Cerrado</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CLSD</CMPNAME>
+     <LANGU>V</LANGU>
+     <DESCRIPT>(AVSL) Avslutad</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CNF</CMPNAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>(RÜCK) 확정</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CNF</CMPNAME>
+     <LANGU>4</LANGU>
+     <DESCRIPT>(CNF) Confirmat</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CNF</CMPNAME>
+     <LANGU>5</LANGU>
+     <DESCRIPT>(POTR) Potrjeno</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CNF</CMPNAME>
+     <LANGU>6</LANGU>
+     <DESCRIPT>(KPTV) Potvrđeno</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CNF</CMPNAME>
+     <LANGU>C</LANGU>
+     <DESCRIPT>(ZPÉT) zpět. hlášení</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CNF</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>(RÜCK) Rückgemeldet</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CNF</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>(CNF) Confirmed</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CNF</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>(CONF) Confirmé</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CNF</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>(REG) registrato</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CNF</CMPNAME>
+     <LANGU>L</LANGU>
+     <DESCRIPT>(POTW) Potwierdzone</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CNF</CMPNAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>(FEED) Feedback</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CNF</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>(RÜCK) confirmado</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CNF</CMPNAME>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>(SPÄŤ) Spätne hlásený</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CNF</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>(NOTI) Notificado</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CNF</CMPNAME>
+     <LANGU>V</LANGU>
+     <DESCRIPT>(ÅRPT) Återrapporterad</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CREF</CMPNAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>(CREF) 릴리스까지 작업장 허용</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CREF</CMPNAME>
+     <LANGU>4</LANGU>
+     <DESCRIPT>(PLAE) Prost de lucru autorizat până la eliberare</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CREF</CMPNAME>
+     <LANGU>5</LANGU>
+     <DESCRIPT>(CREF) Del.mesto dovoljeno do lansir.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CREF</CMPNAME>
+     <LANGU>6</LANGU>
+     <DESCRIPT>(MRDO) Mjesto rada do otpuštanja</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CREF</CMPNAME>
+     <LANGU>C</LANGU>
+     <DESCRIPT>(PDDU) pracov. dovoleno až do uvolnění</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CREF</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>(CREF) ArbPlatz bis Freigabe erlaubt</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CREF</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>(WCRE) Work center until release</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CREF</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>(PTRA) Poste de travail autorisé jusqu&apos;&apos;à la libération</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CREF</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>(POSLA) posto lav. fino al rilascio consentito</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CREF</CMPNAME>
+     <LANGU>L</LANGU>
+     <DESCRIPT>(MPZA) Miejsce pracy dozwol. do zatw.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CREF</CMPNAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>(CREF) Werkplek tot  vrijgave goedgekeurd</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CREF</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>(CREF) CentrTrabalho até liberação autorizado</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CREF</CMPNAME>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>(CREF) Pracovisko do uvoľnenia povol.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CREF</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>(PERL) Puesto de trabajo admitido hasta liberación</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CREF</CMPNAME>
+     <LANGU>V</LANGU>
+     <DESCRIPT>(PGFR) ProdGrp tillåten till frisläpp</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CRTD</CMPNAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>(EROF) 개시</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CRTD</CMPNAME>
+     <LANGU>4</LANGU>
+     <DESCRIPT>(CRT) Creat</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CRTD</CMPNAME>
+     <LANGU>5</LANGU>
+     <DESCRIPT>(ODPR) Kreirano</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CRTD</CMPNAME>
+     <LANGU>6</LANGU>
+     <DESCRIPT>(KREI) Kreirano</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CRTD</CMPNAME>
+     <LANGU>C</LANGU>
+     <DESCRIPT>(OTEV) otevřeno</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CRTD</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>(EROF) Eröffnet</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CRTD</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>(CRTD) Created</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CRTD</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>(CRÉÉ) Créé</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CRTD</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>(APE) aperto</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CRTD</CMPNAME>
+     <LANGU>L</LANGU>
+     <DESCRIPT>(OTW) Otwarty</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CRTD</CMPNAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>(OPEN) Open</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CRTD</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>(EROF) aberto</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CRTD</CMPNAME>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>(OTVO) Otvorený</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CRTD</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>(ABIE) Abierto</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_CRTD</CMPNAME>
+     <LANGU>V</LANGU>
+     <DESCRIPT>(ÖPP.) Öppnad</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DLFL</CMPNAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>(LÖVM) 삭제표시</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DLFL</CMPNAME>
+     <LANGU>4</LANGU>
+     <DESCRIPT>(MŞTR) Marcator de ştergere</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DLFL</CMPNAME>
+     <LANGU>5</LANGU>
+     <DESCRIPT>(OČBR) Označba brisanja</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DLFL</CMPNAME>
+     <LANGU>6</LANGU>
+     <DESCRIPT>(OZBR) Oznaka brisanja</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DLFL</CMPNAME>
+     <LANGU>C</LANGU>
+     <DESCRIPT>(OZKV) označení k výmazu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DLFL</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>(LÖVM) Löschvormerkung</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DLFL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>(DLFL) Deletion Flag</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DLFL</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>(TSUP) Témoin de suppression</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DLFL</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>(FLCA) flag di cancellazione</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DLFL</CMPNAME>
+     <LANGU>L</LANGU>
+     <DESCRIPT>(ZNUS) Znacznik usuwania</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DLFL</CMPNAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>(VWBM)Verwijderbemerking</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DLFL</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>(LÖVM) comentário de eliminação</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DLFL</CMPNAME>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>(OZNV) Označenie na výmaz</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DLFL</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>(PTBO) Petición de borrado</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DLFL</CMPNAME>
+     <LANGU>V</LANGU>
+     <DESCRIPT>(RAMÄ) Raderingsmärkning</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DLT</CMPNAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>(LÖKZ) 삭제지시, 아카이브가능</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DLT</CMPNAME>
+     <LANGU>4</LANGU>
+     <DESCRIPT>(ŞTG) Indicator de ştergere, arhivabil</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DLT</CMPNAME>
+     <LANGU>5</LANGU>
+     <DESCRIPT>(OBMA) Označba brisanja, možn.arhiv.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DLT</CMPNAME>
+     <LANGU>6</LANGU>
+     <DESCRIPT>(IZBR) Pokazatelj brisanja, moguće arhivirati</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DLT</CMPNAME>
+     <LANGU>C</LANGU>
+     <DESCRIPT>(ZVÝM) znak výmazu , archivovatelný</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DLT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>(LÖKZ) Löschkennzeichen, archivierbar</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DLT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>(DLT) Deletion indicator</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DLT</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>(CSUP) Code de suppression, archivable</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DLT</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>(INCA) indicatore di cancellazione, archiviabile</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DLT</CMPNAME>
+     <LANGU>L</LANGU>
+     <DESCRIPT>(WSKU) Wskaźnik usuwania, do archiw.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DLT</CMPNAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>(VWTE) Verwijderteken, archiveerbaar</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DLT</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>(LÖKZ) CódigoElimin., arquivável</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DLT</CMPNAME>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>(VYMA) Znak výmazu, archivovateľ.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DLT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>(INBO) Indicador de borrado, archivable</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DLT</CMPNAME>
+     <LANGU>V</LANGU>
+     <DESCRIPT>(RAD.) Raderingsindikator</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DLV</CMPNAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>(GLFT) 납품</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DLV</CMPNAME>
+     <LANGU>4</LANGU>
+     <DESCRIPT>(LVR) Livrat</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DLV</CMPNAME>
+     <LANGU>5</LANGU>
+     <DESCRIPT>(DOBV) Dobavljeno</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DLV</CMPNAME>
+     <LANGU>6</LANGU>
+     <DESCRIPT>(ISP) Isporučeno</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DLV</CMPNAME>
+     <LANGU>C</LANGU>
+     <DESCRIPT>(DODA) dodáno</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DLV</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>(GLFT) Geliefert</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DLV</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>(DLV) Delivered</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DLV</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>(LIVR) Livré</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DLV</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>(CONS) consegnato</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DLV</CMPNAME>
+     <LANGU>L</LANGU>
+     <DESCRIPT>(DSTR) Dostarczono</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DLV</CMPNAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>(GLVD)Geleverd</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DLV</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>(GLFT) entregue</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DLV</CMPNAME>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>(DODA) dodané</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DLV</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>(ENTR) Entregado</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DLV</CMPNAME>
+     <LANGU>V</LANGU>
+     <DESCRIPT>(LEV.) Levererat</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DSPT</CMPNAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>(EIGP) 작업: 상태 디스패치</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DSPT</CMPNAME>
+     <LANGU>4</LANGU>
+     <DESCRIPT>(EXPD) Operaţie: Stare programat</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DSPT</CMPNAME>
+     <LANGU>5</LANGU>
+     <DESCRIPT>(PLAN) Postopek: Status planiran</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DSPT</CMPNAME>
+     <LANGU>6</LANGU>
+     <DESCRIPT>(RASP) operacija: Status raspoređeno</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DSPT</CMPNAME>
+     <LANGU>C</LANGU>
+     <DESCRIPT>(NAPL) Operace: status naplánování</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DSPT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>(EIGP) Vorgang: Status Eingeplant</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DSPT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>(DSPT) Operation: Status Dispatched</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DSPT</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>(CHRG) Opération: Statut Chargé</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DSPT</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>(OPER) operazione: Stato pianificato</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DSPT</CMPNAME>
+     <LANGU>L</LANGU>
+     <DESCRIPT>(ROZD) Operacja: Status Zaplanowany</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DSPT</CMPNAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>(EIGOP) Operatie: Status ingepland</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DSPT</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>(EIGP) procedimento: planejar status</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DSPT</CMPNAME>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>(ZARP) Operácia: Status naplánov.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DSPT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>(PLAN) Operación: Status planificado</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DSPT</CMPNAME>
+     <LANGU>V</LANGU>
+     <DESCRIPT>(INPL) Procedur: status inplanerad</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_EXTS</CMPNAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>(EXTS)외부 시스템으로 변경</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_EXTS</CMPNAME>
+     <LANGU>4</LANGU>
+     <DESCRIPT>(SEXT) Modificat prin sistem extern</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_EXTS</CMPNAME>
+     <LANGU>5</LANGU>
+     <DESCRIPT>(SPES) Spremenjeno z eksternim sist.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_EXTS</CMPNAME>
+     <LANGU>6</LANGU>
+     <DESCRIPT>(VANS) Promijenio vanjski sustav</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_EXTS</CMPNAME>
+     <LANGU>C</LANGU>
+     <DESCRIPT>(EXTS) změněno externím systémem</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_EXTS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>(EXTS)Durch externes System geändert</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_EXTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>(EXTS) Changed by external system</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_EXTS</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>(EXTS) Modifié par système externe</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_EXTS</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>(EST) modificato tramite sistemi esterni</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_EXTS</CMPNAME>
+     <LANGU>L</LANGU>
+     <DESCRIPT>(EXTS) Partia kontrolna przypisana</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_EXTS</CMPNAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>(EXTS) Door extern systeem gewijzigd</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_EXTS</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>(EXTS) mudado por sistema externo</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_EXTS</CMPNAME>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>(EXTS) Zmenené externým systémom</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_EXTS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>(EXTS) Modificado por sistema externo</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_EXTS</CMPNAME>
+     <LANGU>V</LANGU>
+     <DESCRIPT>(EXTS) Ändrad via externt system</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_FREE</CMPNAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>(FREI) 오더 릴리스</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_FREE</CMPNAME>
+     <LANGU>4</LANGU>
+     <DESCRIPT>(ELB) Comandă eliberată</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_FREE</CMPNAME>
+     <LANGU>5</LANGU>
+     <DESCRIPT>(LANS) Nalog lansiran</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_FREE</CMPNAME>
+     <LANGU>6</LANGU>
+     <DESCRIPT>(OTP) Nalog otpušten</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_FREE</CMPNAME>
+     <LANGU>C</LANGU>
+     <DESCRIPT>(VOLN) zakázka uvolněna</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_FREE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>(FREI) Auftrag Freigegeben</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_FREE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>(REL) Order released</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_FREE</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>(LANC) Ordre lancé</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_FREE</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>(RILA) ordine rilasciato</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_FREE</CMPNAME>
+     <LANGU>L</LANGU>
+     <DESCRIPT>(ZWOL) zlecenie zatwierdzone</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_FREE</CMPNAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>(VRIJ) Order vrijgegeven</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_FREE</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>(FREI) ordem liberada</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_FREE</CMPNAME>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>(FREI) Zákazka uvoľn.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_FREE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>(LIB.) Liberar orden</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_FREE</CMPNAME>
+     <LANGU>V</LANGU>
+     <DESCRIPT>(FRI.) Order frisläppt</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_ILAS</CMPNAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>(PLOS) 점검없이 지정</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_ILAS</CMPNAME>
+     <LANGU>4</LANGU>
+     <DESCRIPT>(LTCA) Lot de control alocat</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_ILAS</CMPNAME>
+     <LANGU>5</LANGU>
+     <DESCRIPT>(DKOŠ) Dodeljena kontrolna šarža</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_ILAS</CMPNAME>
+     <LANGU>6</LANGU>
+     <DESCRIPT>(PPDO) Partij.prov.dodijeljena</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_ILAS</CMPNAME>
+     <LANGU>C</LANGU>
+     <DESCRIPT>(KDPŘ) kontrolní dávka přiřazena</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_ILAS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>(PLOS)Prüflos zugeordnet</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_ILAS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>(ILAS) Inspection Lot assigned</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_ILAS</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>(LOTC) Lot de contrôle affecté</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_ILAS</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>(LOCO) Lotto di controllo attribuito</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_ILAS</CMPNAME>
+     <LANGU>L</LANGU>
+     <DESCRIPT>(PKNP) Partia kontrolna przypisana</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_ILAS</CMPNAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>(PLOS) zonder controlle toegeordnet</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_ILAS</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>(PLOS) atribuição sem verificação</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_ILAS</CMPNAME>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>(KDÁV) Priradená kontr.dávka</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_ILAS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>(LINA) Lote de inspección asignado</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_ILAS</CMPNAME>
+     <LANGU>V</LANGU>
+     <DESCRIPT>(KPRT) Kontrollparti allokerat</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_INAK</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>(INAK) Objekt inaktiv</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_INAK</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>(INAC) Object inactive</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_INAK</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>(INAK) Objet inactif</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_INAK</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>(INAT) oggetto inattivo</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_INAK</CMPNAME>
+     <LANGU>L</LANGU>
+     <DESCRIPT>(NAkt) Nieaktywny</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_INAK</CMPNAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>(INAC) Inactief</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_INAK</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>(INAK) objeto inativo</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_INAK</CMPNAME>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>(INAK) Objekt neaktívny</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_INAK</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>(INAC) Objekto inactivo</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_INAK</CMPNAME>
+     <LANGU>V</LANGU>
+     <DESCRIPT>(INAK) Objekt inaktiv</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_INITIAL_ORDER_NUMBER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>leere Ordnungsnummer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_INITIAL_ORDER_NUMBER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Empty sequence number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_INITIAL_ORDER_NUMBER</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Numéro de séquence vide</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_INITIAL_ORDER_NUMBER</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Numero sequenziale vuoto</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_INITIAL_ORDER_NUMBER</CMPNAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>Lege serienummer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_INITIAL_ORDER_NUMBER</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Nr. de ordem vazia</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_INITIAL_ORDER_NUMBER</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Número de orden vacío</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_LKD</CMPNAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>(SPER) 보류</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_LKD</CMPNAME>
+     <LANGU>4</LANGU>
+     <DESCRIPT>(BLOC) Blocat</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_LKD</CMPNAME>
+     <LANGU>5</LANGU>
+     <DESCRIPT>(BLKR) Blokirano</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_LKD</CMPNAME>
+     <LANGU>6</LANGU>
+     <DESCRIPT>(ZKLJ) Zaključano</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_LKD</CMPNAME>
+     <LANGU>C</LANGU>
+     <DESCRIPT>(ZABL) blokováno</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_LKD</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>(SPER) Gesperrt</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_LKD</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>(LKD) Locked</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_LKD</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>(BLOQ) Bloqué</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_LKD</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>(BLOC) bloccato</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_LKD</CMPNAME>
+     <LANGU>L</LANGU>
+     <DESCRIPT>(SPER) Zablokowane</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_LKD</CMPNAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>(BLOK) Geblokkeerd</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_LKD</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>(SPER) bloqueado</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_LKD</CMPNAME>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>(ZABL) Zablok.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_LKD</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>(BLOQ) Bloqueado</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_LKD</CMPNAME>
+     <LANGU>V</LANGU>
+     <DESCRIPT>(SPÄR) Spärrad</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MACM</CMPNAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>(MACM) 자재 확정됨</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MACM</CMPNAME>
+     <LANGU>5</LANGU>
+     <DESCRIPT>(MAPO) Material potrjen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MACM</CMPNAME>
+     <LANGU>6</LANGU>
+     <DESCRIPT>(POTM)Potvrđeni materijal</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MACM</CMPNAME>
+     <LANGU>C</LANGU>
+     <DESCRIPT>(MAPO) materiál potvrzen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MACM</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>(MABS)Material bestätigt</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MACM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>(MABS) Material committed</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MACM</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>(ARCO) Article confirmé</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MACM</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>(MACO) materiale confermato</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MACM</CMPNAME>
+     <LANGU>L</LANGU>
+     <DESCRIPT>(MTZT) Materiał potwierdzony</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MACM</CMPNAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>(ARBV) Artikel bevestigd</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MACM</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>(MABS) confirmar materialMaterial bestätigt</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MACM</CMPNAME>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>(PTMA) Materiál potvrdený</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MACM</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>(MACO) Material confirmado</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MACM</CMPNAME>
+     <LANGU>V</LANGU>
+     <DESCRIPT>(MABK) Material bekräftat</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MANC</CMPNAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>(MANC) 자재가용성 점검않음</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MANC</CMPNAME>
+     <LANGU>5</LANGU>
+     <DESCRIPT>(RMNP) Razpoložlj.materiala ni prev.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MANC</CMPNAME>
+     <LANGU>6</LANGU>
+     <DESCRIPT>(RMNP)Raspol.materijala nije prov.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MANC</CMPNAME>
+     <LANGU>C</LANGU>
+     <DESCRIPT>(DMBK) disponibilita mat. bez kontroly</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MANC</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>(NMVP)Mat.verfügbark. nicht geprüft</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MANC</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>(MANC) Mat.availability not checked</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MANC</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>(DANC) Disponibilité article non contrôlée</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MANC</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>(DMNV) disp. mat. non verificata</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MANC</CMPNAME>
+     <LANGU>L</LANGU>
+     <DESCRIPT>(DMNK) Dostępność materiału niekontr.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MANC</CMPNAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>(NMVP) art. beschikbaark niet gecontroleerd</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MANC</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>(NMVP) material disponível, sem verifi.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MANC</CMPNAME>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>(DMBK)Disponibilita mat.bez kontroly</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MANC</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>(DMNV) Dispon.material no verificada</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MANC</CMPNAME>
+     <LANGU>V</LANGU>
+     <DESCRIPT>(MaEK) Mtrltillgänglighet ej kontr.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MSPT</CMPNAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>(MSPT) 자재부족</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MSPT</CMPNAME>
+     <LANGU>4</LANGU>
+     <DESCRIPT>(LPSM) Lipsă disponibilitate material</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MSPT</CMPNAME>
+     <LANGU>5</LANGU>
+     <DESCRIPT>(MRMA) Manjkajoča razpolož. materiala</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MSPT</CMPNAME>
+     <LANGU>6</LANGU>
+     <DESCRIPT>(NMAT) Nedostatak materijala</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MSPT</CMPNAME>
+     <LANGU>C</LANGU>
+     <DESCRIPT>(CHDM) chybějící disponibilita materiálu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MSPT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>(FMAT)Fehlende Materialverfügbarkeit</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MSPT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>(MSPT) Material shortage</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MSPT</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>(ARTM) Couverture insuffisante</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MSPT</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>(DMM) disponibilità materiale mancante</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MSPT</CMPNAME>
+     <LANGU>L</LANGU>
+     <DESCRIPT>(FMAT) Brakująca dostępność materiału</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MSPT</CMPNAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>(MART) Missende Artikelbeschikbaarheid</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MSPT</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>(FMAT) falta disponib. de material</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MSPT</CMPNAME>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>(CHMD)Chýbajúca disponibilita materiálu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MSPT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>(FMAT) Falta disponibilidad material</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_MSPT</CMPNAME>
+     <LANGU>V</LANGU>
+     <DESCRIPT>(MSAK) Bristande mtrl.tillgänglighet</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NCMP</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>(NDGF) nicht durchgeführt</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NCMP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>(NCMP) not completed</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NCMP</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>(NEFF) Non effectué</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NCMP</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>(NNES) non eseguito</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NCMP</CMPNAME>
+     <LANGU>L</LANGU>
+     <DESCRIPT>(NWYK) nie przeprowadzono</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NCMP</CMPNAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>(NUGV) niet uitgevoerd</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NCMP</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>(SEXE) sem execução</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NCMP</CMPNAME>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>(NEVY) nevykonané</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NCMP</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>(NEJE) No se ha completado</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NCMP</CMPNAME>
+     <LANGU>V</LANGU>
+     <DESCRIPT>(EjGf) Ej genomförd</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NFHM</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>(NFHM) FHM nicht einsatzbereit</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NFHM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>(NPRT) PRT not ready for use</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NFHM</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>(OUNO) Outillage non opérationnel</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NFHM</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>(NMRP) MRP non pronto per l´uso</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NFHM</CMPNAME>
+     <LANGU>L</LANGU>
+     <DESCRIPT>(ŚPNG) ŚPP nie są gotowe do użycia</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NFHM</CMPNAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>(NPHM) PHM niet voor inzet beschikb.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NFHM</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>(NFHM) MAP sem disponib.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NFHM</CMPNAME>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>(PVPN) PVP nie je pripr.pre použitie</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NFHM</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>(MAFN) MAF no apto para el empleo</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NFHM</CMPNAME>
+     <LANGU>V</LANGU>
+     <DESCRIPT>(EPHM) PHM kan ej användas</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NSCH</CMPNAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>(NSCH) 일정계획 없음(예측일)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NSCH</CMPNAME>
+     <LANGU>4</LANGU>
+     <DESCRIPT>(NPRG) neprogramat (prognoză)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NSCH</CMPNAME>
+     <LANGU>5</LANGU>
+     <DESCRIPT>(NTNA) Ni terminirano (napoved)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NSCH</CMPNAME>
+     <LANGU>6</LANGU>
+     <DESCRIPT>(NRAS) Nije raspoređeno (dat.progn.)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NSCH</CMPNAME>
+     <LANGU>C</LANGU>
+     <DESCRIPT>(NERP) nerozvržena (prognóza)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NSCH</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>(NTRP) nicht terminiert (Prognose)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NSCH</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>(NSCH) Not scheduled (forecast dates)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NSCH</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>(NOOR) non ordonnancé (prévision)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NSCH</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>(NSCH) non schedulato (prognosi)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NSCH</CMPNAME>
+     <LANGU>L</LANGU>
+     <DESCRIPT>(NPLN) Nie zaplanowane (prognoza)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NSCH</CMPNAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>(NIPP) niet ingepland (prognose)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NSCH</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>(NTRP) sem program. (prognose)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NSCH</CMPNAME>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>(NETR) neterminovaná (prognóza)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NSCH</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>(NPRG) No programado (pronóstico)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NSCH</CMPNAME>
+     <LANGU>V</LANGU>
+     <DESCRIPT>(ETID) Ej tidplanerad (prognos)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NTUP</CMPNAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>(NTUP) 일자를 갱신하지 않았습니다</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NTUP</CMPNAME>
+     <LANGU>5</LANGU>
+     <DESCRIPT>(TNAK) Termini niso aktualni</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NTUP</CMPNAME>
+     <LANGU>6</LANGU>
+     <DESCRIPT>(DNAŽ) Datumi nisu ažurirani</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NTUP</CMPNAME>
+     <LANGU>C</LANGU>
+     <DESCRIPT>(TNEA) termíny nejsou aktuální</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NTUP</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>(NTER) Termine nicht aktuell</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NTUP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>(NTUP) Dates are not updated</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NTUP</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>(DNMJ) Dates non mises à jour</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NTUP</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>(NAPP) appuntamento non attuale</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NTUP</CMPNAME>
+     <LANGU>L</LANGU>
+     <DESCRIPT>(TERN)Terminy nieaktualne</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NTUP</CMPNAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>(NTER) Afspraken niet actueel</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NTUP</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>(PSAT) programa sem atualização</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NTUP</CMPNAME>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>(TNEA) Termíny nie sú aktuálne</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NTUP</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>(FENA) Fechas no actuales</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NTUP</CMPNAME>
+     <LANGU>V</LANGU>
+     <DESCRIPT>(TPEA) Tidpunkter ej aktuella</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PCNF</CMPNAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>(PCNF) 상태 일부확인됨</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PCNF</CMPNAME>
+     <LANGU>4</LANGU>
+     <DESCRIPT>(PCNF) Stare parţial confirmat</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PCNF</CMPNAME>
+     <LANGU>5</LANGU>
+     <DESCRIPT>(DPOT) Delno potrjeno</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PCNF</CMPNAME>
+     <LANGU>6</LANGU>
+     <DESCRIPT>(DPTV) Status djelomično potvrđen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PCNF</CMPNAME>
+     <LANGU>C</LANGU>
+     <DESCRIPT>(ČZHL) status částečné zpětné hlášení</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PCNF</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>(TRÜC) Stauts Teilrückgemeldet</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PCNF</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>(PCNF) Partially confirmed</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PCNF</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>(CONFP) Statut partiellement confirmé</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PCNF</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>(PARE) stato in parte registrato</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PCNF</CMPNAME>
+     <LANGU>L</LANGU>
+     <DESCRIPT>(CZPT) Stauts Częściowo potwierdzone</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PCNF</CMPNAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>(TFEE) Status deelsfeedback</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PCNF</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>(SCPA) stauts confirm. parcialmente</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PCNF</CMPNAME>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>(ČSHL) Status čiastoč.spätne hlás.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PCNF</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>(NOTP) Status notificado parcialmente</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PCNF</CMPNAME>
+     <LANGU>V</LANGU>
+     <DESCRIPT>(DRPT) Delvis återrapporterad</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PREL</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>(TFRE) Auftrag Teil-freigegeben</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PREL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>(PREL) Order partially released</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PREL</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>(LNCP) Ordre partiellement lancé</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PREL</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>(PRIL) Ordine parzialmente rilasciato</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PREL</CMPNAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>(TFRE) Order deel-vrijgegeven</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PREL</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>(TFRE) ordem liberada parcialmente</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PREL</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>(PLIB) Orden parcialmente liberada</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PRT</CMPNAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>(PRT) 인쇄됨</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PRT</CMPNAME>
+     <LANGU>4</LANGU>
+     <DESCRIPT>(RUP) Tipărit</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PRT</CMPNAME>
+     <LANGU>5</LANGU>
+     <DESCRIPT>(IZPI) Izpisano</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PRT</CMPNAME>
+     <LANGU>6</LANGU>
+     <DESCRIPT>(PRT) Ispisano</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PRT</CMPNAME>
+     <LANGU>C</LANGU>
+     <DESCRIPT>(TISK) vytištěno</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PRT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>(DRUC) Gedruckt</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PRT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>(PRT) Printed</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PRT</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>(IMPR) Imprimé</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PRT</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>(STAM) stampato</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PRT</CMPNAME>
+     <LANGU>L</LANGU>
+     <DESCRIPT>(WYDR) Wydrukowano</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PRT</CMPNAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>(DRUC) Geprint</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PRT</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>(DRUC) impresso</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PRT</CMPNAME>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>(TLAČ) Vytlačené</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PRT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>(IMPR) Impreso</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PRT</CMPNAME>
+     <LANGU>V</LANGU>
+     <DESCRIPT>(PHM) Utskrivet</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_TECO</CMPNAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>(TECO) 기술적으로 완료됨</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_TECO</CMPNAME>
+     <LANGU>4</LANGU>
+     <DESCRIPT>(TECO) Terminat dpdv. tehnic</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_TECO</CMPNAME>
+     <LANGU>5</LANGU>
+     <DESCRIPT>(TEHZ) Tehnično zaključeno</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_TECO</CMPNAME>
+     <LANGU>6</LANGU>
+     <DESCRIPT>(TEDO) Tehnički dovršen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_TECO</CMPNAME>
+     <LANGU>C</LANGU>
+     <DESCRIPT>(TEUZ) technicky uzavřeno</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_TECO</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>(TABG) Technisch abgeschlossen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_TECO</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>(TECO) Technically completed</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_TECO</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>(TCLO) Clôturé techniquement</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_TECO</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>(TECO) tecnicamente completato</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_TECO</CMPNAME>
+     <LANGU>L</LANGU>
+     <DESCRIPT>(ZTCH) Zamknięcie techniczne</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_TECO</CMPNAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>(TABG) Technisch afgesloten</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_TECO</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>(TABG) tecnicamente finalizado</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_TECO</CMPNAME>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>(TEUZ) Technicky uzavreté</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_TECO</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>(CTEC) Cerrado técnicamente</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_TECO</CMPNAME>
+     <LANGU>V</LANGU>
+     <DESCRIPT>(TAVS) Tekniskt avslutad</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_UMGP</CMPNAME>
+     <LANGU>C</LANGU>
+     <DESCRIPT>(PŘPL)Přeplánováno</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_UMGP</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>(UMGP)Umgeplant</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_UMGP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>(UMGP)Rescheduled</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_UMGP</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>(REPL) Replanifié</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_UMGP</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>(RIPI) ripianificato</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_UMGP</CMPNAME>
+     <LANGU>L</LANGU>
+     <DESCRIPT>(PLPO) Zaplanowane ponownie</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_UMGP</CMPNAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>OMGP) omgepland</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_UMGP</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>(UMGP) replanejado</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_UMGP</CMPNAME>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>(PRRO) Prerozvrhnuté</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_UMGP</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>(RPCN)Replanificación</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_UMGP</CMPNAME>
+     <LANGU>V</LANGU>
+     <DESCRIPT>(UMGP)Omplanerad</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_STATUS_TEXT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Status als Text übergeben</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_STATUS_TEXT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Transfer status as text</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_STATUS_TEXT</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Transférer statut comme texte</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_STATUS_TEXT</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Trasferire stato come testo</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_STATUS_TEXT</CMPNAME>
+     <LANGU>L</LANGU>
+     <DESCRIPT>Przekaż status jako tekst</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_STATUS_TEXT</CMPNAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>Status als tekst overgeven</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_STATUS_TEXT</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Transferir status como texto</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_STATUS_TEXT</CMPNAME>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>Status odovzdať ako text</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_STATUS_TEXT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Transferir estado como texto</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_STATUS_TEXT</CMPNAME>
+     <LANGU>V</LANGU>
+     <DESCRIPT>Överför status som text</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>HAS_STATUS</CMPNAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>상태 ( &apos;X&apos; = 예 / space = 아니오)를 가진 오브젝트</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>HAS_STATUS</CMPNAME>
+     <LANGU>4</LANGU>
+     <DESCRIPT>Obiectul are stare (&apos;X&apos; = Da / space = Nu)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>HAS_STATUS</CMPNAME>
+     <LANGU>5</LANGU>
+     <DESCRIPT>Objekt ima status( &apos;X&apos; = Ja / space = Ne)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>HAS_STATUS</CMPNAME>
+     <LANGU>6</LANGU>
+     <DESCRIPT>Objekt ima status(&apos;X&apos; 0 da / prostor = ne)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>HAS_STATUS</CMPNAME>
+     <LANGU>C</LANGU>
+     <DESCRIPT>Status objektu ( &apos;X&apos; = Ano / space = Ne)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>HAS_STATUS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Objekt hat Status( &apos;X&apos; = Ja / space = Nein)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>HAS_STATUS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Object has status( &apos;X&apos; = Yes / space = No)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>HAS_STATUS</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Objet a statut (&quot;X&quot; = oui/espace = non)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>HAS_STATUS</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>L&apos;oggetto ha stato (&apos;X&apos; = Sì / spazio = No)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>HAS_STATUS</CMPNAME>
+     <LANGU>L</LANGU>
+     <DESCRIPT>Obiekt ma status( &apos;X&apos; = Tak / spacja = Nie)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>HAS_STATUS</CMPNAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>Object heeft status (&apos;X&apos;= ja / space = nee)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>HAS_STATUS</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Objeto com status ( &apos;X&apos; = sim / space = não)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>HAS_STATUS</CMPNAME>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>Objekt má status( &apos;X&apos; = Áno / space = Nie)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>HAS_STATUS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Objeto tiene status( &apos;X&apos; = Sí / espacio = No)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>HAS_STATUS</CMPNAME>
+     <LANGU>V</LANGU>
+     <DESCRIPT>Objekt har status( &apos;X&apos; = Ja / space = Nej)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_STATUSES</CMPNAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>JSTAT 테이블 유형</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_STATUSES</CMPNAME>
+     <LANGU>4</LANGU>
+     <DESCRIPT>Tip tabel pt. JSTAT</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_STATUSES</CMPNAME>
+     <LANGU>5</LANGU>
+     <DESCRIPT>Tip tabele za JSTAT</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_STATUSES</CMPNAME>
+     <LANGU>6</LANGU>
+     <DESCRIPT>Tip tabele za JSTAT</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_STATUSES</CMPNAME>
+     <LANGU>C</LANGU>
+     <DESCRIPT>Typ tabulky pro JSTAT</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_STATUSES</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Tabellentyp für JSTAT</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_STATUSES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table type for JSTAT</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_STATUSES</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Type de table pour JSTAT</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_STATUSES</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Tipo tabella per SI Stato</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_STATUSES</CMPNAME>
+     <LANGU>L</LANGU>
+     <DESCRIPT>Typ tabeli JSTAT</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_STATUSES</CMPNAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>Tabellentype voor JSTAT</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_STATUSES</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tipo de tabela para JSTAT</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_STATUSES</CMPNAME>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>Typ tabuľky pre JSTAT</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_STATUSES</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Tipo de tabla para JSTAT</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_STATUSES</CMPNAME>
+     <LANGU>V</LANGU>
+     <DESCRIPT>Tabelltyp för JSTAT</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>REMOVE_STATUS</CMPNAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>오브젝트 상태 삭제</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>REMOVE_STATUS</CMPNAME>
+     <LANGU>4</LANGU>
+     <DESCRIPT>Ştergere stare obiect</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>REMOVE_STATUS</CMPNAME>
+     <LANGU>5</LANGU>
+     <DESCRIPT>Objekt status brisanje</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>REMOVE_STATUS</CMPNAME>
+     <LANGU>6</LANGU>
+     <DESCRIPT>Objekt Status brisanje</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>REMOVE_STATUS</CMPNAME>
+     <LANGU>C</LANGU>
+     <DESCRIPT>Zrušit status objektu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>REMOVE_STATUS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Objekt Status Löschen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>REMOVE_STATUS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Delete object status</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>REMOVE_STATUS</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Supprimer statut d&apos;objet</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>REMOVE_STATUS</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Cancellare stato oggetto</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>REMOVE_STATUS</CMPNAME>
+     <LANGU>L</LANGU>
+     <DESCRIPT>Obiekt Status Usuń</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>REMOVE_STATUS</CMPNAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>Object status verwijderen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>REMOVE_STATUS</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Eliminar objeto status</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>REMOVE_STATUS</CMPNAME>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>Objekt status vymazať</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>REMOVE_STATUS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Borrar status objeto</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>REMOVE_STATUS</CMPNAME>
+     <LANGU>V</LANGU>
+     <DESCRIPT>Radera objekt status</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_STATUS</CMPNAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>상태 오브젝트 설정</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_STATUS</CMPNAME>
+     <LANGU>4</LANGU>
+     <DESCRIPT>Setare stare obiect</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_STATUS</CMPNAME>
+     <LANGU>5</LANGU>
+     <DESCRIPT>Nastavitev statusa objekta</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_STATUS</CMPNAME>
+     <LANGU>6</LANGU>
+     <DESCRIPT>Objekt Status Postaviti</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_STATUS</CMPNAME>
+     <LANGU>C</LANGU>
+     <DESCRIPT>Nastavit status objektu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_STATUS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Objekt Status Setzen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_STATUS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Set object status</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_STATUS</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Activer statut d&apos;objet</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_STATUS</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Inserire stato oggetto</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_STATUS</CMPNAME>
+     <LANGU>L</LANGU>
+     <DESCRIPT>Objekt Status Ustaw</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_STATUS</CMPNAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>Object status zetten</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_STATUS</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Definir objeto status</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_STATUS</CMPNAME>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>Objekt status nastaviť</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_STATUS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Fijar status objeto</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_STATUS</CMPNAME>
+     <LANGU>V</LANGU>
+     <DESCRIPT>Sätt objekt status</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_STATUS_TEXT</CMPNAME>
+     <SCONAME>EF_STTXT</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Auftrag Systemstatus</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_STATUS_TEXT</CMPNAME>
+     <SCONAME>EF_STTXT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Order system status</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_STATUS_TEXT</CMPNAME>
+     <SCONAME>EF_STTXT</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Ordre statut système</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_STATUS_TEXT</CMPNAME>
+     <SCONAME>EF_STTXT</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Ordine stato del sistema.</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_STATUS_TEXT</CMPNAME>
+     <SCONAME>EF_STTXT</SCONAME>
+     <LANGU>L</LANGU>
+     <DESCRIPT>Zlecenie status systemu</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_STATUS_TEXT</CMPNAME>
+     <SCONAME>EF_STTXT</SCONAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>Order systeemstatus</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_STATUS_TEXT</CMPNAME>
+     <SCONAME>EF_STTXT</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Ordem stat. do sistema</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_STATUS_TEXT</CMPNAME>
+     <SCONAME>EF_STTXT</SCONAME>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>Zákazka status systému</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_STATUS_TEXT</CMPNAME>
+     <SCONAME>EF_STTXT</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Orden estado sistema</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_STATUS_TEXT</CMPNAME>
+     <SCONAME>EF_STTXT</SCONAME>
+     <LANGU>V</LANGU>
+     <DESCRIPT>Order systemstatus</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_STATUS_TEXT</CMPNAME>
+     <SCONAME>EF_USTXT</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Kopf Anwenderstatus</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_STATUS_TEXT</CMPNAME>
+     <SCONAME>EF_USTXT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Header user status</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_STATUS_TEXT</CMPNAME>
+     <SCONAME>EF_USTXT</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>En-tête statut utilisateur</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_STATUS_TEXT</CMPNAME>
+     <SCONAME>EF_USTXT</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Testata stato utente</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_STATUS_TEXT</CMPNAME>
+     <SCONAME>EF_USTXT</SCONAME>
+     <LANGU>L</LANGU>
+     <DESCRIPT>Nagł.status użytk.</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_STATUS_TEXT</CMPNAME>
+     <SCONAME>EF_USTXT</SCONAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>Gebruikersstatus</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_STATUS_TEXT</CMPNAME>
+     <SCONAME>EF_USTXT</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Cabeç.StatusUsuário</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_STATUS_TEXT</CMPNAME>
+     <SCONAME>EF_USTXT</SCONAME>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>Hlav. status užív.</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_STATUS_TEXT</CMPNAME>
+     <SCONAME>EF_USTXT</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Cabecera status usuario</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_STATUS_TEXT</CMPNAME>
+     <SCONAME>EF_USTXT</SCONAME>
+     <LANGU>V</LANGU>
+     <DESCRIPT>Användarstatus</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HAS_STATUS</CMPNAME>
+     <SCONAME>IF_STATUS</SCONAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>오브젝트 개별 상태</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HAS_STATUS</CMPNAME>
+     <SCONAME>IF_STATUS</SCONAME>
+     <LANGU>4</LANGU>
+     <DESCRIPT>Stare individuală a unui obiect</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HAS_STATUS</CMPNAME>
+     <SCONAME>IF_STATUS</SCONAME>
+     <LANGU>5</LANGU>
+     <DESCRIPT>Posamezni status objekta</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HAS_STATUS</CMPNAME>
+     <SCONAME>IF_STATUS</SCONAME>
+     <LANGU>6</LANGU>
+     <DESCRIPT>Pojedinačni status objekta</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HAS_STATUS</CMPNAME>
+     <SCONAME>IF_STATUS</SCONAME>
+     <LANGU>C</LANGU>
+     <DESCRIPT>Jednotlivý status objektu</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HAS_STATUS</CMPNAME>
+     <SCONAME>IF_STATUS</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Einzelstatus eines Objekts</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HAS_STATUS</CMPNAME>
+     <SCONAME>IF_STATUS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Individual object status</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HAS_STATUS</CMPNAME>
+     <SCONAME>IF_STATUS</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Statut individuel d&apos;un objet</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HAS_STATUS</CMPNAME>
+     <SCONAME>IF_STATUS</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Stato singolo di un oggetto</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HAS_STATUS</CMPNAME>
+     <SCONAME>IF_STATUS</SCONAME>
+     <LANGU>L</LANGU>
+     <DESCRIPT>Indywidualny status obiektu</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HAS_STATUS</CMPNAME>
+     <SCONAME>IF_STATUS</SCONAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>Enkelstatus van een object</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HAS_STATUS</CMPNAME>
+     <SCONAME>IF_STATUS</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>StatusIndividual de um objeto</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HAS_STATUS</CMPNAME>
+     <SCONAME>IF_STATUS</SCONAME>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>Jednotlivý status objektu</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HAS_STATUS</CMPNAME>
+     <SCONAME>IF_STATUS</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Status individual de un objeto</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HAS_STATUS</CMPNAME>
+     <SCONAME>IF_STATUS</SCONAME>
+     <LANGU>V</LANGU>
+     <DESCRIPT>Enskild status på objekt</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HAS_STATUS</CMPNAME>
+     <SCONAME>RF_ANSWER</SCONAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>X=예/space=아니오</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HAS_STATUS</CMPNAME>
+     <SCONAME>RF_ANSWER</SCONAME>
+     <LANGU>4</LANGU>
+     <DESCRIPT>X=Da/space=Nu</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HAS_STATUS</CMPNAME>
+     <SCONAME>RF_ANSWER</SCONAME>
+     <LANGU>5</LANGU>
+     <DESCRIPT>X=Ja/space=Ne</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HAS_STATUS</CMPNAME>
+     <SCONAME>RF_ANSWER</SCONAME>
+     <LANGU>6</LANGU>
+     <DESCRIPT>X=da/postor=ne</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HAS_STATUS</CMPNAME>
+     <SCONAME>RF_ANSWER</SCONAME>
+     <LANGU>C</LANGU>
+     <DESCRIPT>X=Ano/space=Ne</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HAS_STATUS</CMPNAME>
+     <SCONAME>RF_ANSWER</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>X=Ja/space=Nein</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HAS_STATUS</CMPNAME>
+     <SCONAME>RF_ANSWER</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>X=Yes/space=No</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HAS_STATUS</CMPNAME>
+     <SCONAME>RF_ANSWER</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>X = Oui/espace=Non</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HAS_STATUS</CMPNAME>
+     <SCONAME>RF_ANSWER</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>X=Si/spazio=NO</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HAS_STATUS</CMPNAME>
+     <SCONAME>RF_ANSWER</SCONAME>
+     <LANGU>L</LANGU>
+     <DESCRIPT>X=Tak/spacja=Nie</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HAS_STATUS</CMPNAME>
+     <SCONAME>RF_ANSWER</SCONAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>X=ja/space=nee</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HAS_STATUS</CMPNAME>
+     <SCONAME>RF_ANSWER</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>X=sim/space=não</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HAS_STATUS</CMPNAME>
+     <SCONAME>RF_ANSWER</SCONAME>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>X=Áno/space=Nie</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HAS_STATUS</CMPNAME>
+     <SCONAME>RF_ANSWER</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>X=Sí/espacio=No</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HAS_STATUS</CMPNAME>
+     <SCONAME>RF_ANSWER</SCONAME>
+     <LANGU>V</LANGU>
+     <DESCRIPT>X=Ja/space=Nej</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REMOVE_STATUS</CMPNAME>
+     <SCONAME>/GIB/CX_DCP</SCONAME>
+     <LANGU>C</LANGU>
+     <DESCRIPT>GXM zakázka</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REMOVE_STATUS</CMPNAME>
+     <SCONAME>/GIB/CX_DCP</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>DCP Auftrag</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REMOVE_STATUS</CMPNAME>
+     <SCONAME>/GIB/CX_DCP</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>GXM Order</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REMOVE_STATUS</CMPNAME>
+     <SCONAME>/GIB/CX_DCP</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>GXM Ordre</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REMOVE_STATUS</CMPNAME>
+     <SCONAME>/GIB/CX_DCP</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Ordine DCP</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REMOVE_STATUS</CMPNAME>
+     <SCONAME>/GIB/CX_DCP</SCONAME>
+     <LANGU>L</LANGU>
+     <DESCRIPT>Zlecenie GXM</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REMOVE_STATUS</CMPNAME>
+     <SCONAME>/GIB/CX_DCP</SCONAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>GXP order</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REMOVE_STATUS</CMPNAME>
+     <SCONAME>/GIB/CX_DCP</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>DCP ordem</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REMOVE_STATUS</CMPNAME>
+     <SCONAME>/GIB/CX_DCP</SCONAME>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>GXM zákazka</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REMOVE_STATUS</CMPNAME>
+     <SCONAME>/GIB/CX_DCP</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>GXM orden</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REMOVE_STATUS</CMPNAME>
+     <SCONAME>/GIB/CX_DCP</SCONAME>
+     <LANGU>V</LANGU>
+     <DESCRIPT>GXM order</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REMOVE_STATUS</CMPNAME>
+     <SCONAME>IF_STATUS</SCONAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>오브젝트 개별 상태</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REMOVE_STATUS</CMPNAME>
+     <SCONAME>IF_STATUS</SCONAME>
+     <LANGU>4</LANGU>
+     <DESCRIPT>Stare individuală a unui obiect</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REMOVE_STATUS</CMPNAME>
+     <SCONAME>IF_STATUS</SCONAME>
+     <LANGU>5</LANGU>
+     <DESCRIPT>Posamezni status objekta</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REMOVE_STATUS</CMPNAME>
+     <SCONAME>IF_STATUS</SCONAME>
+     <LANGU>6</LANGU>
+     <DESCRIPT>Pojedinačni status objekta</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REMOVE_STATUS</CMPNAME>
+     <SCONAME>IF_STATUS</SCONAME>
+     <LANGU>C</LANGU>
+     <DESCRIPT>Jednotlivý status objektu</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REMOVE_STATUS</CMPNAME>
+     <SCONAME>IF_STATUS</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Einzelstatus eines Objekts</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REMOVE_STATUS</CMPNAME>
+     <SCONAME>IF_STATUS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Individual object status</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REMOVE_STATUS</CMPNAME>
+     <SCONAME>IF_STATUS</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Statut individuel d&apos;un objet</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REMOVE_STATUS</CMPNAME>
+     <SCONAME>IF_STATUS</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Stato singolo di un oggetto</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REMOVE_STATUS</CMPNAME>
+     <SCONAME>IF_STATUS</SCONAME>
+     <LANGU>L</LANGU>
+     <DESCRIPT>Pojedynczy status obiektu</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REMOVE_STATUS</CMPNAME>
+     <SCONAME>IF_STATUS</SCONAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>Enkelstatus van een object</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REMOVE_STATUS</CMPNAME>
+     <SCONAME>IF_STATUS</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>StatusIndividual de um objeto</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REMOVE_STATUS</CMPNAME>
+     <SCONAME>IF_STATUS</SCONAME>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>Jednotlivý status objektu</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REMOVE_STATUS</CMPNAME>
+     <SCONAME>IF_STATUS</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Status individual de un objeto</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REMOVE_STATUS</CMPNAME>
+     <SCONAME>IF_STATUS</SCONAME>
+     <LANGU>V</LANGU>
+     <DESCRIPT>Enskild status på objekt</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_STATUS</CMPNAME>
+     <SCONAME>/GIB/CX_DCP</SCONAME>
+     <LANGU>C</LANGU>
+     <DESCRIPT>GXM zakázka</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_STATUS</CMPNAME>
+     <SCONAME>/GIB/CX_DCP</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>DCP Auftrag</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_STATUS</CMPNAME>
+     <SCONAME>/GIB/CX_DCP</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>GXM Order</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_STATUS</CMPNAME>
+     <SCONAME>/GIB/CX_DCP</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>GXM Ordre</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_STATUS</CMPNAME>
+     <SCONAME>/GIB/CX_DCP</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Ordine DCP</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_STATUS</CMPNAME>
+     <SCONAME>/GIB/CX_DCP</SCONAME>
+     <LANGU>L</LANGU>
+     <DESCRIPT>Zlecenie GXM</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_STATUS</CMPNAME>
+     <SCONAME>/GIB/CX_DCP</SCONAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>GXP order</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_STATUS</CMPNAME>
+     <SCONAME>/GIB/CX_DCP</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>DCP Ordem</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_STATUS</CMPNAME>
+     <SCONAME>/GIB/CX_DCP</SCONAME>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>GXM zákazka</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_STATUS</CMPNAME>
+     <SCONAME>/GIB/CX_DCP</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>GXM orden</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_STATUS</CMPNAME>
+     <SCONAME>/GIB/CX_DCP</SCONAME>
+     <LANGU>V</LANGU>
+     <DESCRIPT>GXM order</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_STATUS</CMPNAME>
+     <SCONAME>IF_STATUS</SCONAME>
+     <LANGU>3</LANGU>
+     <DESCRIPT>오브젝트 개별 상태</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_STATUS</CMPNAME>
+     <SCONAME>IF_STATUS</SCONAME>
+     <LANGU>4</LANGU>
+     <DESCRIPT>Stare individuală a unui obiect</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_STATUS</CMPNAME>
+     <SCONAME>IF_STATUS</SCONAME>
+     <LANGU>5</LANGU>
+     <DESCRIPT>Posamezni status objekta</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_STATUS</CMPNAME>
+     <SCONAME>IF_STATUS</SCONAME>
+     <LANGU>6</LANGU>
+     <DESCRIPT>Pojedinačni status objekta</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_STATUS</CMPNAME>
+     <SCONAME>IF_STATUS</SCONAME>
+     <LANGU>C</LANGU>
+     <DESCRIPT>Jednotlivý status objektu</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_STATUS</CMPNAME>
+     <SCONAME>IF_STATUS</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Einzelstatus eines Objekts</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_STATUS</CMPNAME>
+     <SCONAME>IF_STATUS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Individual object status</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_STATUS</CMPNAME>
+     <SCONAME>IF_STATUS</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Statut individuel d&apos;un objet</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_STATUS</CMPNAME>
+     <SCONAME>IF_STATUS</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Stato singolo di un oggetto</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_STATUS</CMPNAME>
+     <SCONAME>IF_STATUS</SCONAME>
+     <LANGU>L</LANGU>
+     <DESCRIPT>Pojedynczy status obiektu</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_STATUS</CMPNAME>
+     <SCONAME>IF_STATUS</SCONAME>
+     <LANGU>N</LANGU>
+     <DESCRIPT>Enkelstatus van een object</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_STATUS</CMPNAME>
+     <SCONAME>IF_STATUS</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Status individual de um objeto</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_STATUS</CMPNAME>
+     <SCONAME>IF_STATUS</SCONAME>
+     <LANGU>Q</LANGU>
+     <DESCRIPT>Jednotlivý status objektu</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_STATUS</CMPNAME>
+     <SCONAME>IF_STATUS</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Status individual de un objeto</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_STATUS</CMPNAME>
+     <SCONAME>IF_STATUS</SCONAME>
+     <LANGU>V</LANGU>
+     <DESCRIPT>Enskild status på objekt</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

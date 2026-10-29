@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>Z_VGWNR</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>Z_VGWNR</DOMNAME>
+    <HEADLEN>25</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Nummer des Vorgabewertes</DDTEXT>
+    <REPTEXT>Vorgabewert-Nr.</REPTEXT>
+    <SCRTEXT_S>VGW-Nr.</SCRTEXT_S>
+    <SCRTEXT_M>VorgWert-Nr.</SCRTEXT_M>
+    <SCRTEXT_L>Vorgabewert-Nr.</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>2</LANGU>
+    <LANGU>3</LANGU>
+    <LANGU>4</LANGU>
+    <LANGU>5</LANGU>
+    <LANGU>6</LANGU>
+    <LANGU>C</LANGU>
+    <LANGU>E</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>Q</LANGU>
+    <LANGU>R</LANGU>
+    <LANGU>S</LANGU>
+    <LANGU>T</LANGU>
+    <LANGU>V</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>标准值的编号</DDTEXT>
+     <REPTEXT>标准值编号</REPTEXT>
+     <SCRTEXT_S>标准值编号</SCRTEXT_S>
+     <SCRTEXT_M>标准值编号</SCRTEXT_M>
+     <SCRTEXT_L>标准值编号</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <DDTEXT>เลขที่ของค่ามาตรฐาน</DDTEXT>
+     <REPTEXT>เลขที่ค่ามาตรฐาน</REPTEXT>
+     <SCRTEXT_S>DefValNo.</SCRTEXT_S>
+     <SCRTEXT_M>เลขที่ค่ามฐ.</SCRTEXT_M>
+     <SCRTEXT_L>เลขที่ค่ามาตรฐาน</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DDTEXT>기본값 번호</DDTEXT>
+     <REPTEXT>기본값 번호</REPTEXT>
+     <SCRTEXT_S>기본값번호</SCRTEXT_S>
+     <SCRTEXT_M>기본값번호</SCRTEXT_M>
+     <SCRTEXT_L>기본값 번호</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>4</DDLANGUAGE>
+     <DDTEXT>Numărul valorii standard</DDTEXT>
+     <REPTEXT>Nr. valoare standard</REPTEXT>
+     <SCRTEXT_S>Nr.ValStnd</SCRTEXT_S>
+     <SCRTEXT_M>Nr. val. stnd.</SCRTEXT_M>
+     <SCRTEXT_L>Nr. valoare standard</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>5</DDLANGUAGE>
+     <DDTEXT>Št. privzete vrednosti</DDTEXT>
+     <REPTEXT>Štev. privzete vrednosti</REPTEXT>
+     <SCRTEXT_S>Št.pr.vr.</SCRTEXT_S>
+     <SCRTEXT_M>Št.privz.vredn.</SCRTEXT_M>
+     <SCRTEXT_L>Št.PrivzeteVrednosti</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>6</DDLANGUAGE>
+     <DDTEXT>Broj vrijednosti norme</DDTEXT>
+     <REPTEXT>Br.Vrijed.Norme</REPTEXT>
+     <SCRTEXT_S>Br.Vr.Nor</SCRTEXT_S>
+     <SCRTEXT_M>Br.Vrij.Norme</SCRTEXT_M>
+     <SCRTEXT_L>Br.Vrijed.Norme</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DDTEXT>Číslo standardní hodnoty</DDTEXT>
+     <REPTEXT>Stand.hodnota-č.</REPTEXT>
+     <SCRTEXT_S>St.HodČ.</SCRTEXT_S>
+     <SCRTEXT_M>Stand.hod.č.</SCRTEXT_M>
+     <SCRTEXT_L>Stand.hodnota-č.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Number of default value</DDTEXT>
+     <REPTEXT>Default value number</REPTEXT>
+     <SCRTEXT_S>DefValNo.</SCRTEXT_S>
+     <SCRTEXT_M>Def.value no.</SCRTEXT_M>
+     <SCRTEXT_L>Default value no.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Numéro de valeur par défaut</DDTEXT>
+     <REPTEXT>Num. de valeur par défaut</REPTEXT>
+     <SCRTEXT_S>N°ValDéf</SCRTEXT_S>
+     <SCRTEXT_M>N°val.p.défaut</SCRTEXT_M>
+     <SCRTEXT_L>N°valeur par défaut</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>Normaértékek száma</DDTEXT>
+     <REPTEXT>Normaérték száma</REPTEXT>
+     <SCRTEXT_S>NorÉrtSz.</SCRTEXT_S>
+     <SCRTEXT_M>Normaért. száma</SCRTEXT_M>
+     <SCRTEXT_L>Normaérték száma</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Num. del valore standard.</DDTEXT>
+     <REPTEXT>Nr. Val. Standard</REPTEXT>
+     <SCRTEXT_S>Nr.V.S.</SCRTEXT_S>
+     <SCRTEXT_M>Nr.val.standard</SCRTEXT_M>
+     <SCRTEXT_L>Nr. val. Standard</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>標準値番号</DDTEXT>
+     <REPTEXT>標準値番号</REPTEXT>
+     <SCRTEXT_S>標準値番号</SCRTEXT_S>
+     <SCRTEXT_M>標準値番号</SCRTEXT_M>
+     <SCRTEXT_L>標準値番号</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Numer wartości standardowej</DDTEXT>
+     <REPTEXT>Nr. wartości standardowej</REPTEXT>
+     <SCRTEXT_S>Nr.WartSta</SCRTEXT_S>
+     <SCRTEXT_M>Nr.WartStandard</SCRTEXT_M>
+     <SCRTEXT_L>Nr.wartości standard</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Nummer van standaardwaarde</DDTEXT>
+     <REPTEXT>Standaardwaarde-nummer</REPTEXT>
+     <SCRTEXT_S>Std.wrd.nr</SCRTEXT_S>
+     <SCRTEXT_M>Stand.waarde nr</SCRTEXT_M>
+     <SCRTEXT_L>Standaardwaarde-nr.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Número de valor standard</DDTEXT>
+     <REPTEXT>Núm. valor standard</REPTEXT>
+     <SCRTEXT_S>N° ValStnd</SCRTEXT_S>
+     <SCRTEXT_M>N° val. stand.</SCRTEXT_M>
+     <SCRTEXT_L>N° valor standard</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DDTEXT>Číslo štandardnej hodnoty</DDTEXT>
+     <REPTEXT>Č. štandard. hodn.</REPTEXT>
+     <SCRTEXT_S>ČŠtandHod</SCRTEXT_S>
+     <SCRTEXT_M>Č. štand. hodn.</SCRTEXT_M>
+     <SCRTEXT_L>Č. štandard. hodn.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DDTEXT>Номер заданного значения</DDTEXT>
+     <REPTEXT>Ном. задан. значения</REPTEXT>
+     <SCRTEXT_S>Но.зад.зн.</SCRTEXT_S>
+     <SCRTEXT_M>Ном.зад.знач.</SCRTEXT_M>
+     <SCRTEXT_L>Ном. задан. знач.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Número de valor prefijado</DDTEXT>
+     <REPTEXT>Núm. valor prefijado</REPTEXT>
+     <SCRTEXT_S>N° ValPref</SCRTEXT_S>
+     <SCRTEXT_M>N° val. pref.</SCRTEXT_M>
+     <SCRTEXT_L>N° valor prefijado</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DDTEXT>Standart değer numarası</DDTEXT>
+     <REPTEXT>Standart değer numarası</REPTEXT>
+     <SCRTEXT_S>StdDğr No.</SCRTEXT_S>
+     <SCRTEXT_M>Standart dğr no</SCRTEXT_M>
+     <SCRTEXT_L>Standart değer no.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DDTEXT>Standardvärdenummer</DDTEXT>
+     <REPTEXT>Stand.värdenummer</REPTEXT>
+     <SCRTEXT_S>StVäNr</SCRTEXT_S>
+     <SCRTEXT_M>Sta.vär.nr.</SCRTEXT_M>
+     <SCRTEXT_L>Stand.värdenummer</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

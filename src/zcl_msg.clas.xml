@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_MSG</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Message Object</DESCRIPT>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>ADD_BAPIRET2_TAB</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>BAPIRET2_T appendieren</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>APPEND</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Eine andere Instanz adieren</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>...wie der Name schon sagt !</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_ABEND</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Abend MSG</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_ERROR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Error MSG</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_INFO</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Info MSG</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_STATUS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Status MSG</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_SUCCESS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Success MSG</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_WARNING</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Warning MSG</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>EVALUATE_OBJECT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Erzeugt ein temporäres Protokoll Objekt falls nötig</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_BAPIRET2_TAB</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>BAPIRET2_T erhalten</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_COUNT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Gibt Anzahl eingegangener Msg. zurück</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_MSG_TAB</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>MSG_TAB erhalten</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>HAS_TYPE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Does The MSG Object have messages of type..?</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MF_USE_GRID</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Display As Grid</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>M_ERR_OCC</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Abbruchmeldung vorhanden?</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>M_EXIT_CODE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Exit_Kommando</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>M_MID</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Nachrichtenklasse</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>M_MSG_TAB</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Message Tabelle</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>M_TITLE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Überschrift (Kontext)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>P_SHOW_LIST</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Anzeige eine Liste von Meldungen ( Dialog )</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>REMOVE_MSG_TYPE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Remove all messages from a type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>RESET</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Rücksetzen ( leeren der Messagequeue )</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Setzen einer Errormessage in die Queue</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_EXC</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Add Exception Class as message</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_T100</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Setzen einer Errormessage in die Queue</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_USE_GRID</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Set The Display as Grid Attribute</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SHOW</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Anzeigen alle Messages</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SY_SET</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Anhängen einer abgesetzten Meldung (sy-msg...) in die Queue</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD_BAPIRET2_TAB</CMPNAME>
+     <SCONAME>IT_BAPIRET2</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Returntabelle</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>APPEND</CMPNAME>
+     <SCONAME>IR_MSG</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Speichert Mes. in einer Queue, Ausgabe im Dialog</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>MID</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Nachrichtenklasse</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>TITLE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Überschrift für Ausgabebox (Kontext)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EVALUATE_OBJECT</CMPNAME>
+     <SCONAME>IR_OBJECT_REFERENCE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Message Object</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EVALUATE_OBJECT</CMPNAME>
+     <SCONAME>RR_MSG_OBJECT</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Message Object</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_BAPIRET2_TAB</CMPNAME>
+     <SCONAME>RT_BAPIRET2</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Returntabelle</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_COUNT</CMPNAME>
+     <SCONAME>COUNT</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Anzahl Messages</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HAS_TYPE</CMPNAME>
+     <SCONAME>IF_TYPE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>ABAP-Systemfeld: Nachrichtentyp</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HAS_TYPE</CMPNAME>
+     <SCONAME>RF_ANSWER</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>&apos;X&apos;=type found</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>P_SHOW_LIST</CMPNAME>
+     <SCONAME>IF_BATCH_LIST_TYPE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>im Batch: Ausgabe in J(Job Log) L(Spool List) B(Both)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>P_SHOW_LIST</CMPNAME>
+     <SCONAME>L_EXIT_COMMAND</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Anwendungs-Log: Vom User betätigte Taste beim Beenden</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>P_SHOW_LIST</CMPNAME>
+     <SCONAME>TITLE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Dialog-Title</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REMOVE_MSG_TYPE</CMPNAME>
+     <SCONAME>IF_TYPE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Nachrichtentyp</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET</CMPNAME>
+     <SCONAME>MID</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>(abweichende) Nachrichtenklasse</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET</CMPNAME>
+     <SCONAME>NO_DUPLICATE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Keine doppelte Meldungsnummern</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET</CMPNAME>
+     <SCONAME>NUM</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Messagenummer</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET</CMPNAME>
+     <SCONAME>PA1</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Parameter 1</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET</CMPNAME>
+     <SCONAME>PA2</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Parameter 2</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET</CMPNAME>
+     <SCONAME>PA3</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Parameter 3</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET</CMPNAME>
+     <SCONAME>PA4</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Parameter 4</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET</CMPNAME>
+     <SCONAME>TYP</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Messagetyp ( niemals &apos; &apos;!)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_EXC</CMPNAME>
+     <SCONAME>IR_EXC</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Abstrakte Oberklasse aller globalen Exceptions</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_EXC</CMPNAME>
+     <SCONAME>NO_DUPLICATE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Keine doppelte Meldungsnummern</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_EXC</CMPNAME>
+     <SCONAME>TYP</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Messagetyp ( niemals &apos; &apos;!)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_T100</CMPNAME>
+     <SCONAME>IR_T100</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Schnittstelle zum Zugriff auf T100-Texte</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_T100</CMPNAME>
+     <SCONAME>NO_DUPLICATE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Keine doppelte Meldungsnummern</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_T100</CMPNAME>
+     <SCONAME>TYP</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Messagetyp ( niemals &apos; &apos;!)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_USE_GRID</CMPNAME>
+     <SCONAME>IF_VALUE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>&apos;X&apos;=Display as Grid</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SHOW</CMPNAME>
+     <SCONAME>COUNT</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Return: Anzahl Fehler</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SHOW</CMPNAME>
+     <SCONAME>IF_BATCH_LIST_TYPE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>im Batch: Ausgabe in J(Job Log) L(Spool List) B(Both)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SHOW</CMPNAME>
+     <SCONAME>TITLE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>abweichende Überschrift</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SY_SET</CMPNAME>
+     <SCONAME>NO_DUPLICATE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>keine doppelten Meldungsnummern</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

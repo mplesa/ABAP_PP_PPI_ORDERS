@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_ROUTING_MASTER</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Arbeitsplan</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <LINES>
+    <TLINE>
+     <TDFORMAT>U1</TDFORMAT>
+     <TDLINE>&amp;FUNCTIONALITY&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+     <TDLINE>Ermittelt den Arbeitsplan aus den Stammdaten und stellt die Daten zur</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>Verfügung.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+     <TDLINE>Um den Speicher nicht unnötig zu belasten, werden nicht alle Felder der</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>Tabellen PLKO, PLPO, PLFL und PLAS zwischengespeichert, nur die</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>benötigten.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>U1</TDFORMAT>
+     <TDLINE>&amp;RELATIONS&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>U1</TDFORMAT>
+     <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>U1</TDFORMAT>
+     <TDLINE>&amp;HINTS&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>U1</TDFORMAT>
+     <TDLINE>&amp;FURTHER_SOURCES_OF_INF&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+    </TLINE>
+   </LINES>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CLEAR_ALL_BUFFER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Initialisiert den Datenpuffer aller Instanzen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_PLKO</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Plan - Kopf</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_PLPO</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Plan: Vorgang</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>READ_ROUTING</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Plan von DB lesen</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IF_PLNAL</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Plangruppenzähler</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IF_PLNNR</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Schlüssel der Plangruppe</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IF_PLNTY</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Plantyp</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>IF_PLNAL</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Plangruppenzähler</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>IF_PLNNR</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Schlüssel der Plangruppe</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>IF_PLNTY</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Plantyp</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_ROUTING</CMPNAME>
+     <SCONAME>/GIB/CX_DCP</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Basis Ausnahme Klasse</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_ORDER_IH</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Service- und Instandhaltungsauftrag</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>KOP</KEY>
+     <ENTRY>Fehler bei Lesen Auftragskopf mit Index</ENTRY>
+     <LENGTH>78</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>3</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>KOP</KEY>
+       <ENTRY>인덱스가 있는 오더헤더 읽기에 오류</ENTRY>
+       <LENGTH>78</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>4</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>KOP</KEY>
+       <ENTRY>Eroare la citirea antetului de comandă cu index</ENTRY>
+       <LENGTH>78</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>5</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>KOP</KEY>
+       <ENTRY>Napaka pri branju Glava naloga z index</ENTRY>
+       <LENGTH>78</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>6</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>KOP</KEY>
+       <ENTRY>Greška pri čitanju zaglavlje naloga s indeksom</ENTRY>
+       <LENGTH>78</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>C</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>KOP</KEY>
+       <ENTRY>Chyba při čtení hlavičky zakázky s indexem</ENTRY>
+       <LENGTH>78</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>E</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>KOP</KEY>
+       <ENTRY>Error reading order header with index</ENTRY>
+       <LENGTH>78</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>F</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>KOP</KEY>
+       <ENTRY>Erreur lors de la lecture de l&apos;en-tête d&apos;ordre avec index</ENTRY>
+       <LENGTH>78</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>H</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>KOP</KEY>
+       <ENTRY>Hiba a rendelésfejléc indexszel történő olvasásakor</ENTRY>
+       <LENGTH>78</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>I</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>KOP</KEY>
+       <ENTRY>Errore nella lettura della testata d&apos;ordine con indice</ENTRY>
+       <LENGTH>78</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>J</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>KOP</KEY>
+       <ENTRY>索引付き指図ヘッダの読み込みの際にエラー</ENTRY>
+       <LENGTH>78</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>N</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>KOP</KEY>
+       <ENTRY>Fout bij het lezen van orderkop met index</ENTRY>
+       <LENGTH>78</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>P</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>KOP</KEY>
+       <ENTRY>Erro ao ler o cabeçalho da ordem com index</ENTRY>
+       <LENGTH>78</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>Q</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>KOP</KEY>
+       <ENTRY>Chyba pri čítaní hlavičky zákazky s indexom</ENTRY>
+       <LENGTH>78</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>R</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>KOP</KEY>
+       <ENTRY>Ошибка при чтении заголовка заказа по индексу</ENTRY>
+       <LENGTH>78</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>V</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>KOP</KEY>
+       <ENTRY>Fel vid läsning av orderhuvud med index</ENTRY>
+       <LENGTH>78</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PHASE_OPEN</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Bearbeitungsphase Instandhaltung</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_PHASE_RELEASED</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Bearbeitungsphase Instandhaltung</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
