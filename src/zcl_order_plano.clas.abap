@@ -566,10 +566,7 @@ ENDMETHOD.
 
     read_affl( ).
 
-*# Parallele Folgen
-    SELECT SINGLE parallel_sequences FROM /gib/dcp_0003 INTO mf_parallel_sequences
-      WHERE werks = lr_werks->mf_werks.                   "#EC CI_SUBRC
-*## Parallele Folgen
+    mf_parallel_sequences = zcl_order_buffer=>gf_parallel_sequences.
     build_operations( ).
   ENDMETHOD.
 

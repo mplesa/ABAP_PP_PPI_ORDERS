@@ -62,10 +62,7 @@ CLASS ZCL_ORDER_PRODO IMPLEMENTATION.
     lr_werks = zcl_werks=>get_instance( ms_caufvd-werks ).
     mr_material = zcl_werks_material=>get_instance( ir_werks = lr_werks
                                                             if_matnr = ms_caufvd-matnr ).
-*# Parallele Folgen
-    SELECT SINGLE parallel_sequences FROM /gib/dcp_0003 INTO mf_parallel_sequences "#EC CI_SUBRC
-      WHERE werks = lr_werks->mf_werks.
-*## Parallele Folgen
+    mf_parallel_sequences = zcl_order_buffer=>gf_parallel_sequences.
 
     build_operations( ).
   ENDMETHOD.

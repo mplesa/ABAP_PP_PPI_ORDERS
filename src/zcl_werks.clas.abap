@@ -34,9 +34,6 @@ private section.
 
   class-data:
     gt_werks TYPE TABLE OF REF TO zcl_werks .
-  data MS_WERKS_CUSTOMIZING type /GIB/DCP_0003 .
-
-  methods READ_WERKS_CUSTOMIZING .
 ENDCLASS.
 
 CLASS ZCL_WERKS IMPLEMENTATION.
@@ -88,20 +85,6 @@ CLASS ZCL_WERKS IMPLEMENTATION.
   ENDMETHOD.
 
   METHOD get_avail_fix_plannedorders.
-    read_werks_customizing( ).
-    RETURN ms_werks_customizing-flg_av_fix_pl.
-  ENDMETHOD.
-
-  METHOD read_werks_customizing.
-    IF ms_werks_customizing IS INITIAL.
-      SELECT SINGLE FROM /gib/dcp_0003
-        FIELDS *
-        WHERE werks = @mf_werks
-        INTO @ms_werks_customizing.
-      IF sy-subrc <> 0.
-        " Set at least the werks to prevent double reads if not exist
-        ms_werks_customizing-werks = mf_werks.
-      ENDIF.
-    ENDIF.
+    rf_fix = zcl_order_buffer=>gf_avail_fix_plannedorders.
   ENDMETHOD.
 ENDCLASS.

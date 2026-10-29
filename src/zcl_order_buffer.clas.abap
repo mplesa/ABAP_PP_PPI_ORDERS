@@ -49,10 +49,19 @@ public section.
   aliases TT_PLNUM
     for ZIF_ORDER_BUFFER~TT_PLNUM .
 
+  class-data GF_PARALLEL_SEQUENCES type FLAG read-only .
+  class-data GF_AVAIL_FIX_PLANNEDORDERS type ABAP_BOOL read-only .
+
   class-methods CLASS_CONSTRUCTOR .
   class-methods GET_INSTANCE
     returning
       value(RR_BUFFER) type ref to ZIF_ORDER_BUFFER .
+  class-methods USE_PARALLEL_SEQUENCES
+    importing
+      !IF_ACTIVE type ABAP_BOOL default ABAP_TRUE .
+  class-methods USE_AVAIL_FIX_PLANNEDORDERS
+    importing
+      !IF_ACTIVE type ABAP_BOOL default ABAP_TRUE .
   PROTECTED SECTION.
 private section.
 
@@ -67,6 +76,16 @@ private section.
 ENDCLASS.
 
 CLASS ZCL_ORDER_BUFFER IMPLEMENTATION.
+
+  METHOD use_parallel_sequences.
+* Activate / deactivate parallel sequences for all orders read afterwards
+    gf_parallel_sequences = if_active.
+  ENDMETHOD.
+
+  METHOD use_avail_fix_plannedorders.
+* Activate / deactivate availability check for fixed planned orders
+    gf_avail_fix_plannedorders = if_active.
+  ENDMETHOD.
 
   METHOD add_orders.
     DATA: lf_max         TYPE sytabix,
