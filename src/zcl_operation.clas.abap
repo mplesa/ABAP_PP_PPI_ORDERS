@@ -110,7 +110,6 @@ public section.
       ZCX_CORE .
   PROTECTED SECTION.
 
-    DATA mt_prt TYPE /gib/dcp_prt_item_t .
     DATA mr_confirmation_api TYPE REF TO zif_confirmation_api .
 
     METHODS filter_production_aids
@@ -770,31 +769,12 @@ CLASS ZCL_OPERATION IMPLEMENTATION.
   ENDMETHOD.
 
   METHOD zif_operation~get_production_aid.
-    DATA: lt_equi TYPE TABLE OF equnr.
-
     CLEAR: et_fhm.
     mr_order->get_production_aids( IMPORTING et_fhm = et_fhm ).
     filter_production_aids( CHANGING ct_fhm = et_fhm ).
     LOOP AT et_fhm ASSIGNING FIELD-SYMBOL(<ls_fhm>).
       <ls_fhm>-vornr = mf_vornr.
     ENDLOOP.
-    IF et_prt_item IS SUPPLIED.
-      IF mt_prt IS INITIAL
-        AND et_fhm IS NOT INITIAL.
-        SELECT equnr FROM crve_a INTO TABLE lt_equi       "#EC CI_SUBRC
-            FOR ALL ENTRIES IN et_fhm
-              WHERE objty = et_fhm-objty
-                AND objid = et_fhm-objid.
-        LOOP AT lt_equi ASSIGNING FIELD-SYMBOL(<lf_equnr>).
-          TRY.
-              APPEND /gib/cl_dcp_prt_factory=>get_instance( )->get_prt_item( <lf_equnr> ) TO mt_prt.
-            CATCH zcx_core.
-              CONTINUE.
-          ENDTRY.
-        ENDLOOP.
-      ENDIF.
-      et_prt_item = mt_prt.
-    ENDIF.
 
   ENDMETHOD.
 

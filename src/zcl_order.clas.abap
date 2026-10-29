@@ -310,20 +310,16 @@ CLASS ZCL_ORDER IMPLEMENTATION.
 *#implementation Required
     CHECK sy-batch IS INITIAL.
 
-    TRY.
-        ls_rc27i-index_plko = /gib/cl_dcp_order_services=>get_order_index_in_dialog( ms_caufvd-aufnr ).
-        CALL FUNCTION 'CO_TX_PROCESSING'
-          EXPORTING
-            aktyp      = 'A'
-            autyp      = ms_caufvd-autyp
-            object     = 'K'
-            rc27i_old  = ls_rc27i_sav
-            rc27i_new  = ls_rc27i
-          IMPORTING
-            action     = lf_action
-            caufvd_exp = ms_caufvd.
-      CATCH zcx_core.
-    ENDTRY.
+    CALL FUNCTION 'CO_TX_PROCESSING'
+      EXPORTING
+        aktyp      = 'A'
+        autyp      = ms_caufvd-autyp
+        object     = 'K'
+        rc27i_old  = ls_rc27i_sav
+        rc27i_new  = ls_rc27i
+      IMPORTING
+        action     = lf_action
+        caufvd_exp = ms_caufvd.
 
   ENDMETHOD.
 
@@ -337,7 +333,6 @@ CLASS ZCL_ORDER IMPLEMENTATION.
 
     start_update( ).
 
-    ls_rc27i-index_plko = /gib/cl_dcp_order_services=>get_order_index_in_dialog( ms_caufvd-aufnr ).
     CALL FUNCTION 'CO_TX_PROCESSING'
       EXPORTING
         aktyp      = 'V'

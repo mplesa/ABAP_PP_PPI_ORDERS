@@ -44,11 +44,6 @@
      <DESCRIPT>Confirmation API</DESCRIPT>
     </SEOCOMPOTX>
     <SEOCOMPOTX>
-     <CMPNAME>MT_PRT</CMPNAME>
-     <LANGU>D</LANGU>
-     <DESCRIPT>FHM-Instanzen</DESCRIPT>
-    </SEOCOMPOTX>
-    <SEOCOMPOTX>
      <CMPNAME>READ_AFVGD</CMPNAME>
      <LANGU>D</LANGU>
      <DESCRIPT>Vorgangs Informationen(AFVC/AFVU/AFVV) Lesen</DESCRIPT>

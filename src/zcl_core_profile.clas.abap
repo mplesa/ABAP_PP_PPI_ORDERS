@@ -7,7 +7,8 @@ public section.
 
   methods CONSTRUCTOR
     importing
-      !IR_SETTINGS type ref to /GIB/CL_DCP_SETTINGS .
+      !IF_PROFILE_ID type CY_GESPROF optional
+      !IF_CAPACITY_HORIZON type I default 100 .
   methods IS_VALID
     returning
       value(RF_ANSWER) type FLAG .
@@ -17,7 +18,7 @@ public section.
 protected section.
 private section.
 
-  data MR_SETTINGS type ref to /GIB/CL_DCP_SETTINGS .
+  data MF_CAPACITY_HORIZON type I .
   data MF_PROFILE type CY_GESPROF .
   data MS_OVERALL_PROFILE type CYCRPPRO .
   data MF_IS_VALID type FLAG value 'X' ##NO_TEXT.
@@ -249,7 +250,7 @@ CLASS ZCL_CORE_PROFILE IMPLEMENTATION.
   METHOD CHANGE_TIME_PROFILE.
 
     DATA: ls_time_profile     TYPE cycrptipro,
-          lf_capacity_horizon TYPE /gib/dcp_kaphz.
+          lf_capacity_horizon TYPE i.
 
     CALL FUNCTION 'CY01_GET_TIME_PROFILE'
       EXPORTING
@@ -262,7 +263,7 @@ CLASS ZCL_CORE_PROFILE IMPLEMENTATION.
     ls_time_profile-anadatf	   = '-3' ."Startdatum der Auswertung
     ls_time_profile-anadatt	   = '3'  ."Enddatum der Auswertung
 *# the values is in calendar days and if it is initial then 100 day will be used
-    lf_capacity_horizon = mr_settings->ms_dcp_time-kaphz.
+    lf_capacity_horizon = mf_capacity_horizon.
     IF lf_capacity_horizon IS INITIAL.
       lf_capacity_horizon = 100.
     ENDIF.
@@ -296,8 +297,8 @@ CLASS ZCL_CORE_PROFILE IMPLEMENTATION.
 
   METHOD CONSTRUCTOR.
 
-    mr_settings = ir_settings.
-    mf_profile = ir_settings->mf_profile_id.
+    mf_capacity_horizon = if_capacity_horizon.
+    mf_profile = if_profile_id.
     IF mf_profile IS INITIAL.
       mf_profile = 'SAPSFCG001'.
     ENDIF.

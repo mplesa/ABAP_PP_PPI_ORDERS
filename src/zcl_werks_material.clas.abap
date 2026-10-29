@@ -179,7 +179,7 @@ CLASS ZCL_WERKS_MATERIAL IMPLEMENTATION.
     ls_mdkey-matnr = ms_marc-matnr.          "#EC CI_FLDEXT_OK[2215424]
     ls_mdkey-werks = mr_werks->mf_werks.
     lf_mdkey = ls_mdkey.                     "#EC CI_FLDEXT_OK[2215424]
-    IF /gib/cl_dcp_settings=>is_mrp_area_active( ) = abap_true.
+    IF if_berid IS NOT INITIAL.
       SELECT SINGLE gsaen akken FROM dbvm INTO CORRESPONDING FIELDS OF ls_mdvm "#EC CI_USAGE_OK[2227059]
         WHERE matnr = ls_mdkey-matnr          "#EC CI_USAGE_OK[2227059]
           AND berid = if_berid                "#EC CI_USAGE_OK[2227059]

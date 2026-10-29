@@ -58,7 +58,6 @@ interface ZIF_OPERATION
 
   types:
     tt_activities TYPE STANDARD TABLE OF corutcact WITH DEFAULT KEY .
-  types TT_PRT_ITEM type /GIB/DCP_PRT_ITEM_T .
   types:
     tt_operation_phases TYPE TABLE OF cxopr_gr .
 
@@ -192,8 +191,7 @@ interface ZIF_OPERATION
       value(RF_RESULT) type ABAP_BOOL .
   methods GET_PRODUCTION_AID
     exporting
-      !ET_FHM type ZIF_ORDER=>TT_FHM
-      !ET_PRT_ITEM type TT_PRT_ITEM .
+      !ET_FHM type ZIF_ORDER=>TT_FHM .
   methods UPDATE_PRODUCTION_AID
     importing
       !IS_FHM type Z_FHMX .
