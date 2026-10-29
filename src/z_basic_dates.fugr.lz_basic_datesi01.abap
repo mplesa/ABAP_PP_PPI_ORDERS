@@ -7,9 +7,9 @@
 *----------------------------------------------------------------------*
 MODULE pai_0100 INPUT.
   CASE gr_data->mf_user_command.
-    WHEN 'save'.
+    WHEN zif_screen_flow=>co_ucomm_save.
       LEAVE TO SCREEN 0.
-    WHEN 'exit'.
+    WHEN zif_screen_flow=>co_ucomm_exit.
       CLEAR: caufvd,
              gr_data.
       RAISE EXCEPTION TYPE zcx_ui
